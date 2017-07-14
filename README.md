@@ -28,6 +28,7 @@ Platform content should be sufficient for container base images.
 * `bzip2`, base compression support
 * `coreutils`, common utilities
 * `coreutils-single`, minimized common utilities
+* `curl`, a common and versatile utility for fetching remote files
 * `dhcp-client`, DHCP client
 * `dnf`, DNF package manager
 * `docker`, container runtime
