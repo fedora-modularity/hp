@@ -25,6 +25,7 @@ Platform content should be sufficient for container base images.
 #### Main Platform packages
 
 * `bash`, base shell
+* `btrfs-progs`, Btrfs support
 * `bzip2`, base compression support
 * `coreutils`, common utilities
 * `coreutils-single`, minimized common utilities
