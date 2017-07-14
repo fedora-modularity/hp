@@ -138,4 +138,5 @@ above, it might be used for other special purposes such as
 generating the installation media.  For this reason, it might
 have a toplevel input package list of its own.
 
-''Note: Nothing yet.''
+* `lorax`, used to generate the installation media; this is
+  a necessary implementation detail
