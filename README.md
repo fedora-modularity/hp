@@ -70,6 +70,7 @@ Platform content should be sufficient for container base images.
 
 * `c-ares`, a tiny DNS client library
 * `fuse-libs`, filesystem in userspace support
+* `glib2`, a very commonly used generic utility library
 * `gpart`, partitioning support
 * `hfsutils`, HFS support
 * `libev`, event model library
