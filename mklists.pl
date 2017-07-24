@@ -20,7 +20,9 @@ while (<$fh>) {
     }
     if (/^\*\s\`(?<component>[^`]+)\`(?:,\s(?<rationale>.+))?$/) {
         die "Malformed README.md?\n" unless defined $state;
-        push @{ $modules{$state} }, [$+{component}, $+{rationale}];
+        # TODO: Read multiline rationales.
+        # TODO: Capitalize the first letter and add a fullstop.
+        push @{ $modules{$state} }, [$+{component}, $+{rationale} // ""];
     }
 }
 close $fh;
