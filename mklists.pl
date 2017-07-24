@@ -32,7 +32,7 @@ for my $module (keys %modules) {
 }
 
 open $fh, '>', './toplevel-binary-packages.txt';
-for my $component (keys %components) {
+for my $component (sort keys %components) {
     print { $fh } "$component\n";
     print { *stderr } "Warning: Duplicate component - ${component}\n"
         if $components{$component} > 1;
