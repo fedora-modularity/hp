@@ -31,6 +31,7 @@ Platform content should be sufficient for container base images.
 * `coreutils-single`, minimized common utilities
 * `curl`, a common and versatile utility for fetching remote files
 * `dhcp-client`, DHCP client
+* `diffutils`, common utilities
 * `dnf`, DNF package manager
 * `docker`, container runtime
 * `e2fsprogs`, Ext filesystem support
@@ -47,12 +48,20 @@ Platform content should be sufficient for container base images.
 * `libgcc`, C runtime
 * `libstdc++`, C++ runtime
 * `microdnf`, minimized DNF package manager
+* `nano`, basic editor
 * `nettle`, common cryptographic library
 * `nss`, common cryptographic library
+* `openssh-clients`, SSH clients
+* `openssh-server`, SSH server
 * `openssl`, common cryptographic library
+* `procps-ng`, common utilities
+* `psmisc`, common utilities
 * `rpm`, RPM support
 * `rsyslog`, system logging
+* `sed`, common editor
 * `shadow-utils`, common utilities
+* `systemd`, the init system
+* `sudo`, allows restricted root access
 * `tar`, base compression support
 * `util-linux`, common utilities
 * `unzip`, base compression support
@@ -82,9 +91,12 @@ Platform content should be sufficient for container base images.
 * `hfsutils`, HFS support
 * `libev`, event model library
 * `lsscsi`, SCSI listing tools
+* `ncurses`, a common TUI interface library and terminfo database
 * `pth`, portable threads library
+* `tmux`, terminal multiplexer; required by system deployment tools
 * `sgml-common`, common SGML catalogs
 * `xml-common`, common XML catalogs
+* `zlib`, a common compression library
 
 ### `host`
 Host depends on Platform and is bound to it.  The module contains
@@ -111,6 +123,7 @@ operating system.
 #### Bootloaders, architecture specific and tightly coupled packages
 
 * `efibootmgr`
+* `efivar`
 * `fbset`
 * `grub2`
 * `grub2-efi`
