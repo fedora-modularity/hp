@@ -1,3 +1,4 @@
+anaconda-tui
 bash
 binutils
 btrfs-progs
@@ -23,7 +24,9 @@ gcc-c++
 glib2
 glibc
 gnupg2
+gnutls
 gpart
+gpgme
 grub2
 grub2-efi
 grub2-efi-modules
@@ -53,6 +56,9 @@ mactel-boot
 make
 memtest86+
 microdnf
+nettle
+nss
+openssl
 patch
 ppc64-utils
 pth

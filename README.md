@@ -37,6 +37,9 @@ Platform content should be sufficient for container base images.
 * `fedora-modular-release`, base system files and macros
 * `gawk`, AWK runtime
 * `glibc`, C runtime
+* `gnupg2`, signature verification
+* `gnutls`, common cryptographic library
+* `gpgme`, common cryptographic library
 * `gzip`, base compression support
 * `iproute`, networking support
 * `iptables`, networking support
@@ -44,6 +47,9 @@ Platform content should be sufficient for container base images.
 * `libgcc`, C runtime
 * `libstdc++`, C++ runtime
 * `microdnf`, minimized DNF package manager
+* `nettle`, common cryptographic library
+* `nss`, common cryptographic library
+* `openssl`, common cryptographic library
 * `rpm`, RPM support
 * `rsyslog`, system logging
 * `shadow-utils`, common utilities
@@ -61,7 +67,6 @@ Platform content should be sufficient for container base images.
 * `flex`, lexical generator
 * `gcc`, C compiler
 * `gcc-c++`, C++ compiler
-* `gnupg2`, signature verification
 * `make`, make support
 * `m4`, M4 macro processor
 * `patch`, patch support
@@ -141,5 +146,7 @@ above, it might be used for other special purposes such as
 generating the installation media.  For this reason, it might
 have a toplevel input package list of its own.
 
+* `anaconda-tui`, used to generate the installation media; this
+  is a necessary implementation detail
 * `lorax`, used to generate the installation media; this is
   a necessary implementation detail
