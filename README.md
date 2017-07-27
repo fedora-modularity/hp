@@ -148,8 +148,8 @@ Signed `shim` binaries are part of the host which builds against
 this module.
 
 * `shim-unsigned`, provides the unsigned binaries; this
-package is produced by different source packages on different
-architectures
+  package is produced by different source packages on different
+  architectures
 
 ### `bootstrap`
 This module provides a stable selfhosting buildroot for all of
