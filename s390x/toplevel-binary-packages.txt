@@ -24,7 +24,6 @@ glib2
 glibc
 gnupg2
 gnutls
-gpart
 gpgme
 gzip
 hfsutils

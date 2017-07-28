@@ -22,7 +22,7 @@ while (<$fh>) {
         $modules{$module} = {};
         next;
     }
-    if (/^\*\s\`(?<component>[^`]+)\`(\s\((?<arches>[^)]+)\))?(?:,\s(?<rationale>.+))?$/) {
+    if (/^\*\s\`(?<component>[^`]+)\`(\s\((?<arches>[^)]+)\))?(?:,\s?(?<rationale>.*))?$/) {
         die "Malformed README.md?\n" unless defined $module;
         $component = $+{component};
         my $rationale = $+{rationale} // '';
@@ -41,7 +41,9 @@ while (<$fh>) {
         };
     } elsif (defined $module && defined $component && ! /^$/) {
         s/^\s+|\s+$//g;
-        $modules{$module}->{$component}->{rationale} .= " $_";
+        $modules{$module}->{$component}->{rationale} .= ' '
+            if $modules{$module}->{$component}->{rationale};
+        $modules{$module}->{$component}->{rationale} .= $_;
     } else {
         $component = undef;
     }

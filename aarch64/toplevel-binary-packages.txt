@@ -29,7 +29,6 @@ gnupg2
 gnutls
 gpart
 gpgme
-grub2
 grub2-efi
 grub2-efi-modules
 grub2-tools
