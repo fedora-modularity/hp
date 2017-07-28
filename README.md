@@ -1,29 +1,28 @@
 # Host & Platform
-Host and Platform is a set of modules or module stacks defining
-the base operating system, effectively replacing Fedora 26
-Boltron Base Runtime module & concept.
+Host and Platform is a set of modules or module stacks defining the base
+operating system, effectively replacing Fedora 26 Boltron Base Runtime
+module & concept.
 
-The new modules target modular Fedora releases, starting with
-version 27.
+The new modules target modular Fedora releases, starting with version 27.
 
-This main purpose of this repository is being the content tracker
-for the new base modules.
+This main purpose of this repository is being the content tracker for
+the new base modules.
 
 ## Content definition
 
-This section includes a list of modules along with toplevel
-binary input packages for package-level dependency resolution.
+This section includes a list of modules along with toplevel binary input
+packages for package-level dependency resolution.
 
-By default we include all subpackages produced by the parent
-source package unless doing so would imply inclusion of
-additional dependencies.  All development subpackages of
-non-private libraries ought to be included in `platform`.
+By default we include all subpackages produced by the parent source
+package unless doing so would imply inclusion of additional dependencies.
+All development subpackages of non-private libraries ought to be included
+in `platform`.
 
 ### `platform`
-Platform defines the base of a Fedora release and a large portion
-of its userspace API.  Together with `host` it includes all
-the components for baremateal or virtual host installations.
-Platform content should be sufficient for container base images.
+Platform defines the base of a Fedora release and a large portion of its
+userspace API.  Together with `host` it includes all the components for
+baremateal or virtual host installations.  Platform content should be
+sufficient for container base images.
 
 Note the lists below are subject to change.
 
@@ -38,7 +37,8 @@ Note the lists below are subject to change.
 * `dhcp-client`, DHCP client
 * `diffutils`, common utilities
 * `dnf`, DNF package manager
-* `docker`, container runtime
+* `docker` (aarch64, armv7hl, i686, ppc64le, x86_64, s390x), container
+  runtime
 * `e2fsprogs`, Ext filesystem support
 * `fedora-modular-release`, base system files and macros
 * `gawk`, AWK runtime
@@ -92,7 +92,8 @@ Note the lists below are subject to change.
 * `c-ares`, a tiny DNS client library
 * `fuse-libs`, filesystem in userspace support
 * `glib2`, a very commonly used generic utility library
-* `gpart`, partitioning support
+* `gpart` (aarch64, armv7hl, i686, ppc64, ppc64le, x86_64), partitioning
+  support
 * `hfsutils`, HFS support
 * `libev`, event model library
 * `lsscsi`, SCSI listing tools
@@ -105,10 +106,9 @@ Note the lists below are subject to change.
 
 ### `host`
 Host depends on Platform and is bound to it.  The module contains
-mainly hardware enablement components and bits tightly linked
-to these.  Given its dependency on Platform, deploying the
-Host module creates a complete baremetal or virtualized host
-operating system.
+mainly hardware enablement components and bits tightly linked to these.
+Given its dependency on Platform, deploying the Host module creates a
+complete baremetal or virtualized host operating system.
 
 Note the lists below are subject to change.
 
@@ -130,7 +130,7 @@ Note the lists below are subject to change.
 * `efibootmgr` (aarch64, i686, x86_64)
 * `efivar` (aarch64, i686, x86_64)
 * `fbset` (aarch64, armv7hl, i686, ppc64, ppc64le, x86_64)
-* `grub2` (aarch64, i686, ppc64, ppc64le, x86_64)
+* `grub2` (i686, ppc64, ppc64le, x86_64)
 * `grub2-efi` (aarch64, i686, x86_64)
 * `grub2-efi-modules` (aarch64, i686, x86_64)
 * `grub2-tools` (aarch64, i686, ppc64, ppc64le, x86_64)
@@ -139,32 +139,31 @@ Note the lists below are subject to change.
 * `ppc64-utils` (ppc64, ppc64le)
 * `s390utils-base` (s390x)
 * `s390utils-cmsfs-fuse` (s390x)
-* `shim` (aarch64, x86_64), provides the signed binaries, produced by `shim-signed`
+* `shim` (aarch64, x86_64), provides the signed binaries, produced by
+  `shim-signed`
 * `syslinux` (i686, x86_64)
 * `syslinux-extlinux` (i686, x86_64)
 * `syslinux-nonlinux` (i686, x86_64)
 * `uboot-tools`
 
 ### `shim`
-The `shim` module includes unsigned `shim` binaries and is
-not part of `host` since signing is largely a manual process
-and couldn't be part of the modularity automated pipeline.
-Signed `shim` binaries are part of the host which builds against
-this module.
+The `shim` module includes unsigned `shim` binaries and is not part of
+`host` since signing is largely a manual process and couldn't be part
+of the modularity automated pipeline.  Signed `shim` binaries are part
+of the host which builds against this module.
 
-* `shim-unsigned` (aarch64, x86_64), provides the unsigned
-  binaries; this package is produced by different source packages
-  on different architectures
+* `shim-unsigned` (aarch64, x86_64), provides the unsigned binaries;
+  this package is produced by different source packages on different
+  architectures
 
 ### `bootstrap`
-This module provides a stable selfhosting buildroot for all of
-the abovementioned modules as well as for itself.  Whileits
-content is mostly defined as build time dependencies of the
-above, it might be used for other special purposes such as
-generating the installation media.  For this reason, it might
-have a toplevel input package list of its own.
+This module provides a stable selfhosting buildroot for all of the
+abovementioned modules as well as for itself.  Whileits content is
+mostly defined as build time dependencies of the above, it might be used
+for other special purposes such as generating the installation media.
+For this reason, it might have a toplevel input package list of its own.
 
-* `anaconda-tui`, used to generate the installation media; this
-  is a necessary implementation detail
-* `lorax`, used to generate the installation media; this is
-  a necessary implementation detail
+* `anaconda-tui`, used to generate the installation media; this is a
+  necessary implementation detail
+* `lorax`, used to generate the installation media; this is a necessary
+  implementation detail
