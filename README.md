@@ -14,13 +14,18 @@ for the new base modules.
 This section includes a list of modules along with toplevel
 binary input packages for package-level dependency resolution.
 
+By default we include all subpackages produced by the parent
+source package unless doing so would imply inclusion of
+additional dependencies.  All development subpackages of
+non-private libraries ought to be included in `platform`.
+
 ### `platform`
 Platform defines the base of a Fedora release and a large portion
 of its userspace API.  Together with `host` it includes all
 the components for baremateal or virtual host installations.
 Platform content should be sufficient for container base images.
 
-''Note the lists below are subject to change.''
+Note the lists below are subject to change.
 
 #### Main Platform packages
 
@@ -105,39 +110,39 @@ to these.  Given its dependency on Platform, deploying the
 Host module creates a complete baremetal or virtualized host
 operating system.
 
-''Note the lists below are subject to change.''
+Note the lists below are subject to change.
 
 #### Hardware enablement
 
-* `kernel-bootwrapper`
+* `kernel-bootwrapper` (ppc64, ppc64le)
 * `kernel-core`
 * `kernel-cross-headers`
 * `kernel-headers`
-* `kernel-lpae`
+* `kernel-lpae` (armv7hl)
 * `kernel-modules`
 * `kernel-modules-extra`
-* `kernel-PAE`
-* `kernel-tools`
+* `kernel-PAE` (i686)
+* `kernel-tools` (aarch64, armv7hl, i686, ppc64, ppc64le, x86_64)
 * `linux-firmware`
 
 #### Bootloaders, architecture specific and tightly coupled packages
 
-* `efibootmgr`
-* `efivar`
-* `fbset`
-* `grub2`
-* `grub2-efi`
-* `grub2-efi-modules`
-* `grub2-tools`
-* `mactel-boot`
-* `memtest86+`
-* `ppc64-utils`
-* `s390utils-base`
-* `s390utils-cmsfs-fuse`
-* `shim`, provides the signed binaries, produced by `shim-signed`
-* `syslinux`
-* `syslinux-extlinux`
-* `syslinux-nonlinux`
+* `efibootmgr` (aarch64, i686, x86_64)
+* `efivar` (aarch64, i686, x86_64)
+* `fbset` (aarch64, armv7hl, i686, ppc64, ppc64le, x86_64)
+* `grub2` (aarch64, i686, ppc64, ppc64le, x86_64)
+* `grub2-efi` (aarch64, i686, x86_64)
+* `grub2-efi-modules` (aarch64, i686, x86_64)
+* `grub2-tools` (aarch64, i686, ppc64, ppc64le, x86_64)
+* `mactel-boot` (x86_64)
+* `memtest86+` (i686, x86_64)
+* `ppc64-utils` (ppc64, ppc64le)
+* `s390utils-base` (s390x)
+* `s390utils-cmsfs-fuse` (s390x)
+* `shim` (aarch64, x86_64), provides the signed binaries, produced by `shim-signed`
+* `syslinux` (i686, x86_64)
+* `syslinux-extlinux` (i686, x86_64)
+* `syslinux-nonlinux` (i686, x86_64)
 * `uboot-tools`
 
 ### `shim`
@@ -147,9 +152,9 @@ and couldn't be part of the modularity automated pipeline.
 Signed `shim` binaries are part of the host which builds against
 this module.
 
-* `shim-unsigned`, provides the unsigned binaries; this
-  package is produced by different source packages on different
-  architectures
+* `shim-unsigned` (aarch64, x86_64), provides the unsigned
+  binaries; this package is produced by different source packages
+  on different architectures
 
 ### `bootstrap`
 This module provides a stable selfhosting buildroot for all of
