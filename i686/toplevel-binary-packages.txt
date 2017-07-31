@@ -11,7 +11,6 @@ curl
 dhcp-client
 diffutils
 dnf
-docker
 e2fsprogs
 efibootmgr
 efivar
@@ -70,6 +69,7 @@ redhat-rpm-config
 rpm
 rpm-build
 rsyslog
+runc
 sed
 sgml-common
 shadow-utils
