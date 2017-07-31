@@ -37,8 +37,6 @@ Note the lists below are subject to change.
 * `dhcp-client`, DHCP client
 * `diffutils`, common utilities
 * `dnf`, DNF package manager
-* `docker` (aarch64, armv7hl, i686, ppc64le, x86_64, s390x), container
-  runtime
 * `e2fsprogs`, Ext filesystem support
 * `fedora-modular-release`, base system files and macros
 * `gawk`, AWK runtime
@@ -63,6 +61,8 @@ Note the lists below are subject to change.
 * `psmisc`, common utilities
 * `rpm`, RPM support
 * `rsyslog`, system logging
+* `runc` (aarch64, armv7hl, i686, ppc64le, x86_64, s390x), minimal
+  container runtime
 * `sed`, common editor
 * `shadow-utils`, common utilities
 * `systemd`, the init system
