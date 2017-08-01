@@ -34,7 +34,7 @@ Note the lists below are subject to change.
 * `coreutils`, common utilities
 * `coreutils-single`, minimized common utilities
 * `curl`, a common and versatile utility for fetching remote files
-* `dhcp-client`, DHCP client
+* `dhcp-client` (`dhcp`), DHCP client
 * `diffutils`, common utilities
 * `dnf`, DNF package manager
 * `e2fsprogs`, Ext filesystem support
@@ -48,20 +48,20 @@ Note the lists below are subject to change.
 * `iproute`, networking support
 * `iptables`, networking support
 * `iputils`, networking support
-* `libgcc`, C runtime
-* `libstdc++`, C++ runtime
+* `libgcc` (`gcc`), C runtime
+* `libstdc++` (`gcc`), C++ runtime
 * `microdnf`, minimized DNF package manager
 * `nano`, basic editor
 * `nettle`, common cryptographic library
 * `nss`, common cryptographic library
-* `openssh-clients`, SSH clients
-* `openssh-server`, SSH server
+* `openssh-clients` (`openssh`), SSH clients
+* `openssh-server` (`openssh`), SSH server
 * `openssl`, common cryptographic library
 * `procps-ng`, common utilities
 * `psmisc`, common utilities
 * `rpm`, RPM support
 * `rsyslog`, system logging
-* `runc` (aarch64, armv7hl, i686, ppc64le, x86_64, s390x), minimal
+* `runc` (*aarch64, armv7hl, i686, ppc64le, x86_64, s390x*), minimal
   container runtime
 * `sed`, common editor
 * `shadow-utils`, common utilities
@@ -80,19 +80,19 @@ Note the lists below are subject to change.
 * `fedpkg-minimal`, fetches package sources
 * `flex`, lexical generator
 * `gcc`, C compiler
-* `gcc-c++`, C++ compiler
+* `gcc-c++` (`gcc`), C++ compiler
 * `make`, make support
 * `m4`, M4 macro processor
 * `patch`, patch support
 * `redhat-rpm-config`, base RPM macros
-* `rpm-build`, RPM build tools
+* `rpm-build` (`rpm`), RPM build tools
 
 #### Shared userland and other supporting packages
 
 * `c-ares`, a tiny DNS client library
 * `fuse-libs`, filesystem in userspace support
 * `glib2`, a very commonly used generic utility library
-* `gpart` (aarch64, armv7hl, i686, ppc64, ppc64le, x86_64), partitioning
+* `gpart` (*aarch64, armv7hl, i686, ppc64, ppc64le, x86_64*), partitioning
   support
 * `hfsutils`, HFS support
 * `libev`, event model library
@@ -101,7 +101,7 @@ Note the lists below are subject to change.
 * `pth`, portable threads library
 * `tmux`, terminal multiplexer; required by system deployment tools
 * `sgml-common`, common SGML catalogs
-* `xml-common`, common XML catalogs
+* `xml-common` (`sgml-common`), common XML catalogs
 * `zlib`, a common compression library
 
 ### `host`
@@ -114,36 +114,35 @@ Note the lists below are subject to change.
 
 #### Hardware enablement
 
-* `kernel-bootwrapper` (ppc64, ppc64le)
-* `kernel-core`
-* `kernel-cross-headers`
-* `kernel-headers`
-* `kernel-lpae` (armv7hl)
-* `kernel-modules`
-* `kernel-modules-extra`
-* `kernel-PAE` (i686)
-* `kernel-tools` (aarch64, armv7hl, i686, ppc64, ppc64le, x86_64)
+* `kernel-bootwrapper` (`kernel`; *ppc64, ppc64le*)
+* `kernel-core` (`kernel`)
+* `kernel-cross-headers` (`kernel`)
+* `kernel-headers` (`kernel`)
+* `kernel-lpae` (`kernel`; *armv7hl*)
+* `kernel-modules` (`kernel`)
+* `kernel-modules-extra` (`kernel`)
+* `kernel-PAE` (`kernel`; *i686*)
+* `kernel-tools` (`kernel`; *aarch64, armv7hl, i686, ppc64, ppc64le, x86_64*)
 * `linux-firmware`
 
 #### Bootloaders, architecture specific and tightly coupled packages
 
-* `efibootmgr` (aarch64, i686, x86_64)
-* `efivar` (aarch64, i686, x86_64)
-* `fbset` (aarch64, armv7hl, i686, ppc64, ppc64le, x86_64)
-* `grub2` (i686, ppc64, ppc64le, x86_64)
-* `grub2-efi` (aarch64, i686, x86_64)
-* `grub2-efi-modules` (aarch64, i686, x86_64)
-* `grub2-tools` (aarch64, i686, ppc64, ppc64le, x86_64)
-* `mactel-boot` (x86_64)
-* `memtest86+` (i686, x86_64)
-* `ppc64-utils` (ppc64, ppc64le)
-* `s390utils-base` (s390x)
-* `s390utils-cmsfs-fuse` (s390x)
-* `shim` (aarch64, x86_64), provides the signed binaries, produced by
-  `shim-signed`
-* `syslinux` (i686, x86_64)
-* `syslinux-extlinux` (i686, x86_64)
-* `syslinux-nonlinux` (i686, x86_64)
+* `efibootmgr` (*aarch64, i686, x86_64*)
+* `efivar` (*aarch64, i686, x86_64*)
+* `fbset` (*aarch64, armv7hl, i686, ppc64, ppc64le, x86_64*)
+* `grub2` (*i686, ppc64, ppc64le, x86_64*)
+* `grub2-efi` (`grub2`; *aarch64, i686, x86_64*)
+* `grub2-efi-modules` (`grub2`; *aarch64, i686, x86_64*)
+* `grub2-tools` (`grub2`; *aarch64, i686, ppc64, ppc64le, x86_64*)
+* `mactel-boot` (*x86_64*)
+* `memtest86+` (*i686, x86_64*)
+* `ppc64-utils` (*ppc64, ppc64le*)
+* `s390utils-base` (`s390utils`; *s390x*)
+* `s390utils-cmsfs-fuse` (`s390utils`; *s390x*)
+* `shim` (`shim-signed`; *aarch64, x86_64*), provides the signed binaries
+* `syslinux` (*i686, x86_64*)
+* `syslinux-extlinux` (`syslinux`; *i686, x86_64*)
+* `syslinux-nonlinux` (`syslinux`; *i686, x86_64*)
 * `uboot-tools`
 
 ### `shim`
@@ -152,9 +151,9 @@ The `shim` module includes unsigned `shim` binaries and is not part of
 of the modularity automated pipeline.  Signed `shim` binaries are part
 of the host which builds against this module.
 
-* `shim-unsigned` (aarch64, x86_64), provides the unsigned binaries;
-  this package is produced by different source packages on different
-  architectures
+* `shim-unsigned` (`shim`, `shim-unsigned-aarch64`; *aarch64, x86_64*),
+  provides the unsigned binaries; this package is produced by different
+  source packages on different architectures
 
 ### `bootstrap`
 This module provides a stable selfhosting buildroot for all of the
@@ -163,7 +162,7 @@ mostly defined as build time dependencies of the above, it might be used
 for other special purposes such as generating the installation media.
 For this reason, it might have a toplevel input package list of its own.
 
-* `anaconda-tui`, used to generate the installation media; this is a
-  necessary implementation detail
+* `anaconda-tui` (`anaconda`), used to generate the installation media;
+  this is a necessary implementation detail
 * `lorax`, used to generate the installation media; this is a necessary
   implementation detail
