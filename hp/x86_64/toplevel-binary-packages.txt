@@ -36,12 +36,9 @@ hfsutils
 iproute
 iptables
 iputils
-kernel-PAE
-kernel-bootwrapper
 kernel-core
 kernel-cross-headers
 kernel-headers
-kernel-lpae
 kernel-modules
 kernel-modules-extra
 kernel-tools
@@ -71,8 +68,6 @@ rpm
 rpm-build
 rsyslog
 runc
-s390utils-base
-s390utils-cmsfs-fuse
 sed
 sgml-common
 shadow-utils

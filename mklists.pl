@@ -10,6 +10,8 @@ use Text::CSV_XS qw/csv/;
 my $module = undef;
 my $package = undef;
 my $rationale = undef;
+my $arches = undef;
+my $sources = undef;
 my @arches = ();
 my @sources = ();
 
@@ -22,6 +24,7 @@ my %arches = map { $_ => 1 }
 sub HELP_MESSAGE {
     print "Usage: mklists.pl -m {bootstrap|hp}\n";
     print "Select what module lists should be generated.\n";
+    exit;
 }
 
 my %opts;
@@ -54,11 +57,13 @@ while (<$fh>) {
          (?:,\s?(?<rationale>.*))?$/x && defined $module) {
         $package = $+{package};
         $rationale = $+{rationale} // '';
-        @sources = defined $+{sources}
-            ? ( split /,\s?/, $+{sources} =~ s/\`//gr )
+        $arches = $+{arches};
+        $sources = $+{sources};
+        @sources = defined $sources
+            ? ( split /,\s?/, $sources =~ s/\`//gr )
             : ( $package );
-        @arches = defined $+{arches}
-            ? ( split /,\s?/, $+{arches} =~ s/^\*|\*$//gr )
+        @arches = defined $arches
+            ? ( split /,\s?/, $arches =~ s/^\*|\*$//gr )
             : ();
         for (@arches) {
             $arches{$_} = 1;
