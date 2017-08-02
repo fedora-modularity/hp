@@ -6,7 +6,8 @@ kernel,
 linux-firmware,
 mactel-boot,
 memtest86+,
-ppc64-utils,
+powerpc-utils,"utilities for PowerPC platforms"
+ppc64-utils,"utilities for PPC64 platforms"
 s390utils,
 shim-signed,"provides the signed binaries"
 syslinux,

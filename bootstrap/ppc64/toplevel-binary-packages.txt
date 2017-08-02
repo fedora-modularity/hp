@@ -57,6 +57,7 @@ openssh-clients
 openssh-server
 openssl
 patch
+powerpc-utils
 ppc64-utils
 procps-ng
 psmisc

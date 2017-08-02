@@ -136,7 +136,8 @@ Note the lists below are subject to change.
 * `grub2-tools` (`grub2`; *aarch64, i686, ppc64, ppc64le, x86_64*)
 * `mactel-boot` (*x86_64*)
 * `memtest86+` (*i686, x86_64*)
-* `ppc64-utils` (*ppc64, ppc64le*)
+* `powerpc-utils` (*ppc64, ppc64le*), utilities for PowerPC platforms
+* `ppc64-utils` (*ppc64, ppc64le*), utilities for PPC64 platforms
 * `s390utils-base` (`s390utils`; *s390x*)
 * `s390utils-cmsfs-fuse` (`s390utils`; *s390x*)
 * `shim` (`shim-signed`; *aarch64, x86_64*), provides the signed binaries
