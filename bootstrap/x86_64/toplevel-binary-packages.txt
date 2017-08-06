@@ -57,6 +57,7 @@ microdnf
 nano
 ncurses
 nettle
+npth
 nss
 openssh-clients
 openssh-server
