@@ -1,0 +1,15 @@
+To add packages to Host & Platform, edit the README.md file.
+
+Add the binary package, along with a rationale justifying its
+inclusion, to an appropriate section of the document.  Make sure
+you use the proper syntax -- it matters.  The rest of the file
+can serve as an example.
+
+Once you're happy with it, run "make -B" to regenerate the
+toplevel package lists and module data files.
+
+Note: due to various reasons, the generated toplevel lists
+cannot be used with `baseruntime-package-lists` directly and
+need to be altered with "make hack" first.  Don't commit such
+altered versions to the repo; this is meant to be a temporary
+workaround.
