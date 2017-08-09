@@ -85,3 +85,4 @@ xfsprogs
 xml-common
 xz
 zlib
+zstd

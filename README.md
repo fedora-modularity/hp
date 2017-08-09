@@ -72,6 +72,7 @@ Note the lists below are subject to change.
 * `unzip`, base compression support
 * `xfsprogs`, XFS support
 * `xz`, base compression support
+* `zstd`, base compression support
 
 #### Platform-based buildroot packages
 
