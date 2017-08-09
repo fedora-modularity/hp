@@ -98,7 +98,6 @@ Note the lists below are subject to change.
 * `libev`, event model library
 * `lsscsi`, SCSI listing tools
 * `ncurses`, a common TUI interface library and terminfo database
-* `pth`, portable threads library
 * `npth`, new portable threads library
 * `tmux`, terminal multiplexer; required by system deployment tools
 * `sgml-common`, common SGML catalogs
