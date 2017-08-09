@@ -44,6 +44,7 @@ microdnf
 nano
 ncurses
 nettle
+npth
 nss
 openssh-clients
 openssh-server
@@ -51,7 +52,6 @@ openssl
 patch
 procps-ng
 psmisc
-pth
 redhat-rpm-config
 rpm
 rpm-build

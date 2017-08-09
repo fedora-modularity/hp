@@ -52,6 +52,7 @@ microdnf
 nano
 ncurses
 nettle
+npth
 nss
 openssh-clients
 openssh-server
@@ -61,7 +62,6 @@ powerpc-utils
 ppc64-utils
 procps-ng
 psmisc
-pth
 redhat-rpm-config
 rpm
 rpm-build
