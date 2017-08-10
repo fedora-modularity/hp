@@ -1,10 +1,13 @@
-all: bootstrap hp
+all: atomic bootstrap hp ;
+
+%::
+	./mklists.pl -m $@
+
+atomic:
 
 bootstrap:
-	./mklists.pl -m bootstrap
 
 hp:
-	./mklists.pl -m hp
 
 hack:
 	find . -name toplevel-binary-packages.txt \
@@ -14,4 +17,4 @@ hack:
 	           -i {} \;
 
 clean:
-	rm -rfv bootstrap hp *.csv
+	rm -rfv atomic bootstrap hp *.csv

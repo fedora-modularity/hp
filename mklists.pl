@@ -22,7 +22,7 @@ my %arches = map { $_ => 1 }
     qw/aarch64 armv7hl i686 ppc64 ppc64le x86_64 s390x/;
 
 sub HELP_MESSAGE {
-    print "Usage: mklists.pl -m {bootstrap|hp}\n";
+    print "Usage: mklists.pl -m {atomic|bootstrap|hp}\n";
     print "Select what module lists should be generated.\n";
     exit;
 }
@@ -30,13 +30,15 @@ sub HELP_MESSAGE {
 my %opts;
 getopts('m:', \%opts);
 my $mode = $opts{m} // '';
-$mode =~ /^(?:bootstrap|hp)$/ or HELP_MESSAGE;
+$mode =~ /^(?:atomic|bootstrap|hp)$/ or HELP_MESSAGE;
 
 open my $fh, '<', 'README.md';
 while (<$fh>) {
     chomp;
     if (/^#{3}\s\`(?<module>[^`]+)\`$/) {
-        if ($+{module} eq 'bootstrap' && $mode eq 'hp') {
+        my $match = $+{module};
+        if (($mode eq 'atomic' && $match ne 'atomic') ||
+            ($mode eq 'hp' && $match =~ /^(?:atomic|bootstrap)$/)) {
             $module = undef;
             $package = undef;
             @arches = ();

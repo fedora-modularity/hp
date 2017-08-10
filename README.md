@@ -157,6 +157,17 @@ of the host which builds against this module.
   provides the unsigned binaries; this package is produced by different
   source packages on different architectures
 
+
+### `atomic`
+The `atomic` module defines the package set required for running a fully
+featured, module-based Atomic Host.  Unlike Host & Platform, the module
+is not split into userspace and hardware-enabling parts.  Instead, it's a
+well integrated, faster moving module capable of booting on various
+configurations, running as an OSTree image and managing containerized
+applications.
+
+*This is a placeholder section and will be filled in later.*
+
 ### `bootstrap`
 This module provides a stable selfhosting buildroot for all of the
 abovementioned modules as well as for itself.  Whileits content is
