@@ -20,6 +20,7 @@ cockpit-docker
 cockpit-networkmanager
 cockpit-ostree
 cockpit-system
+cockpit-ws
 coreutils
 coreutils-single
 cryptsetup

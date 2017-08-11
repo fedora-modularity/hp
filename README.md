@@ -31,6 +31,12 @@ Note the lists below are subject to change.
 * `bash`, base shell
 * `btrfs-progs`, Btrfs support
 * `bzip2`, base compression support
+* `cockpit-bridge` (`cockpit`), Cockpit bridge for running commands on
+  behalf of the web interface
+* `cockpit-system` (`cockpit`), Cockpit shell and system configuration
+  interfaces
+* `cockpit-ws` (`cockpit`), Cockpit web service for network access and
+  user authentication
 * `coreutils`, common utilities
 * `coreutils-single`, minimized common utilities
 * `curl`, a common and versatile utility for fetching remote files

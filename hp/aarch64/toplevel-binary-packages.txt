@@ -4,6 +4,9 @@ btrfs-progs
 byacc
 bzip2
 c-ares
+cockpit-bridge
+cockpit-system
+cockpit-ws
 coreutils
 coreutils-single
 curl
