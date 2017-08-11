@@ -61,7 +61,7 @@ Note the lists below are subject to change.
 * `psmisc`, common utilities
 * `rpm`, RPM support
 * `rsyslog`, system logging
-* `runc` (*aarch64, armv7hl, i686, ppc64le, x86_64, s390x*), minimal
+* `runc` (*aarch64, armv7hl, i686, ppc64le, s390x, x86_64*), minimal
   container runtime
 * `sed`, common editor
 * `shadow-utils`, common utilities
@@ -166,7 +166,99 @@ well integrated, faster moving module capable of booting on various
 configurations, running as an OSTree image and managing containerized
 applications.
 
-*This is a placeholder section and will be filled in later.*
+`atomic` builds against `bootstrap` & `shim` and requires `shim` at
+runtime.
+
+* `atomic` (*aarch64, armv7hl, i686, ppc64le, s390x, x86_64*), a tool for
+  managing ProjectAtomic systems and containers
+* `atomic-devmode` (*aarch64, i686, ppc64le, x86_64*)
+* `attr`
+* `audit`
+* `authconfig`
+* `basesystem`
+* `bash`
+* `bash-completion`
+* `bridge-utils`
+* `btrfs-progs`
+* `bzip2`
+* `chrony`
+* `cloud-init`
+* `cloud-utils-growpart` (`cloud-utils`)
+* `cockpit-bridge` (`cockpit`)
+* `cockpit-docker` (`cockpit`; *aarch64, armv7hl, i686, ppc64le, s390x, x86_64*)
+* `cockpit-networkmanager` (`cockpit`)
+* `cockpit-ostree` (`cockpit`)
+* `cockpit-system` (`cockpit`)
+* `coreutils`
+* `cryptsetup`
+* `curl`
+* `docker` (*aarch64, armv7hl, i686, ppc64le, s390x, x86_64*)
+* `dracut-config-generic` (`dracut`)
+* `dracut-network` (`dracut`)
+* `e2fsprogs`
+* `efibootmgr` (*aarch64, i686, x86_64*)
+* `extlinux-bootloader` (*aarch64, armv7hl*)
+* `fedora-modular-release`
+* `glibc`
+* `gnupg2`
+* `grub2` (*i686, ppc64, ppc64le, x86_64*)
+* `grub2-efi` (`grub2`; *aarch64, i686, x86_64*)
+* `gzip`
+* `hostname`
+* `initscripts`
+* `iproute`
+* `iptables`
+* `iptables-services` (`iptables`)
+* `iputils`
+* `iscsi-initiator-utils`
+* `kernel`
+* `less`
+* `libsss_sudo` (`sssd`)
+* `lsof`
+* `lvm2`
+* `mdadm`
+* `NetworkManager`
+* `nfs-utils`
+* `nmap-ncat` (`nmap`)
+* `nss-altfiles`
+* `oci-register-machine` (*aarch64, armv7hl, i686, ppc64le, s390x, x86_64*)
+* `oci-systemd-hook` (*aarch64, armv7hl, i686, ppc64le, s390x, x86_64*)
+* `oddjob-mkhomedir` (`oddjob`)
+* `openssh-clients` (`openssh`)
+* `openssh-server` (`openssh`)
+* `ostree-grub2` (`ostree`; *aarch64, i686, ppc64, ppc64le, x86_64*)
+* `passwd`
+* `policycoreutils`
+* `policycoreutils-python` (`policycoreutils`)
+* `policycoreutils-python-utils` (`policycoreutils`)
+* `procps-ng`
+* `python2`
+* `python3`
+* `python-docker-py`
+* `rootfiles`
+* `rpm`
+* `rpm-ostree`
+* `rsync`
+* `runc` (*aarch64, armv7hl, i686, ppc64le, s390x, x86_64*)
+* `screen`
+* `selinux-policy-targeted` (`selinux-policy`)
+* `setools-console` (`setools`)
+* `setup`
+* `shadow-utils`
+* `shim` (`shim-signed`; *aarch64, x86_64*), provides the signed binaries
+* `sos`
+* `sssd-client` (`sssd`)
+* `strace`
+* `sudo`
+* `systemd`
+* `tar`
+* `tcpdump`
+* `tmux`
+* `util-linux`
+* `vim-minimal` (`vim`)
+* `which`
+* `xfsprogs`
+* `xz`
 
 ### `bootstrap`
 This module provides a stable selfhosting buildroot for all of the
