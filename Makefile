@@ -9,7 +9,7 @@ bootstrap:
 
 hp:
 
-hack:
+hack: atomic bootstrap hp
 	find . -name toplevel-binary-packages.txt \
 	       -exec sed \
 	           -e 's/fedora-modular-release/fedora-release/g' \
