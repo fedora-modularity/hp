@@ -36,12 +36,12 @@ hfsutils
 iproute
 iptables
 iputils
-kernel-PAE
 kernel-core
 kernel-cross-headers
 kernel-headers
 kernel-modules
 kernel-modules-extra
+kernel-PAE
 kernel-tools
 libev
 libgcc

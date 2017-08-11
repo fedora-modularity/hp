@@ -3,6 +3,7 @@
 use strict;
 use warnings;
 use autodie;
+use feature qw/fc/;
 use Getopt::Std;
 use List::Util 1.33 qw/none/;
 use Text::CSV_XS qw/csv/;
@@ -18,7 +19,7 @@ my @sources = ();
 my %modules;
 my %packages;
 # Hash table with all known arches
-my %arches = map { $_ => 1 }
+my %arches = map { $_ => undef }
     qw/aarch64 armv7hl i686 ppc64 ppc64le x86_64 s390x/;
 
 sub HELP_MESSAGE {
@@ -102,7 +103,7 @@ for $module (keys %modules) {
     csv in => [
             map
             { [ $_, $modules{$module}->{$_}->{rationale} ] }
-            sort keys %{ $modules{$module} }
+            sort { fc($a) cmp fc($b) } keys %{ $modules{$module} }
         ],
         out => "${module}.csv";
 }
@@ -111,12 +112,10 @@ for my $arch (keys %arches) {
     mkdir $mode unless -d $mode;
     mkdir "${mode}/${arch}" unless -d "${mode}/${arch}";
     open $fh, '>', "${mode}/${arch}/toplevel-binary-packages.txt";
-    for $package (sort keys %packages) {
+    for $package (sort { fc($a) cmp fc($b) } keys %packages) {
         next if @{ $packages{$package}->{arches} } &&
                 none { $_ eq $arch } @{ $packages{$package}->{arches} };
         print { $fh } "$package\n";
-        print { *stderr } "Warning: Duplicate package - ${package}\n"
-            if $packages{$package}->{count} > 1;
     }
     close $fh;
 }
