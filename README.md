@@ -29,8 +29,11 @@ Note the lists below are subject to change.
 #### Main Platform packages
 
 * `bash`, base shell
+* `bluez`, Bluetooth support, considered hardware-enablement as it's necessary
+  for Bluetooth HID
 * `btrfs-progs`, Btrfs support
 * `bzip2`, base compression support
+* `checkpolicy`, provides the SELinux policy compiler
 * `cockpit-bridge` (`cockpit`), Cockpit bridge for running commands on
   behalf of the web interface
 * `cockpit-system` (`cockpit`), Cockpit shell and system configuration
@@ -45,6 +48,8 @@ Note the lists below are subject to change.
 * `dnf`, DNF package manager
 * `e2fsprogs`, Ext filesystem support
 * `fedora-modular-release`, base system files and macros
+* `fipscheck`, provides a library and utilities for integrity verification of
+  FIPS-validated modules
 * `gawk`, AWK runtime
 * `glibc`, C runtime
 * `gnupg2`, signature verification
@@ -54,15 +59,26 @@ Note the lists below are subject to change.
 * `iproute`, networking support
 * `iptables`, networking support
 * `iputils`, networking support
+* `less`, provides an extremely common pager
 * `libgcc` (`gcc`), C runtime
+* `libpciaccess`, PCI hardware enablement
 * `libstdc++` (`gcc`), C++ runtime
+* `libusb`, USB hardware enablement
+* `libusbx`, USB hardware enablement
+* `libyaml`, YAML support, required for modularity
+* `mcstrans`, provides a SELinux translation daemon
 * `microdnf`, minimized DNF package manager
 * `nano`, basic editor
 * `nettle`, common cryptographic library
+* `nfs-utils`, NFS support
 * `nss`, common cryptographic library
 * `openssh-clients` (`openssh`), SSH clients
 * `openssh-server` (`openssh`), SSH server
 * `openssl`, common cryptographic library
+* `parted`, provides the common disk partition manipulation program
+* `policycoreutils`, provides utilities for SELinux-enabled system management;
+  tools implemented using non-Platform dynamic languages can be found in the
+  appropriate Platform extension module
 * `procps-ng`, common utilities
 * `psmisc`, common utilities
 * `rpm`, RPM support
@@ -70,6 +86,11 @@ Note the lists below are subject to change.
 * `runc` (*aarch64, armv7hl, i686, ppc64le, s390x, x86_64*), minimal
   container runtime
 * `sed`, common editor
+* `selinux-policy`, provides the base SELinux reference modular policy
+* `selinux-policy-minimum`, provides the SELinux minimum policy
+* `selinux-policy-mls`, provides the SELinux multi-level security policy
+* `selinux-policy-sandbox`, provides the SELinux sandbox policy
+* `selinux-policy-targeted`, provides the SELinux targeted policy
 * `shadow-utils`, common utilities
 * `systemd`, the init system
 * `sudo`, allows restricted root access
@@ -96,19 +117,66 @@ Note the lists below are subject to change.
 
 #### Shared userland and other supporting packages
 
+* `alsa-lib`, the ALSA interface library
 * `c-ares`, a tiny DNS client library
+* `chrpath`, rpath manipulation, required for bundling binary dependencies
+* `compat-openssl10`, OpenSSL 1.0 compatibility package; to be removed once
+  nothing in the set requires it
+* `dbus-glib`, D-Bus support for GLib packages
+* `desktop-file-utils`, a collection of RPM macros and a common build
+  dependency
+* `docbook-dtds`, Docbook DTDs are a common build dependency
+* `docbook-style-xsl`, Docbook XSLs are a common build dependency
 * `fuse-libs`, filesystem in userspace support
 * `glib2`, a very commonly used generic utility library
 * `gpart` (*aarch64, armv7hl, i686, ppc64, ppc64le, x86_64*), partitioning
   support
+* `gssproxy`, provides GSSAPI credential handling
 * `hfsutils`, HFS support
-* `libev`, event model library
+* `hwdata`, provides PCI, USB and other hardware IDs
+* `icu`, tools and utilities for developing with ICU
+* `jansson`, provides a JSON library
+* `jbigkit`, provides support for PBM and JBIG1 image formats
+* `json-c`, provides a JSON library
+* `krb5`, provides Kerberos libraries and utilities
+* `libcgroup`, required for manipulation, control, administration and
+  monitoring of control groups
+* `libdaemon`, provides a lightweight library for writing UNIX daemons
+* `libedit`, a line-editing library, similar to readline
+* `libev`, an event model library
+* `libevent`, an event model library
+* `libjpeg-turbo`, provides support for JPEG image format
+* `libdmodman`, provides a C++ plugin management library
+* `libnfsidmap`, provides names and IDs mapper for NFSv4
+* `libproxy`, provides a library for proxy configuration management
+* `libssh`, implementation of the SSH protocol
+* `libssh2`, implementation of the SSH2 protocol
+* `libtiff`, provides support for TIFF image format
+* `libtirpc`, transport-independent RPC library, required for NFS
+* `libunwind`, useful for debugging, providing a C ABI to determine the call
+  chain of a program
+* `libxslt`, provides an XSLT library and utilities, also a common build
+  dependency
+* `lksctp-tools`, SCTP interface
 * `lsscsi`, SCSI listing tools
+* `libsecret`, provides a common password manager and its interface library
 * `ncurses`, a common TUI interface library and terminfo database
 * `npth`, new portable threads library
-* `tmux`, terminal multiplexer; required by system deployment tools
+* `openjpeg2`, provides support for the JPEG 2000 image format
+* `quota`, filesystem quota support, required for NFS
+* `readline`, a line-editing library, similar to libedit
+* `rpcbind`, universal addresses to RPC program number mapper, required for NFS
 * `sgml-common`, common SGML catalogs
+* `shared-mime-info`, the shared MIME information database, a generally useful
+  data set and a common build dependency
+* `tcl`, a common scripting and application integration language
+* `tcp_wrappers`, an obsolete yet still commonly required networking filtering
+  tools
+* `time`, provides a utility for monitoring use of system resources, fallback
+  for the shell built-in
+* `tmux`, terminal multiplexer; required by system deployment tools
 * `xml-common` (`sgml-common`), common XML catalogs
+* `xmlrpc-c`, provides a lightweight RPC library
 * `zlib`, a common compression library
 
 ### `host`
