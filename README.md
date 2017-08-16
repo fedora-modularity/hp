@@ -18,6 +18,13 @@ package unless doing so would imply inclusion of additional dependencies.
 All development subpackages of non-private libraries ought to be included
 in `platform`.
 
+**Note: A short-term goal is to make the list of components below more
+comprehensive, listing all sub-packages we intend to ship and support
+in the documented modules.  Everything else not listed in this document
+will be filtered out.  This will make the documentation more useful and
+the API and filter definition workflow automatable.  However, this is
+not yet the case.  This note will be removed once it is.**
+
 ### `platform`
 Platform defines the base of a Fedora release and a large portion of its
 userspace API.  Together with `host` it includes all the components for
