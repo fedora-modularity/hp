@@ -52,20 +52,32 @@ Note the lists below are subject to change.
 * `curl`, a common and versatile utility for fetching remote files
 * `dhcp-client` (`dhcp`), DHCP client
 * `diffutils`, common utilities
+* `dmraid`, provides support for RAID
 * `dnf`, DNF package manager
+* `dosfstools`, VFAT support
 * `e2fsprogs`, Ext filesystem support
+* `ebtables`, provides ethernet bridge tools and firewalling
+* `ethtool`, provides configuration utilities for ethernet NICs
+* `fcoe-utils`, provides support for Fibre Channel over Ethernet configuration
 * `fedora-modular-release`, base system files and macros
 * `fipscheck`, provides a library and utilities for integrity verification of
   FIPS-validated modules
 * `gawk`, AWK runtime
+* `gdisk`, provides a GPT-aware partitioning tool
 * `glibc`, C runtime
 * `gnupg2`, signature verification
 * `gnutls`, common cryptographic library
 * `gpgme`, common cryptographic library
 * `gzip`, base compression support
+* `hfsplus-tools`, HFS/HFS+ support
+* `hostname`, provides a utility to view or configure the system hostname
+* `initscripts`, provides legacy scripts as well as NIC management tools
 * `iproute`, networking support
+* `ipset`, provides IP sets management tools
 * `iptables`, networking support
 * `iputils`, networking support
+* `iscsi-initiator-utils`, provides tooling for iSCSI
+* `kbd`, provides tools for console and virtual terminal keyboard configuration
 * `less`, provides an extremely common pager
 * `libgcc` (`gcc`), C runtime
 * `libpciaccess`, PCI hardware enablement
@@ -73,7 +85,9 @@ Note the lists below are subject to change.
 * `libusb`, USB hardware enablement
 * `libusbx`, USB hardware enablement
 * `libyaml`, YAML support, required for modularity
+* `lldpad`, a link layer discovery daemon with enhanced ethernet support
 * `mcstrans`, provides a SELinux translation daemon
+* `mdadm`, provides support for software RAID
 * `microdnf`, minimized DNF package manager
 * `nano`, basic editor
 * `nettle`, common cryptographic library
@@ -83,6 +97,8 @@ Note the lists below are subject to change.
 * `openssh-server` (`openssh`), SSH server
 * `openssl`, common cryptographic library
 * `parted`, provides the common disk partition manipulation program
+* `passwd`, password configuration utility
+* `pciutils`, provides PCI bus related utilities
 * `policycoreutils`, provides utilities for SELinux-enabled system management;
   tools implemented using non-Platform dynamic languages can be found in the
   appropriate Platform extension module
@@ -125,6 +141,7 @@ Note the lists below are subject to change.
 #### Shared userland and other supporting packages
 
 * `alsa-lib`, the ALSA interface library
+* `augeas`, provides a library for manipulating configuration files
 * `c-ares`, a tiny DNS client library
 * `chrpath`, rpath manipulation, required for bundling binary dependencies
 * `compat-openssl10`, OpenSSL 1.0 compatibility package; to be removed once
@@ -146,8 +163,12 @@ Note the lists below are subject to change.
 * `jbigkit`, provides support for PBM and JBIG1 image formats
 * `json-c`, provides a JSON library
 * `krb5`, provides Kerberos libraries and utilities
+* `libaio`, provides an asynchronous I/O access library
+* `libblockdev`, provides a low-level block device manipulation library,
+  necessary for LVM, LUKS or RAID
 * `libcgroup`, required for manipulation, control, administration and
   monitoring of control groups
+* `libconfig`, a simple library for manipulating structured configuration files
 * `libdaemon`, provides a lightweight library for writing UNIX daemons
 * `libedit`, a line-editing library, similar to readline
 * `libev`, an event model library
@@ -155,6 +176,7 @@ Note the lists below are subject to change.
 * `libjpeg-turbo`, provides support for JPEG image format
 * `libdmodman`, provides a C++ plugin management library
 * `libnfsidmap`, provides names and IDs mapper for NFSv4
+* `libnl3`, provides a convenience library for kernel netlink sockets
 * `libproxy`, provides a library for proxy configuration management
 * `libssh`, implementation of the SSH protocol
 * `libssh2`, implementation of the SSH2 protocol
@@ -162,26 +184,36 @@ Note the lists below are subject to change.
 * `libtirpc`, transport-independent RPC library, required for NFS
 * `libunwind`, useful for debugging, providing a C ABI to determine the call
   chain of a program
+* `libuser`, provides a library for system user and group administration
 * `libxslt`, provides an XSLT library and utilities, also a common build
   dependency
 * `lksctp-tools`, SCTP interface
+* `lsof`, lists open files; a common system management utility
 * `lsscsi`, SCSI listing tools
 * `libsecret`, provides a common password manager and its interface library
 * `ncurses`, a common TUI interface library and terminfo database
 * `npth`, new portable threads library
 * `openjpeg2`, provides support for the JPEG 2000 image format
+* `publicsuffix-list`, provides cross-vendor public domain suffix database
+* `publicsuffix-list-dafsa` (`publicsuffix-list`), provides the public suffix
+  list database in the DAFSA representation
 * `quota`, filesystem quota support, required for NFS
 * `readline`, a line-editing library, similar to libedit
 * `rpcbind`, universal addresses to RPC program number mapper, required for NFS
+* `rsync`, provides a tool for files and directories synchronization
+* `sgpio`, provides SGPIO bus support utilities
 * `sgml-common`, common SGML catalogs
 * `shared-mime-info`, the shared MIME information database, a generally useful
   data set and a common build dependency
+* `snappy`, a common compression library
 * `tcl`, a common scripting and application integration language
 * `tcp_wrappers`, an obsolete yet still commonly required networking filtering
   tools
 * `time`, provides a utility for monitoring use of system resources, fallback
   for the shell built-in
 * `tmux`, terminal multiplexer; required by system deployment tools
+* `usermode`, tools for user account management tasks
+* `volume_key`, provides tools for manipulating storage volume encryption keys
 * `xml-common` (`sgml-common`), common XML catalogs
 * `xmlrpc-c`, provides a lightweight RPC library
 * `zlib`, a common compression library
@@ -192,7 +224,10 @@ mainly hardware enablement components and bits tightly linked to these.
 Given its dependency on Platform, deploying the Host module creates a
 complete baremetal or virtualized host operating system.
 
-Note the lists below are subject to change.
+Some of the original `host` packages have been **temporarily** dropped
+to resolve Host & Platform dependencies on dynamic language stacks.
+These include `kernel-tools`, `ppc64-utils`, `powerpc-utils`,
+`s390utils-base` and `s390utils-cmsfs-fuse`.
 
 #### Hardware enablement
 
@@ -204,7 +239,7 @@ Note the lists below are subject to change.
 * `kernel-modules` (`kernel`)
 * `kernel-modules-extra` (`kernel`)
 * `kernel-PAE` (`kernel`; *i686*)
-* `kernel-tools` (`kernel`; *aarch64, armv7hl, i686, ppc64, ppc64le, x86_64*)
+* `kexec-tools`, provides the kexec utility for booting kernels
 * `linux-firmware`
 
 #### Bootloaders, architecture specific and tightly coupled packages
@@ -218,10 +253,6 @@ Note the lists below are subject to change.
 * `grub2-tools` (`grub2`; *aarch64, i686, ppc64, ppc64le, x86_64*)
 * `mactel-boot` (*x86_64*)
 * `memtest86+` (*i686, x86_64*)
-* `powerpc-utils` (*ppc64, ppc64le*), utilities for PowerPC platforms
-* `ppc64-utils` (*ppc64, ppc64le*), utilities for PPC64 platforms
-* `s390utils-base` (`s390utils`; *s390x*)
-* `s390utils-cmsfs-fuse` (`s390utils`; *s390x*)
 * `shim` (`shim-signed`; *aarch64, x86_64*), provides the signed binaries
 * `syslinux` (*i686, x86_64*)
 * `syslinux-extlinux` (`syslinux`; *i686, x86_64*)

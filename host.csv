@@ -3,12 +3,10 @@ efivar,
 fbset,
 grub2,
 kernel,
+kexec-tools,"provides the kexec utility for booting kernels"
 linux-firmware,
 mactel-boot,
 memtest86+,
-powerpc-utils,"utilities for PowerPC platforms"
-ppc64-utils,"utilities for PPC64 platforms"
-s390utils,
 shim-signed,"provides the signed binaries"
 syslinux,
 uboot-tools,
