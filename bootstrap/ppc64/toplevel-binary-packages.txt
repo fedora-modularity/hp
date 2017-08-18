@@ -7,6 +7,7 @@ authconfig
 basesystem
 bash
 bash-completion
+bc
 binutils
 bluez
 bridge-utils
@@ -178,6 +179,7 @@ selinux-policy-sandbox
 selinux-policy-targeted
 setools-console
 setup
+sg3_utils
 sgml-common
 sgpio
 shadow-utils

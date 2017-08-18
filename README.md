@@ -114,6 +114,7 @@ Note the lists below are subject to change.
 * `selinux-policy-mls`, provides the SELinux multi-level security policy
 * `selinux-policy-sandbox`, provides the SELinux sandbox policy
 * `selinux-policy-targeted`, provides the SELinux targeted policy
+* `sg3_utils`, utilities for SCSI device management
 * `shadow-utils`, common utilities
 * `systemd`, the init system
 * `sudo`, allows restricted root access
@@ -142,6 +143,7 @@ Note the lists below are subject to change.
 
 * `alsa-lib`, the ALSA interface library
 * `augeas`, provides a library for manipulating configuration files
+* `bc`, provides a numeric processing language and calculator
 * `c-ares`, a tiny DNS client library
 * `chrpath`, rpath manipulation, required for bundling binary dependencies
 * `compat-openssl10`, OpenSSL 1.0 compatibility package; to be removed once

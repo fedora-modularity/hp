@@ -1,6 +1,7 @@
 alsa-lib
 augeas
 bash
+bc
 binutils
 bluez
 btrfs-progs
@@ -143,6 +144,7 @@ selinux-policy-minimum
 selinux-policy-mls
 selinux-policy-sandbox
 selinux-policy-targeted
+sg3_utils
 sgml-common
 sgpio
 shadow-utils
