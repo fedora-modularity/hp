@@ -331,6 +331,7 @@ runtime.
 * `lsof`
 * `lvm2`
 * `mdadm`
+* `microcode_ctl` (*i686, x86_64*)
 * `NetworkManager`
 * `nfs-utils`
 * `nmap-ncat` (`nmap`)

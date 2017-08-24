@@ -44,6 +44,7 @@ libsss_sudo
 lsof
 lvm2
 mdadm
+microcode_ctl
 NetworkManager
 nfs-utils
 nmap-ncat
