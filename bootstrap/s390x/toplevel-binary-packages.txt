@@ -62,10 +62,6 @@ glibc
 gnupg2
 gnutls
 gpgme
-grub2-common
-grub2-tools
-grub2-tools-extra
-grub2-tools-minimal
 gssproxy
 gzip
 hfsplus-tools

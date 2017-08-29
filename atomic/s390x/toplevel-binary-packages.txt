@@ -26,10 +26,6 @@ e2fsprogs
 fedora-modular-release
 glibc
 gnupg2
-grub2-common
-grub2-tools
-grub2-tools-extra
-grub2-tools-minimal
 gzip
 hostname
 initscripts

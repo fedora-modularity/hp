@@ -331,7 +331,7 @@ runtime.
 * `fedora-modular-release`
 * `glibc`
 * `gnupg2`
-* `grub2-common` (`grub2`; *aarch64, i686, ppc64, ppc64le, s390x, x86_64*)
+* `grub2-common` (`grub2`; *aarch64, i686, ppc64, ppc64le, x86_64*)
 * `grub2-efi-aa64` (`grub2`; *aarch64*)
 * `grub2-efi-aa64-cdboot` (`grub2`; *aarch64*)
 * `grub2-efi-aa64-modules` (`grub2`; *aarch64*)
@@ -347,10 +347,10 @@ runtime.
 * `grub2-ppc64-modules` (`grub2`; *ppc64*)
 * `grub2-ppc64le` (`grub2`; *ppc64le*)
 * `grub2-ppc64le-modules` (`grub2`; *ppc64le*)
-* `grub2-tools` (`grub2`; *aarch64, i686, ppc64, ppc64le, s390x, x86_64*)
+* `grub2-tools` (`grub2`; *aarch64, i686, ppc64, ppc64le, x86_64*)
 * `grub2-tools-efi` (`grub2`; *x86_64*)
-* `grub2-tools-extra` (`grub2`;*aarch64, i686, ppc64, ppc64le, s390x, x86_64*)
-* `grub2-tools-minimal` (`grub2`; *aarch64, i686, ppc64, ppc64le, s390x, x86_64*)
+* `grub2-tools-extra` (`grub2`;*aarch64, i686, ppc64, ppc64le, x86_64*)
+* `grub2-tools-minimal` (`grub2`; *aarch64, i686, ppc64, ppc64le, x86_64*)
 * `gzip`
 * `hostname`
 * `initscripts`
