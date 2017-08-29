@@ -178,7 +178,6 @@ rpm-build
 rpm-ostree
 rsync
 rsyslog
-s390utils
 screen
 sed
 selinux-policy
