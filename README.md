@@ -106,8 +106,6 @@ Note the lists below are subject to change.
 * `psmisc`, common utilities
 * `rpm`, RPM support
 * `rsyslog`, system logging
-* `runc` (*aarch64, armv7hl, i686, ppc64le, s390x, x86_64*), minimal
-  container runtime
 * `sed`, common editor
 * `selinux-policy`, provides the base SELinux reference modular policy
 * `selinux-policy-minimum`, provides the SELinux minimum policy

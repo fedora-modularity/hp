@@ -138,7 +138,6 @@ rpm
 rpm-build
 rsync
 rsyslog
-runc
 sed
 selinux-policy
 selinux-policy-minimum
