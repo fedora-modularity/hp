@@ -344,10 +344,10 @@ runtime.
 * `ostree-grub2` (`ostree`; *aarch64, i686, ppc64, ppc64le, x86_64*)
 * `passwd`
 * `policycoreutils`
-* `policycoreutils-python` (`policycoreutils`)
 * `policycoreutils-python-utils` (`policycoreutils`)
 * `procps-ng`
 * `python2`
+* `python2-policycoreutils` (`policycoreutils`)
 * `python3`
 * `python-docker-py`
 * `rootfiles`

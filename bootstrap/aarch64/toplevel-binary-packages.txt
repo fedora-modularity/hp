@@ -160,7 +160,6 @@ passwd
 patch
 pciutils
 policycoreutils
-policycoreutils-python
 policycoreutils-python-utils
 procps-ng
 psmisc
@@ -168,6 +167,7 @@ publicsuffix-list
 publicsuffix-list-dafsa
 python-docker-py
 python2
+python2-policycoreutils
 python3
 quota
 readline

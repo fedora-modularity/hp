@@ -54,11 +54,11 @@ openssh-server
 ostree-grub2
 passwd
 policycoreutils
-policycoreutils-python
 policycoreutils-python-utils
 procps-ng
 python-docker-py
 python2
+python2-policycoreutils
 python3
 rootfiles
 rpm
