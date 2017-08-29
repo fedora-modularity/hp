@@ -164,7 +164,9 @@ Note the lists below are subject to change.
 * `jansson`, provides a JSON library
 * `jbigkit`, provides support for PBM and JBIG1 image formats
 * `json-c`, provides a JSON library
-* `krb5`, provides Kerberos libraries and utilities
+* `krb5-libs` (`krb5`), provides Kerberos libraries
+* `krb5-pkinit` (`krb5`), provides Kerberos PKINIT plugin
+* `krb5-workstation` (`krb5`), provides Kerberos client utilities
 * `libaio`, provides an asynchronous I/O access library
 * `libblockdev`, provides a low-level block device manipulation library,
   necessary for LVM, LUKS or RAID
@@ -176,7 +178,7 @@ Note the lists below are subject to change.
 * `libev`, an event model library
 * `libevent`, an event model library
 * `libjpeg-turbo`, provides support for JPEG image format
-* `libdmodman`, provides a C++ plugin management library
+* `libmodman`, provides a C++ plugin management library
 * `libnfsidmap`, provides names and IDs mapper for NFSv4
 * `libnl3`, provides a convenience library for kernel netlink sockets
 * `libproxy`, provides a library for proxy configuration management
@@ -184,8 +186,8 @@ Note the lists below are subject to change.
 * `libssh2`, implementation of the SSH2 protocol
 * `libtiff`, provides support for TIFF image format
 * `libtirpc`, transport-independent RPC library, required for NFS
-* `libunwind`, useful for debugging, providing a C ABI to determine the call
-  chain of a program
+* `libunwind` (*aarch64, armv7hl, i686, ppc64, ppc64le, x86_64*), useful
+  for debugging, providing a C ABI to determine the call chain of a program
 * `libuser`, provides a library for system user and group administration
 * `libxslt`, provides an XSLT library and utilities, also a common build
   dependency
@@ -249,7 +251,7 @@ These include `kernel-tools`, `ppc64-utils`, `powerpc-utils`,
 * `efibootmgr` (*aarch64, i686, x86_64*)
 * `efivar` (*aarch64, i686, x86_64*)
 * `fbset` (*aarch64, armv7hl, i686, ppc64, ppc64le, x86_64*)
-* `grub2-common` (`grub2`; *aarch64, i686, ppc64, ppc64le, s390x, x86_64*)
+* `grub2-common` (`grub2`; *aarch64, i686, ppc64, ppc64le, x86_64*)
 * `grub2-efi-aa64` (`grub2`; *aarch64*)
 * `grub2-efi-aa64-cdboot` (`grub2`; *aarch64*)
 * `grub2-efi-aa64-modules` (`grub2`; *aarch64*)
@@ -265,10 +267,10 @@ These include `kernel-tools`, `ppc64-utils`, `powerpc-utils`,
 * `grub2-ppc64-modules` (`grub2`; *ppc64*)
 * `grub2-ppc64le` (`grub2`; *ppc64le*)
 * `grub2-ppc64le-modules` (`grub2`; *ppc64le*)
-* `grub2-tools` (`grub2`; *aarch64, i686, ppc64, ppc64le, s390x, x86_64*)
+* `grub2-tools` (`grub2`; *aarch64, i686, ppc64, ppc64le, x86_64*)
 * `grub2-tools-efi` (`grub2`; *x86_64*)
-* `grub2-tools-extra` (`grub2`;*aarch64, i686, ppc64, ppc64le, s390x, x86_64*)
-* `grub2-tools-minimal` (`grub2`; *aarch64, i686, ppc64, ppc64le, s390x, x86_64*)
+* `grub2-tools-extra` (`grub2`;*aarch64, i686, ppc64, ppc64le, x86_64*)
+* `grub2-tools-minimal` (`grub2`; *aarch64, i686, ppc64, ppc64le, x86_64*)
 * `mactel-boot` (*x86_64*)
 * `memtest86+` (*i686, x86_64*)
 * `shim` (`shim-signed`; *aarch64, x86_64*), provides the signed binaries
