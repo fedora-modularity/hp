@@ -420,3 +420,6 @@ For this reason, it might have a toplevel input package list of its own.
   this is a necessary implementation detail
 * `lorax`, used to generate the installation media; this is a necessary
   implementation detail
+* `powerpc-utils`, needed to build the `hardware-support` module
+* `ppc64-utils`, needed to build the `hardware-support` module
+* `s390utils`, needed to build the `hardware-support` module

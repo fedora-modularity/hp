@@ -158,6 +158,8 @@ patch
 pciutils
 policycoreutils
 policycoreutils-python-utils
+powerpc-utils
+ppc64-utils
 procps-ng
 psmisc
 publicsuffix-list
@@ -176,6 +178,7 @@ rpm-build
 rpm-ostree
 rsync
 rsyslog
+s390utils
 screen
 sed
 selinux-policy
