@@ -131,6 +131,7 @@ Note the lists below are subject to change.
 * `flex`, lexical generator
 * `gcc`, C compiler
 * `gcc-c++` (`gcc`), C++ compiler
+* `glibc32` (*ppc64, s390x, x86_64*), provides 32-bit headers on 64-bit system
 * `make`, make support
 * `m4`, M4 macro processor
 * `patch`, patch support

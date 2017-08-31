@@ -63,6 +63,7 @@ gcc-c++
 gdisk
 glib2
 glibc
+glibc32
 gnupg2
 gnutls
 gpart
