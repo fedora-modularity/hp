@@ -59,6 +59,7 @@ Note the lists below are subject to change.
 * `ebtables`, provides ethernet bridge tools and firewalling
 * `ethtool`, provides configuration utilities for ethernet NICs
 * `fcoe-utils`, provides support for Fibre Channel over Ethernet configuration
+* `fedora-logos`, provides Fedora-related icons and pictures
 * `fedora-modular-release`, base system files and macros
 * `fipscheck`, provides a library and utilities for integrity verification of
   FIPS-validated modules

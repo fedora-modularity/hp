@@ -53,6 +53,7 @@ ethtool
 extlinux-bootloader
 fbset
 fcoe-utils
+fedora-logos
 fedora-modular-release
 fedpkg-minimal
 fipscheck
