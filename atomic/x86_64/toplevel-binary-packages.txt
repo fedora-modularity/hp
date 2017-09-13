@@ -84,7 +84,8 @@ selinux-policy-targeted
 setools-console
 setup
 shadow-utils
-shim
+shim-ia32
+shim-x64
 sos
 sssd-client
 strace

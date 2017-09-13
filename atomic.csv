@@ -63,7 +63,7 @@ selinux-policy,
 setools,
 setup,
 shadow-utils,
-shim-signed,"provides the signed binaries"
+shim-signed,"provides the signed aarch64 binaries; provides the signed i686 binaries; provides the signed x86_64 binaries"
 sos,
 sssd,
 strace,

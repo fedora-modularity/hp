@@ -34,6 +34,7 @@ coreutils-single
 cryptsetup
 curl
 dbus-glib
+dbxtool
 desktop-file-utils
 dhcp-client
 diffutils
@@ -154,6 +155,7 @@ mdadm
 memtest86+
 microcode_ctl
 microdnf
+mokutil
 nano
 ncurses
 nettle
@@ -210,8 +212,10 @@ sgml-common
 sgpio
 shadow-utils
 shared-mime-info
-shim
-shim-unsigned
+shim-ia32
+shim-unsigned-ia32
+shim-unsigned-x64
+shim-x64
 snappy
 sos
 sssd-client

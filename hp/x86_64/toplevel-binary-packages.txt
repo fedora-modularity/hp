@@ -18,6 +18,7 @@ coreutils
 coreutils-single
 curl
 dbus-glib
+dbxtool
 desktop-file-utils
 dhcp-client
 diffutils
@@ -129,6 +130,7 @@ mcstrans
 mdadm
 memtest86+
 microdnf
+mokutil
 nano
 ncurses
 nettle
@@ -167,8 +169,10 @@ sgml-common
 sgpio
 shadow-utils
 shared-mime-info
-shim
-shim-unsigned
+shim-ia32
+shim-unsigned-ia32
+shim-unsigned-x64
+shim-x64
 snappy
 sudo
 syslinux

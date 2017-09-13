@@ -146,6 +146,7 @@ mdadm
 memtest86+
 microcode_ctl
 microdnf
+mokutil
 nano
 ncurses
 nettle

@@ -34,6 +34,7 @@ coreutils-single
 cryptsetup
 curl
 dbus-glib
+dbxtool
 desktop-file-utils
 dhcp-client
 diffutils
@@ -145,6 +146,7 @@ make
 mcstrans
 mdadm
 microdnf
+mokutil
 nano
 ncurses
 nettle
@@ -201,8 +203,8 @@ sgml-common
 sgpio
 shadow-utils
 shared-mime-info
-shim
-shim-unsigned
+shim-aa64
+shim-unsigned-aarch64
 snappy
 sos
 sssd-client

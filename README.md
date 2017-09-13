@@ -50,6 +50,8 @@ Note the lists below are subject to change.
 * `coreutils`, common utilities
 * `coreutils-single`, minimized common utilities
 * `curl`, a common and versatile utility for fetching remote files
+* `dbxtool` (*aarch64, x86_64*), provides DBX updates for securte boot; needed
+  for shim
 * `dhcp-client` (`dhcp`), DHCP client
 * `diffutils`, common utilities
 * `dmraid`, provides support for RAID
@@ -90,6 +92,8 @@ Note the lists below are subject to change.
 * `mcstrans`, provides a SELinux translation daemon
 * `mdadm`, provides support for software RAID
 * `microdnf`, minimized DNF package manager
+* `mokutil` (*aarch64, i686, x86_64*), provides a custom secure boot keys
+  management utility; needed for shim
 * `nano`, basic editor
 * `nettle`, common cryptographic library
 * `nfs-utils`, NFS support
@@ -273,7 +277,9 @@ These include `kernel-tools`, `ppc64-utils`, `powerpc-utils`,
 * `grub2-tools-minimal` (`grub2`; *aarch64, i686, ppc64, ppc64le, x86_64*)
 * `mactel-boot` (*x86_64*)
 * `memtest86+` (*i686, x86_64*)
-* `shim` (`shim-signed`; *aarch64, x86_64*), provides the signed binaries
+* `shim-aa64` (`shim-signed`; *aarch64*), provides the signed aarch64 binaries
+* `shim-ia32` (`shim-signed`; *x86_64*), provides the signed i686 binaries
+* `shim-x64` (`shim-signed`; *x86_64*), provides the signed x86_64 binaries
 * `syslinux` (*i686, x86_64*)
 * `syslinux-extlinux` (`syslinux`; *i686, x86_64*)
 * `syslinux-nonlinux` (`syslinux`; *i686, x86_64*)
@@ -285,9 +291,11 @@ The `shim` module includes unsigned `shim` binaries and is not part of
 of the modularity automated pipeline.  Signed `shim` binaries are part
 of the host which builds against this module.
 
-* `shim-unsigned` (`shim`, `shim-unsigned-aarch64`; *aarch64, x86_64*),
-  provides the unsigned binaries; this package is produced by different
-  source packages on different architectures
+* `shim-unsigned-aarch64` (*aarch64*), provides the unsigned binaries for
+  aarch64
+* `shim-unsigned-ia32` (`shim-unsigned-x64`; *x86_64*), provides the
+  unsigned binaries for i686
+* `shim-unsigned-x64` (*x86_64*), provides the unsigned binaries for x86_64
 
 
 ### `atomic`
@@ -396,7 +404,9 @@ runtime.
 * `setools-console` (`setools`)
 * `setup`
 * `shadow-utils`
-* `shim` (`shim-signed`; *aarch64, x86_64*), provides the signed binaries
+* `shim-aa64` (`shim-signed`; *aarch64*), provides the signed aarch64 binaries
+* `shim-ia32` (`shim-signed`; *x86_64*), provides the signed i686 binaries
+* `shim-x64` (`shim-signed`; *x86_64*), provides the signed x86_64 binaries
 * `sos`
 * `sssd-client` (`sssd`)
 * `strace`

@@ -1,2 +1,2 @@
-shim,"provides the unsigned binaries; this package is produced by different source packages on different architectures"
-shim-unsigned-aarch64,"provides the unsigned binaries; this package is produced by different source packages on different architectures"
+shim-unsigned-aarch64,"provides the unsigned binaries for aarch64"
+shim-unsigned-x64,"provides the unsigned binaries for i686; provides the unsigned binaries for x86_64"
