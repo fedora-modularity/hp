@@ -6,7 +6,6 @@ kernel,
 kexec-tools,"provides the kexec utility for booting kernels"
 linux-firmware,
 mactel-boot,
-memtest86+,
 shim-signed,"provides the signed aarch64 binaries; provides the signed i686 binaries; provides the signed x86_64 binaries"
 syslinux,
 uboot-tools,

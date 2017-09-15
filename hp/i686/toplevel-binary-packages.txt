@@ -119,7 +119,6 @@ m4
 make
 mcstrans
 mdadm
-memtest86+
 microdnf
 mokutil
 nano
@@ -148,7 +147,6 @@ rpcbind
 rpm
 rpm-build
 rsync
-rsyslog
 sed
 selinux-policy
 selinux-policy-minimum

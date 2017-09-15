@@ -144,7 +144,6 @@ rpcbind
 rpm
 rpm-build
 rsync
-rsyslog
 sed
 selinux-policy
 selinux-policy-minimum

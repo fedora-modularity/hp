@@ -110,7 +110,6 @@ Note the lists below are subject to change.
 * `procps-ng`, common utilities
 * `psmisc`, common utilities
 * `rpm`, RPM support
-* `rsyslog`, system logging
 * `sed`, common editor
 * `selinux-policy`, provides the base SELinux reference modular policy
 * `selinux-policy-minimum`, provides the SELinux minimum policy
@@ -276,7 +275,6 @@ These include `kernel-tools`, `ppc64-utils`, `powerpc-utils`,
 * `grub2-tools-extra` (`grub2`;*aarch64, i686, ppc64, ppc64le, x86_64*)
 * `grub2-tools-minimal` (`grub2`; *aarch64, i686, ppc64, ppc64le, x86_64*)
 * `mactel-boot` (*x86_64*)
-* `memtest86+` (*i686, x86_64*)
 * `shim-aa64` (`shim-signed`; *aarch64*), provides the signed aarch64 binaries
 * `shim-ia32` (`shim-signed`; *x86_64*), provides the signed i686 binaries
 * `shim-x64` (`shim-signed`; *x86_64*), provides the signed x86_64 binaries
@@ -430,9 +428,15 @@ For this reason, it might have a toplevel input package list of its own.
 
 * `anaconda-tui` (`anaconda`), used to generate the installation media;
   this is a necessary implementation detail
+* `biosdevname` (*i686, x86_64*), needed to build the `hardware-support`
+  module
 * `lorax`, used to generate the installation media; this is a necessary
   implementation detail
+* `memtest86+` (*i686, x86_64*), needed to build the `hardware-support`
+  module
 * `powerpc-utils` (*ppc64, ppc64le*), needed to build the `hardware-support`
+  module
+* `ppc64-diag` (*ppc64, ppc64le*), needed to build the `hardware-support`
   module
 * `ppc64-utils` (*ppc64, ppc64le*), needed to build the `hardware-support`
   module
