@@ -1,5 +1,6 @@
 alsa-lib
 augeas
+b43-openfwwf
 bash
 bc
 binutils

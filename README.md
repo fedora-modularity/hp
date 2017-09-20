@@ -238,6 +238,7 @@ These include `kernel-tools`, `ppc64-utils`, `powerpc-utils`,
 
 #### Hardware enablement
 
+* `b43-openfwwf`, open firmware for some B43xx chipsets
 * `kernel-bootwrapper` (`kernel`; *ppc64, ppc64le*)
 * `kernel-core` (`kernel`)
 * `kernel-cross-headers` (`kernel`)

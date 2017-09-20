@@ -4,6 +4,7 @@ attr
 audit
 augeas
 authconfig
+b43-openfwwf
 basesystem
 bash
 bash-completion
