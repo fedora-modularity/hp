@@ -156,6 +156,15 @@ Note the lists below are subject to change.
   dependency
 * `docbook-dtds`, Docbook DTDs are a common build dependency
 * `docbook-style-xsl`, Docbook XSLs are a common build dependency
+* `dracut`, initramfs generator
+* `dracut-caps` (`dracut`), provides tools needed to drop capabilities
+* `dracut-config-generic` (`dracut`), provides generic, non-host-specific
+  dracut config
+* `dracut-config-rescue` (`dracut`), provides generic rescue dracut config
+* `dracut-fips` (`dracut`), provides FIPS mode for dracut
+* `dracut-network` (`dracut`), provides tools needed to create generic,
+  network-enabled dracut images
+* `dracut-tools`, (`dracut`), provides tools to create host-based images
 * `fuse-libs`, filesystem in userspace support
 * `glib2`, a very commonly used generic utility library
 * `gpart` (*aarch64, armv7hl, i686, ppc64, ppc64le, x86_64*), partitioning

@@ -27,6 +27,13 @@ dnf
 docbook-dtds
 docbook-style-xsl
 dosfstools
+dracut
+dracut-caps
+dracut-config-generic
+dracut-config-rescue
+dracut-fips
+dracut-network
+dracut-tools
 e2fsprogs
 ebtables
 efibootmgr
