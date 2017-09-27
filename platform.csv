@@ -121,6 +121,7 @@ publicsuffix-list,"provides cross-vendor public domain suffix database; provides
 quota,"filesystem quota support, required for NFS"
 readline,"a line-editing library, similar to libedit"
 redhat-rpm-config,"base RPM macros"
+rootfiles,"basic files for the root's home"
 rpcbind,"universal addresses to RPC program number mapper, required for NFS"
 rpm,"RPM support; RPM build tools"
 rsync,"provides a tool for files and directories synchronization"

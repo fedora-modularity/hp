@@ -109,6 +109,7 @@ Note the lists below are subject to change.
   appropriate Platform extension module
 * `procps-ng`, common utilities
 * `psmisc`, common utilities
+* `rootfiles`, basic files for the root's home
 * `rpm`, RPM support
 * `sed`, common editor
 * `selinux-policy`, provides the base SELinux reference modular policy

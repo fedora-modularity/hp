@@ -148,6 +148,7 @@ publicsuffix-list-dafsa
 quota
 readline
 redhat-rpm-config
+rootfiles
 rpcbind
 rpm
 rpm-build
