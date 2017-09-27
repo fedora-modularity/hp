@@ -451,3 +451,4 @@ For this reason, it might have a toplevel input package list of its own.
 * `ppc64-utils` (*ppc64, ppc64le*), needed to build the `hardware-support`
   module
 * `s390utils` (*s390x*), needed to build the `hardware-support` module
+* `strace`, needed for pungi generate installation media
