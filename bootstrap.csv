@@ -2,7 +2,7 @@ anaconda,"used to generate the installation media; this is a necessary implement
 biosdevname,"needed to build the `hardware-support` module"
 lorax,"used to generate the installation media; this is a necessary implementation detail"
 memtest86+,"needed to build the `hardware-support` module"
-powerpc-utils,"needed to build the `hardware-support` module"
+powerpc-utils,"needed to build the `hardware-support` module; needed to build the `hardware-support` module; needed to build the `hardware-support` module"
 ppc64-diag,"needed to build the `hardware-support` module"
 ppc64-utils,"needed to build the `hardware-support` module"
 s390utils,"needed to build the `hardware-support` module"

@@ -89,6 +89,7 @@ Note the lists below are subject to change.
 * `libusbx`, USB hardware enablement
 * `libyaml`, YAML support, required for modularity
 * `lldpad`, a link layer discovery daemon with enhanced ethernet support
+* `man-db`, Tools for searching and reading man pages
 * `mcstrans`, provides a SELinux translation daemon
 * `mdadm`, provides support for software RAID
 * `microdnf`, minimized DNF package manager
@@ -150,6 +151,7 @@ Note the lists below are subject to change.
 * `bc`, provides a numeric processing language and calculator
 * `c-ares`, a tiny DNS client library
 * `chrpath`, rpath manipulation, required for bundling binary dependencies
+* `cmake-filesystem` (`cmake`), Cross-platform make system
 * `compat-openssl10`, OpenSSL 1.0 compatibility package; to be removed once
   nothing in the set requires it
 * `dbus-glib`, D-Bus support for GLib packages
@@ -232,7 +234,6 @@ Note the lists below are subject to change.
 * `usermode`, tools for user account management tasks
 * `volume_key`, provides tools for manipulating storage volume encryption keys
 * `xml-common` (`sgml-common`), common XML catalogs
-* `xmlrpc-c`, provides a lightweight RPC library
 * `zlib`, a common compression library
 
 ### `host`
@@ -447,9 +448,13 @@ For this reason, it might have a toplevel input package list of its own.
   module
 * `powerpc-utils` (*ppc64, ppc64le*), needed to build the `hardware-support`
   module
+* `powerpc-utils-core` (`powerpc-utils`; *ppc64, ppc64le*), needed to build the
+  `hardware-support` module
 * `ppc64-diag` (*ppc64, ppc64le*), needed to build the `hardware-support`
   module
 * `ppc64-utils` (*ppc64, ppc64le*), needed to build the `hardware-support`
   module
+* `powerpc-utils-core` (`powerpc-utils`; *ppc64, ppc64le*), needed to build the
+  `hardware-support` module
 * `s390utils` (*s390x*), needed to build the `hardware-support` module
 * `strace`, needed for pungi generate installation media

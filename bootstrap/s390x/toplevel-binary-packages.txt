@@ -22,6 +22,7 @@ chrony
 chrpath
 cloud-init
 cloud-utils-growpart
+cmake-filesystem
 cockpit-bridge
 cockpit-docker
 cockpit-networkmanager
@@ -135,6 +136,7 @@ lsscsi
 lvm2
 m4
 make
+man-db
 mcstrans
 mdadm
 microdnf
@@ -214,7 +216,6 @@ volume_key
 which
 xfsprogs
 xml-common
-xmlrpc-c
 xz
 zlib
 zstd
