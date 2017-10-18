@@ -248,6 +248,7 @@ volume_key
 which
 xfsprogs
 xml-common
+xmlrpc-c
 xz
 zlib
 zstd

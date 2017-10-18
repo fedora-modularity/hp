@@ -181,6 +181,7 @@ util-linux
 volume_key
 xfsprogs
 xml-common
+xmlrpc-c
 xz
 zlib
 zstd

@@ -234,6 +234,7 @@ Note the lists below are subject to change.
 * `usermode`, tools for user account management tasks
 * `volume_key`, provides tools for manipulating storage volume encryption keys
 * `xml-common` (`sgml-common`), common XML catalogs
+* `xmlrpc-c`, provides a lightweight RPC library
 * `zlib`, a common compression library
 
 ### `host`
