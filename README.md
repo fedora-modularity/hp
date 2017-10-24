@@ -288,6 +288,7 @@ These include `kernel-tools`, `ppc64-utils`, `powerpc-utils`,
 * `grub2-tools-extra` (`grub2`;*aarch64, i686, ppc64, ppc64le, x86_64*)
 * `grub2-tools-minimal` (`grub2`; *aarch64, i686, ppc64, ppc64le, x86_64*)
 * `mactel-boot` (*x86_64*)
+* `plymouth`
 * `shim-aa64` (`shim-signed`; *aarch64*), provides the signed aarch64 binaries
 * `shim-ia32` (`shim-signed`; *x86_64*), provides the signed i686 binaries
 * `shim-x64` (`shim-signed`; *x86_64*), provides the signed x86_64 binaries

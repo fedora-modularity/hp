@@ -166,6 +166,7 @@ parted
 passwd
 patch
 pciutils
+plymouth
 policycoreutils
 policycoreutils-python-utils
 powerpc-utils
