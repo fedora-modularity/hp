@@ -6,7 +6,7 @@ adwaita-qt4
 adwaita-qt5
 aide
 alsa-lib
-anaconda-tui
+anaconda
 apr
 apr-devel
 apr-util

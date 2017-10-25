@@ -443,7 +443,7 @@ For this reason, it might have a toplevel input package list of its own.
 
 ## Required for composes
 
-* `anaconda-tui` (`anaconda`), used to generate the installation media;
+* `anaconda`, used to generate the installation media;
   this is a necessary implementation detail
 * `biosdevname` (*i686, x86_64*), needed to build the `hardware-support`
   module
