@@ -105,7 +105,6 @@ Note the lists below are subject to change.
 * `parted`, provides the common disk partition manipulation program
 * `passwd`, password configuration utility
 * `pciutils`, provides PCI bus related utilities
-* `pulseaudio`, provides sound facilities
 * `policycoreutils`, provides utilities for SELinux-enabled system management;
   tools implemented using non-Platform dynamic languages can be found in the
   appropriate Platform extension module
