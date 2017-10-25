@@ -824,6 +824,7 @@ procps-ng
 psmisc
 publicsuffix-list
 publicsuffix-list-dafsa
+pulseaudio
 python-docker-py
 python-pwquality
 python2

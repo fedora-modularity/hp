@@ -149,6 +149,7 @@ procps-ng
 psmisc
 publicsuffix-list
 publicsuffix-list-dafsa
+pulseaudio
 quota
 readline
 redhat-rpm-config
