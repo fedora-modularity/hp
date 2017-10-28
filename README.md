@@ -85,6 +85,8 @@ Note the lists below are subject to change.
 * `libgcc` (`gcc`), C runtime
 * `libpciaccess`, PCI hardware enablement
 * `libstdc++` (`gcc`), C++ runtime
+* `libtalloc`, Hierarchical memory allocator
+* `libtevent`, Mainloop built atop libtalloc
 * `libusb`, USB hardware enablement
 * `libusbx`, USB hardware enablement
 * `libyaml`, YAML support, required for modularity

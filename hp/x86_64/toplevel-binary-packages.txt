@@ -119,6 +119,8 @@ libsecret
 libssh
 libssh2
 libstdc++
+libtalloc
+libtevent
 libtiff
 libtirpc
 libunwind

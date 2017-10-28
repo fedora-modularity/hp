@@ -456,6 +456,8 @@ libsss_simpleifp
 libsss_simpleifp-devel
 libsss_sudo
 libstdc++
+libtalloc
+libtevent
 libtiff
 libtirpc
 libunwind
