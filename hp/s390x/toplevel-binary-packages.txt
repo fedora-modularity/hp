@@ -113,6 +113,7 @@ libyaml
 linux-firmware
 lksctp-tools
 lldpad
+logrotate
 lsof
 lsscsi
 m4
@@ -173,6 +174,7 @@ unzip
 usermode
 util-linux
 volume_key
+words
 xfsprogs
 xml-common
 xmlrpc-c

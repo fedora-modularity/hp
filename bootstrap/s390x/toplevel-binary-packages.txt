@@ -498,6 +498,7 @@ lksctp-tools-devel
 lldpad
 lldpd
 lldpd-devel
+logrotate
 lorax
 lsof
 lsscsi
@@ -1200,6 +1201,7 @@ wayland-protocols-devel
 webkitgtk4
 wget
 which
+words
 wpa_supplicant
 wvdial
 xfsprogs

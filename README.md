@@ -91,6 +91,7 @@ Note the lists below are subject to change.
 * `libusbx`, USB hardware enablement
 * `libyaml`, YAML support, required for modularity
 * `lldpad`, a link layer discovery daemon with enhanced ethernet support
+* `logrotate`, Rotates, compresses, removes and mails system log files
 * `man-db`, Tools for searching and reading man pages
 * `mcstrans`, provides a SELinux translation daemon
 * `mdadm`, provides support for software RAID
@@ -127,6 +128,7 @@ Note the lists below are subject to change.
 * `tar`, base compression support
 * `util-linux`, common utilities
 * `unzip`, base compression support
+* `words`, A dictionary of English words for the /usr/share/dict directory
 * `xfsprogs`, XFS support
 * `xz`, base compression support
 * `zstd`, base compression support
