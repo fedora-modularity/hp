@@ -10,6 +10,7 @@ byacc
 bzip2
 c-ares
 checkpolicy
+checksec
 chrpath
 cmake-filesystem
 cockpit-bridge
@@ -131,6 +132,7 @@ man-db
 mcstrans
 mdadm
 microdnf
+multilib-rpm-config
 nano
 ncurses
 nettle

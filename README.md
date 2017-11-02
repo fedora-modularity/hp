@@ -154,6 +154,7 @@ Note the lists below are subject to change.
 * `augeas`, provides a library for manipulating configuration files
 * `bc`, provides a numeric processing language and calculator
 * `c-ares`, a tiny DNS client library
+* `checksec`, a tool for checking binary hardening
 * `chrpath`, rpath manipulation, required for bundling binary dependencies
 * `cmake-filesystem` (`cmake`), Cross-platform make system
 * `compat-openssl10`, OpenSSL 1.0 compatibility package; to be removed once
@@ -214,6 +215,7 @@ Note the lists below are subject to change.
 * `lsof`, lists open files; a common system management utility
 * `lsscsi`, SCSI listing tools
 * `libsecret`, provides a common password manager and its interface library
+* `multilib-rpm-config`, a collection of tools to simplify multilib packaging
 * `ncurses`, a common TUI interface library and terminfo database
 * `npth`, new portable threads library
 * `openjpeg2`, provides support for the JPEG 2000 image format

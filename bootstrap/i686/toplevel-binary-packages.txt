@@ -68,6 +68,7 @@ cassandra
 cassandra-server
 certmonger
 checkpolicy
+checksec
 chrony
 chrpath
 cifs-utils
@@ -577,6 +578,7 @@ mongo-c-driver-devel
 mongo-cxx-driver-devel
 mongodb
 mongodb-server
+multilib-rpm-config
 nano
 ncurses
 net-tools
