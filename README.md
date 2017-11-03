@@ -471,16 +471,42 @@ For this reason, it might have a toplevel input package list of its own.
 
 ## Additional buildroot packages
 
-* `adcli`
+* `a2ps`
+* `aajohan-comfortaa-fonts`
+* `abattis-cantarell-fonts`
+* `acl`
+* `acpica-tools`
+* `acpid` (*aarch64, i686, armv7hl, x86_64*)
 * `adcli-doc` (`adcli`)
-* `adwaita-qt`
+* `adcli`
+* `adobe-source-han-sans-cn-fonts`
+* `adobe-source-han-sans-tw-fonts`
+* `adobe-source-han-serif-cn-fonts`
+* `adobe-source-han-serif-tw-fonts`
+* `adwaita-qt-common` (`adwaita-qt`)
 * `adwaita-qt4` (`adwaita-qt`)
 * `adwaita-qt5` (`adwaita-qt`)
-* `adwaita-qt-common` (`adwaita-qt`)
+* `adwaita-qt`
 * `aide`
-* `apr`
+* `alsa-firmware`
+* `alsa-lib-devel` (`alsa-lib`)
+* `alsa-lib`
+* `alsa-plugins-arcamav` (`alsa-plugins`)
+* `alsa-plugins-jack` (`alsa-plugins`)
+* `alsa-plugins-maemo` (`alsa-plugins`)
+* `alsa-plugins-oss` (`alsa-plugins`)
+* `alsa-plugins-pulseaudio` (`alsa-plugins`)
+* `alsa-plugins-samplerate` (`alsa-plugins`)
+* `alsa-plugins-speex` (`alsa-plugins`)
+* `alsa-plugins-upmix` (`alsa-plugins`)
+* `alsa-plugins-usbstream` (`alsa-plugins`)
+* `alsa-plugins-vdownmix` (`alsa-plugins`)
+* `alsa-tools-firmware` (`alsa-tools`)
+* `alsa-tools`
+* `alsa-ucm` (`alsa-lib`)
+* `alsa-utils-alsabat` (`alsa-utils`)
+* `alsa-utils`
 * `apr-devel` (`apr`)
-* `apr-util`
 * `apr-util-bdb` (`apr-util`)
 * `apr-util-devel` (`apr-util`)
 * `apr-util-ldap` (`apr-util`)
@@ -489,41 +515,119 @@ For this reason, it might have a toplevel input package list of its own.
 * `apr-util-openssl` (`apr-util`)
 * `apr-util-pgsql` (`apr-util`)
 * `apr-util-sqlite` (`apr-util`)
+* `apr-util`
+* `apr`
+* `arpwatch`
 * `at`
+* `atlas-corei2-devel` (`atlas`; *x86_64*)
+* `atlas-corei2-static` (`atlas`; *x86_64*)
+* `atlas-corei2` (`atlas`; *x86_64*)
+* `atlas-devel` (`atlas`)
+* `atlas-power7-devel` (`atlas`; *ppc64*)
+* `atlas-power7-static` (`atlas`; *ppc64*)
+* `atlas-power7` (`atlas`; *ppc64*)
+* `atlas-power8-devel` (`atlas`; *ppc64*)
+* `atlas-power8-static` (`atlas`; *ppc64*)
+* `atlas-power8` (`atlas`; *ppc64*)
+* `atlas-static` (`atlas`)
+* `atlas-z10-devel` (`atlas`; *s390x*)
+* `atlas-z10-static` (`atlas`; *s390x*)
+* `atlas-z10` (`atlas`; *s390x*)
+* `atlas-z196-devel` (`atlas`; *s390x*)
+* `atlas-z196-static` (`atlas`; *s390x*)
+* `atlas-z196` (`atlas`; *s390x*)
+* `atlas`
+* `attr`
 * `audispd-plugins` (`audit`)
-* `audit`
-* `audit-libs` (`audit`)
 * `audit-libs-python3` (`audit`)
 * `audit-libs-python` (`audit`)
-* `authselect`
+* `audit-libs` (`audit`)
+* `audit`
 * `authselect-libs` (`authselect`)
+* `authselect`
 * `autofs`
-* `avahi`
 * `avahi-tools` (`avahi`)
-* `bind`
+* `avahi`
+* `bash-completion`
+* `bash-doc` (`bash`)
+* `bash`
 * `bind-chroot` (`bind`)
 * `bind-dyndb-ldap`
-* `bind-pkcs11` (`bind`)
 * `bind-pkcs11-utils` (`bind`)
-* `bind-sdb` (`bind`)
+* `bind-pkcs11` (`bind`)
 * `bind-sdb-chroot` (`bind`)
+* `bind-sdb` (`bind`)
 * `bind-utils` (`bind`)
+* `bind`
+* `biosdevname` (*i686, x86_64*)
+* `blas-devel` (`lapack`)
+* `blas-static` (`lapack`)
+* `blas64-devel` (`lapack`; *ppc64, aarch64, ppc64le, s390x, x86_64*)
+* `blas64-static` (`lapack`; *ppc64, aarch64, ppc64le, s390x, x86_64*)
+* `blas64` (`lapack`; *ppc64, aarch64, ppc64le, s390x, x86_64*)
+* `blas` (`lapack`)
 * `blktrace`
+* `bltk`
+* `bluez-cups` (`bluez`)
+* `bluez-hid2hci` (`bluez`)
+* `bluez-libs-devel` (`bluez`)
+* `bluez-libs` (`bluez`)
+* `bluez-obexd` (`bluez`)
 * `bluez`
-* `booth`
 * `booth-arbitrator` (`booth`)
 * `booth-core` (`booth`)
 * `booth-site` (`booth`)
 * `booth-test` (`booth`)
-* `cabal-install`
+* `booth`
+* `bpg-algeti-fonts` (`bpg-fonts`)
+* `bpg-chveulebrivi-fonts` (`bpg-fonts`)
+* `bpg-classic-fonts` (`bpg-fonts`)
+* `bpg-courier-fonts` (`bpg-fonts`)
+* `bpg-courier-s-fonts` (`bpg-fonts`)
+* `bpg-dedaena-block-fonts` (`bpg-fonts`)
+* `bpg-dejavu-sans-fonts` (`bpg-fonts`)
+* `bpg-elite-fonts` (`bpg-fonts`)
+* `bpg-excelsior-caps-fonts` (`bpg-fonts`)
+* `bpg-excelsior-condenced-fonts` (`bpg-fonts`)
+* `bpg-excelsior-fonts` (`bpg-fonts`)
+* `bpg-fonts-common` (`bpg-fonts`)
+* `bpg-glaho-fonts` (`bpg-fonts`)
+* `bpg-gorda-fonts` (`bpg-fonts`)
+* `bpg-ingiri-fonts` (`bpg-fonts`)
+* `bpg-irubaqidze-fonts` (`bpg-fonts`)
+* `bpg-mikhail-stephan-fonts` (`bpg-fonts`)
+* `bpg-mrgvlovani-caps-fonts` (`bpg-fonts`)
+* `bpg-mrgvlovani-fonts` (`bpg-fonts`)
+* `bpg-nateli-caps-fonts` (`bpg-fonts`)
+* `bpg-nateli-condenced-fonts` (`bpg-fonts`)
+* `bpg-nateli-fonts` (`bpg-fonts`)
+* `bpg-nino-medium-cond-fonts` (`bpg-fonts`)
+* `bpg-nino-medium-fonts` (`bpg-fonts`)
+* `bpg-sans-fonts` (`bpg-fonts`)
+* `bpg-sans-medium-fonts` (`bpg-fonts`)
+* `bpg-sans-modern-fonts` (`bpg-fonts`)
+* `bpg-sans-regular-fonts` (`bpg-fonts`)
+* `bpg-serif-fonts` (`bpg-fonts`)
+* `bpg-serif-modern-fonts` (`bpg-fonts`)
+* `bpg-ucnobi-fonts` (`bpg-fonts`)
+* `brlapi-java` (`brltty`)
+* `brlapi` (`brltty`)
+* `brltty-at-spi2` (`brltty`)
+* `brltty-xw` (`brltty`)
+* `brltty`
+* `c2esp`
 * `ca-certificates`
+* `cabal-install`
 * `cachefilesd`
-* `cassandra`
 * `cassandra-server` (`cassandra`)
+* `cassandra`
 * `certmonger`
+* `cgdcbxd`
 * `checkpolicy`
+* `chkconfig`
 * `chrony`
 * `cifs-utils`
+* `clevis`
 * `cloud-init`
 * `clufter-bin` (`clufter`)
 * `clufter-cli` (`clufter`)
@@ -531,22 +635,53 @@ For this reason, it might have a toplevel input package list of its own.
 * `clufter-lib-ccs` (`clufter`)
 * `clufter-lib-general` (`clufter`)
 * `clufter-lib-pcs` (`clufter`)
+* `cmirror-standalone` (`lvm2`)
+* `cmirror` (`lvm2`)
 * `compat-openssl10`
 * `conntrack-tools`
-* `corosync`
-* `corosynclib` (`corosync`)
-* `corosynclib-devel` (`corosync`)
 * `corosync-qdevice` (`corosync`)
 * `corosync-qnetd` (`corosync`)
+* `corosync`
+* `corosynclib-devel` (`corosync`)
+* `corosynclib` (`corosync`)
+* `cpuid` (*i686, x86_64*)
 * `cracklib-dicts` (`cracklib`)
-* `cronie`
+* `crda-devel` (`crda`)
+* `crda`
+* `createrepo_c-devel` (`createrepo_c`)
+* `createrepo_c-libs` (`createrepo_c`)
+* `createrepo_c`
 * `cronie-anacron` (`cronie`)
 * `cronie-noanacron` (`cronie`)
+* `cronie`
 * `crontabs`
-* `ctdb` (`samba`)
+* `cryptsetup-devel` (`cryptsetup`)
+* `cryptsetup-libs` (`cryptsetup`)
+* `cryptsetup-python3` (`cryptsetup`)
+* `cryptsetup-reencrypt` (`cryptsetup`)
+* `cryptsetup`
+* `cscope`
 * `ctdb-tests` (`samba`)
-* `cups`
+* `ctdb` (`samba`)
+* `culmus-aharoni-clm-fonts` (`culmus-fonts`)
+* `culmus-caladings-clm-fonts` (`culmus-fonts`)
+* `culmus-david-clm-fonts` (`culmus-fonts`)
+* `culmus-drugulin-clm-fonts` (`culmus-fonts`)
+* `culmus-ellinia-clm-fonts` (`culmus-fonts`)
+* `culmus-fonts-common` (`culmus-fonts`)
+* `culmus-frank-ruehl-clm-fonts` (`culmus-fonts`)
+* `culmus-hadasim-clm-fonts` (`culmus-fonts`)
+* `culmus-keteryg-fonts` (`culmus-fonts`)
+* `culmus-miriam-clm-fonts` (`culmus-fonts`)
+* `culmus-miriam-mono-clm-fonts` (`culmus-fonts`)
+* `culmus-nachlieli-clm-fonts` (`culmus-fonts`)
+* `culmus-shofar-fonts` (`culmus-fonts`)
+* `culmus-simple-clm-fonts` (`culmus-fonts`)
+* `culmus-stamashkenaz-clm-fonts` (`culmus-fonts`)
+* `culmus-stamsefarad-clm-fonts` (`culmus-fonts`)
+* `culmus-yehuda-clm-fonts` (`culmus-fonts`)
 * `cups-filters`
+* `cups`
 * `custodia`
 * `cyrus-imapd`
 * `cyrus-sasl-gs2` (`cyrus-sasl`)
@@ -558,34 +693,90 @@ For this reason, it might have a toplevel input package list of its own.
 * `cyrus-sasl-plain` (`cyrus-sasl`)
 * `cyrus-sasl-scram` (`cyrus-sasl`)
 * `cyrus-sasl-sql` (`cyrus-sasl`)
+* `dash`
+* `daxctl-devel` (`ndctl`)
+* `daxctl-libs` (`ndctl`)
+* `daxctl` (`ndctl`)
 * `dconf-editor`
+* `debugmode` (`initscripts`)
+* `dejavu-sans-fonts` (`dejavu-fonts`)
+* `dejavu-sans-mono-fonts` (`dejavu-fonts`)
+* `dejavu-serif-fonts` (`dejavu-fonts`)
+* `deltaiso` (`deltarpm`)
+* `deltarpm`
+* `device-mapper-devel` (`lvm2`)
+* `device-mapper-event-devel` (`lvm2`)
+* `device-mapper-event-libs` (`lvm2`)
+* `device-mapper-event` (`lvm2`)
+* `device-mapper-libs` (`lvm2`)
+* `device-mapper-multipath-devel` (`device-mapper-multipath`)
+* `device-mapper-multipath-libs` (`device-mapper-multipath`)
+* `device-mapper-multipath`
+* `device-mapper-persistent-data`
+* `device-mapper` (`lvm2`)
 * `dhcp-client` (`dhcp`)
+* `dhcp-common` (`dhcp`)
+* `dhcp-compat` (`dhcp`)
+* `dhcp-devel-doc` (`dhcp`)
+* `dhcp-devel` (`dhcp`)
+* `dhcp-libs` (`dhcp`)
+* `dhcp-relay` (`dhcp`)
 * `dhcp-server` (`dhcp`)
-* `dnsmasq`
+* `dlm-devel` (`dlm`)
+* `dlm-lib` (`dlm`)
+* `dlm`
+* `dmraid-devel` (`dmraid`)
+* `dmraid-events-logwatch` (`dmraid`)
+* `dmraid-events` (`dmraid`)
+* `dmraid`
+* `dnf-automatic` (`dnf`)
+* `dnf-conf` (`dnf`)
+* `dnf-plugin-subscription-manager` (`subscription-manager`)
+* `dnf-plugins-core`
+* `dnf-utils` (`dnf-plugins-core`)
+* `dnf-yum` (`dnf`)
+* `dnf`
 * `dnsmasq-utils` (`dnsmasq`)
+* `dnsmasq`
 * `dovecot`
-* `dpdk` (*aarch64, i686, ppc64le, x86_64*)
-* `dpdk-devel` (`dpdk`; *aarch64, i686, ppc64le, x86_64*)
-* `dpdk-examples` (`dpdk`; *aarch64, i686, ppc64le, x86_64*)
-* `dpdk-tools` (`dpdk`; *aarch64, i686, ppc64le, x86_64*)
+* `dpdk-devel` (`dpdk`; *aarch64, ppc64le, i686, x86_64*)
+* `dpdk-doc` (`dpdk`; *aarch64, ppc64le, i686, x86_64*)
+* `dpdk-examples` (`dpdk`; *aarch64, ppc64le, i686, x86_64*)
+* `dpdk-tools` (`dpdk`; *aarch64, ppc64le, i686, x86_64*)
+* `dpdk` (*aarch64, ppc64le, i686, x86_64*)
 * `driverctl`
+* `dropwatch`
+* `drpmsync` (`deltarpm`)
+* `dstat`
 * `e2fsprogs`
 * `ebtables`
+* `emacs-common` (`emacs`)
+* `emacs-filesystem` (`emacs`)
 * `emacs-haskell-mode`
+* `emacs-lucid` (`emacs`)
+* `emacs-nox` (`emacs`)
+* `emacs-terminal` (`emacs`)
+* `emacs`
+* `enchant-voikko` (`enchant`)
+* `enscript`
+* `environment-modules`
 * `erlang-libguestfs` (`libguestfs`)
-* `evince`
+* `ethtool`
 * `evince-browser-plugin` (`evince`)
 * `evince-dvi` (`evince`)
 * `evince-nautilus` (`evince`)
-* `evolution`
+* `evince`
 * `evolution-ews`
 * `evolution-mapi`
+* `evolution`
+* `fabtests`
+* `fcoe-utils`
 * `fence-agents-all` (`fence-agents`)
 * `fence-agents-alom` (`fence-agents`)
-* `fence-agents-amt` (`fence-agents`)
 * `fence-agents-amt-ws` (`fence-agents`)
-* `fence-agents-apc` (`fence-agents`)
+* `fence-agents-amt` (`fence-agents`)
 * `fence-agents-apc-snmp` (`fence-agents`)
+* `fence-agents-apc` (`fence-agents`)
 * `fence-agents-bladecenter` (`fence-agents`)
 * `fence-agents-brocade` (`fence-agents`)
 * `fence-agents-cisco-mds` (`fence-agents`)
@@ -602,10 +793,10 @@ For this reason, it might have a toplevel input package list of its own.
 * `fence-agents-hpblade` (`fence-agents`)
 * `fence-agents-ibmblade` (`fence-agents`)
 * `fence-agents-ifmib` (`fence-agents`)
-* `fence-agents-ilo2` (`fence-agents`)
 * `fence-agents-ilo-moonshot` (`fence-agents`)
 * `fence-agents-ilo-mp` (`fence-agents`)
 * `fence-agents-ilo-ssh` (`fence-agents`)
+* `fence-agents-ilo2` (`fence-agents`)
 * `fence-agents-intelmodular` (`fence-agents`)
 * `fence-agents-ipdu` (`fence-agents`)
 * `fence-agents-ipmilan` (`fence-agents`)
@@ -626,101 +817,371 @@ For this reason, it might have a toplevel input package list of its own.
 * `fence-agents-scsi` (`fence-agents`)
 * `fence-agents-vbox` (`fence-agents`)
 * `fence-agents-virsh` (`fence-agents`)
-* `fence-agents-vmware` (`fence-agents`)
 * `fence-agents-vmware-soap` (`fence-agents`)
+* `fence-agents-vmware` (`fence-agents`)
 * `fence-agents-wti` (`fence-agents`)
 * `fence-agents-xenapi` (`fence-agents`)
 * `fence-agents-zvm` (`fence-agents`)
+* `fence-sanlock` (`sanlock`)
 * `fence-virt`
 * `fence-virtd-cpg` (`fence-virt`)
-* `fence-virtd` (`fence-virt`)
 * `fence-virtd-libvirt` (`fence-virt`)
 * `fence-virtd-multicast` (`fence-virt`)
 * `fence-virtd-serial` (`fence-virt`)
 * `fence-virtd-tcp` (`fence-virt`)
+* `fence-virtd` (`fence-virt`)
+* `file-devel` (`file`)
+* `file-libs` (`file`)
+* `file`
+* `findutils`
 * `fio`
-* `fipscheck`
 * `fipscheck-devel` (`fipscheck`)
 * `fipscheck-lib` (`fipscheck`)
+* `fipscheck`
 * `firefox`
 * `firewalld`
-* `fltk`
 * `fltk-devel` (`fltk`)
 * `fltk-fluid` (`fltk`)
 * `fltk-static` (`fltk`)
+* `fltk`
+* `foomatic-db-ppds` (`foomatic-db`)
+* `foomatic`
 * `freeipa-client-common` (`freeipa`)
 * `freeipa-client` (`freeipa`)
 * `freeipa-common` (`freeipa`)
 * `freeipa-python-compat` (`freeipa`)
 * `freeipa-server-common` (`freeipa`)
 * `freeipa-server-dns` (`freeipa`)
-* `freeipa-server` (`freeipa`)
 * `freeipa-server-trust-ad` (`freeipa`)
+* `freeipa-server` (`freeipa`)
 * `freeradius`
-* `freerdp`
 * `freerdp-devel` (`freerdp`)
 * `freerdp-libs` (`freerdp`)
+* `freerdp`
 * `ftp`
+* `fxload`
 * `galera`
+* `genwqe-tools`
+* `genwqe-vpd` (`genwqe-tools`)
+* `genwqe-zlib-devel` (`genwqe-tools`)
+* `genwqe-zlib-static` (`genwqe-tools`)
+* `genwqe-zlib` (`genwqe-tools`)
 * `gfs2-utils`
 * `ghc`
+* `gmp-c++` (`gmp`)
+* `gmp-devel` (`gmp`)
+* `gmp-static` (`gmp`)
+* `gmp`
 * `gnome-boxes`
 * `gnome-session-wayland-session` (`gnome-session`)
-* `gnupg2`
+* `gnu-free-mono-fonts` (`gnu-free-fonts`)
+* `gnu-free-sans-fonts` (`gnu-free-fonts`)
+* `gnu-free-serif-fonts` (`gnu-free-fonts`)
 * `gnupg2-smime` (`gnupg2`)
-* `gnutls`
+* `gnupg2`
 * `gnutls-dane` (`gnutls`)
 * `gnutls-devel` (`gnutls`)
 * `gnutls-utils` (`gnutls`)
+* `gnutls`
+* `google-crosextra-caladea-fonts`
+* `google-crosextra-carlito-fonts`
+* `google-noto-cjk-fonts`
+* `google-noto-sans-lisu-fonts` (`google-noto-fonts`)
+* `google-noto-sans-mandaic-fonts` (`google-noto-fonts`)
+* `google-noto-sans-meetei-mayek-fonts` (`google-noto-fonts`)
+* `google-noto-sans-tagalog-fonts` (`google-noto-fonts`)
+* `google-noto-sans-tai-tham-fonts` (`google-noto-fonts`)
+* `google-noto-sans-tai-viet-fonts` (`google-noto-fonts`)
+* `gperftools-devel` (`gperftools`)
+* `gperftools-libs` (`gperftools`)
+* `gperftools`
+* `grep`
 * `gssproxy`
+* `gtk2-immodule-xim` (`gtk2`)
+* `gtk3-immodule-xim` (`gtk3`)
+* `gubbi-fonts`
+* `gutenprint-cups` (`gutenprint`)
+* `gutenprint-doc` (`gutenprint`)
 * `haproxy`
 * `haskell-platform`
-* `highcontrast-qt`
 * `highcontrast-qt4` (`highcontrast-qt`)
 * `highcontrast-qt5` (`highcontrast-qt`)
-* `hivex`
+* `highcontrast-qt`
 * `hivex-devel` (`hivex`)
 * `hivex-static` (`hivex`)
+* `hivex`
 * `hlint`
-* `httpd`
+* `hplip-gui` (`hplip`)
+* `hplip`
 * `httpd-devel` (`httpd`)
 * `httpd-filesystem` (`httpd`)
 * `httpd-manual` (`httpd`)
 * `httpd-tools` (`httpd`)
-* `ibacm` (`rdma-core`; *ppc64, i686, aarch64, x86_64, s390x, ppc64le*)
+* `httpd`
+* `hunspell-af`
+* `hunspell-ak`
+* `hunspell-am`
+* `hunspell-ar`
+* `hunspell-as`
+* `hunspell-ast`
+* `hunspell-az`
+* `hunspell-be`
+* `hunspell-ber`
+* `hunspell-bg`
+* `hunspell-bn`
+* `hunspell-br`
+* `hunspell-ca`
+* `hunspell-cop`
+* `hunspell-csb`
+* `hunspell-cv`
+* `hunspell-cy`
+* `hunspell-da`
+* `hunspell-de`
+* `hunspell-dsb`
+* `hunspell-el`
+* `hunspell-en`
+* `hunspell-eo`
+* `hunspell-es`
+* `hunspell-et`
+* `hunspell-eu`
+* `hunspell-fa`
+* `hunspell-fj`
+* `hunspell-fo`
+* `hunspell-fr`
+* `hunspell-fur`
+* `hunspell-fy`
+* `hunspell-ga`
+* `hunspell-gd`
+* `hunspell-gl`
+* `hunspell-grc`
+* `hunspell-gu`
+* `hunspell-gv`
+* `hunspell-haw`
+* `hunspell-hi`
+* `hunspell-hil`
+* `hunspell-hr`
+* `hunspell-hsb`
+* `hunspell-ht`
+* `hunspell-hu`
+* `hunspell-hy`
+* `hunspell-ia`
+* `hunspell-id`
+* `hunspell-is`
+* `hunspell-it`
+* `hunspell-kk`
+* `hunspell-km`
+* `hunspell-kn`
+* `hunspell-ko`
+* `hunspell-ku`
+* `hunspell-ky`
+* `hunspell-la`
+* `hunspell-lb`
+* `hunspell-ln`
+* `hunspell-lt`
+* `hunspell-mai`
+* `hunspell-mg`
+* `hunspell-mi`
+* `hunspell-mk`
+* `hunspell-ml`
+* `hunspell-mn`
+* `hunspell-mos`
+* `hunspell-mr`
+* `hunspell-ms`
+* `hunspell-mt`
+* `hunspell-nb` (`hunspell-no`)
+* `hunspell-nds`
+* `hunspell-ne`
+* `hunspell-nl`
+* `hunspell-nn` (`hunspell-no`)
+* `hunspell-nr`
+* `hunspell-nso`
+* `hunspell-ny`
+* `hunspell-oc`
+* `hunspell-om`
+* `hunspell-or`
+* `hunspell-pa`
+* `hunspell-pl`
+* `hunspell-pt`
+* `hunspell-qu`
+* `hunspell-quh`
+* `hunspell-ro`
+* `hunspell-ru`
+* `hunspell-rw`
+* `hunspell-sc`
+* `hunspell-se`
+* `hunspell-shs`
+* `hunspell-si`
+* `hunspell-sk`
+* `hunspell-sl`
+* `hunspell-smj`
+* `hunspell-so`
+* `hunspell-sq`
+* `hunspell-sr`
+* `hunspell-ss`
+* `hunspell-st`
+* `hunspell-sv`
+* `hunspell-sw`
+* `hunspell-ta`
+* `hunspell-te`
+* `hunspell-tet`
+* `hunspell-th`
+* `hunspell-ti`
+* `hunspell-tk`
+* `hunspell-tl`
+* `hunspell-tn`
+* `hunspell-tpi`
+* `hunspell-ts`
+* `hunspell-uk`
+* `hunspell-ur`
+* `hunspell-uz`
+* `hunspell-ve`
+* `hunspell-vi`
+* `hunspell-wa`
+* `hunspell-xh`
+* `hunspell-yi`
+* `hunspell-zu`
+* `hwloc-devel` (`hwloc`)
+* `hwloc-gui` (`hwloc`)
+* `hwloc-libs` (`hwloc`)
+* `hwloc-plugins` (`hwloc`)
+* `hwloc`
+* `hyphen-af` (`zaf`)
+* `hyphen-nb` (`hunspell-no`)
+* `hyphen-nn` (`hunspell-no`)
+* `hyphen-zu` (`zaf`)
+* `i2c-tools-eepromer` (`i2c-tools`; *ppc64, aarch64, ppc64le, i686, armv7hl, x86_64*)
+* `i2c-tools-perl` (`i2c-tools`; *ppc64, aarch64, ppc64le, i686, armv7hl, x86_64*)
+* `i2c-tools` (*ppc64, aarch64, ppc64le, i686, armv7hl, x86_64*)
+* `ibacm` (`rdma-core`; *ppc64, aarch64, ppc64le, s390x, i686, x86_64*)
+* `ibus-gtk2` (`ibus`)
+* `ibus-gtk3` (`ibus`)
+* `ibus-hangul`
+* `ibus-kkc`
+* `ibus-libpinyin`
+* `ibus-libzhuyin`
+* `ibus-m17n`
+* `ibus-qt`
+* `ibus-rawcode`
+* `ibus-table`
+* `ibus-typing-booster`
 * `ibus-wayland` (`ibus`)
+* `ibus`
+* `ibutils-devel` (`ibutils`; *ppc64, aarch64, ppc64le, i686, x86_64*)
+* `ibutils-libs` (`ibutils`; *ppc64, aarch64, ppc64le, i686, x86_64*)
+* `ibutils-static` (`ibutils`; *ppc64, aarch64, ppc64le, i686, x86_64*)
+* `ibutils` (*ppc64, aarch64, ppc64le, i686, x86_64*)
+* `infinipath-psm-devel` (`infinipath-psm`; *x86_64*)
+* `infinipath-psm` (*x86_64*)
+* `initscripts`
 * `inkscape`
 * `iowatcher` (`blktrace`)
-* `iproute`
+* `ipa-gothic-fonts`
+* `ipa-mincho-fonts`
+* `ipa-pgothic-fonts`
+* `ipa-pmincho-fonts`
+* `iperf3`
 * `iproute-devel` (`iproute`)
 * `iproute-doc` (`iproute`)
 * `iproute-tc` (`iproute`)
-* `iptables`
+* `iproute`
+* `iprutils`
 * `iptables-compat` (`iptables`)
 * `iptables-devel` (`iptables`)
 * `iptables-libs` (`iptables`)
 * `iptables-services` (`iptables`)
 * `iptables-utils` (`iptables`)
+* `iptables`
 * `iputils`
 * `ipvsadm`
-* `iwpmd` (`rdma-core`; *ppc64, i686, aarch64, x86_64, s390x, ppc64le*)
-* `jansson`
+* `ipxe-bootimgs` (`ipxe`)
+* `ipxe-roms-qemu` (`ipxe`)
+* `ipxe-roms` (`ipxe`)
+* `irqbalance` (*ppc64, aarch64, ppc64le, i686, armv7hl, x86_64*)
+* `irssi`
+* `iscsi-initiator-utils-devel` (`iscsi-initiator-utils`)
+* `iscsi-initiator-utils-iscsiuio` (`iscsi-initiator-utils`)
+* `iscsi-initiator-utils`
+* `isns-utils-devel` (`isns-utils`)
+* `isns-utils-libs` (`isns-utils`)
+* `isns-utils`
+* `iwpmd` (`rdma-core`; *ppc64, aarch64, ppc64le, s390x, i686, x86_64*)
+* `ixpdimm-cli` (`ixpdimm_sw`; *x86_64*)
+* `ixpdimm-monitor` (`ixpdimm_sw`; *x86_64*)
+* `ixpdimm_sw-devel` (`ixpdimm_sw`; *x86_64*)
+* `ixpdimm_sw` (*x86_64*)
 * `jansson-devel-doc` (`jansson`)
 * `jansson-devel` (`jansson`)
+* `jansson`
+* `jbigkit`
+* `jomolhari-fonts`
+* `jose`
+* `julietaula-montserrat-fonts`
+* `kacst-art-fonts` (`kacst-fonts`)
+* `kacst-book-fonts` (`kacst-fonts`)
+* `kacst-decorative-fonts` (`kacst-fonts`)
+* `kacst-digital-fonts` (`kacst-fonts`)
+* `kacst-farsi-fonts` (`kacst-fonts`)
+* `kacst-fonts-common` (`kacst-fonts`)
+* `kacst-letter-fonts` (`kacst-fonts`)
+* `kacst-naskh-fonts` (`kacst-fonts`)
+* `kacst-office-fonts` (`kacst-fonts`)
+* `kacst-one-fonts` (`kacst-fonts`)
+* `kacst-pen-fonts` (`kacst-fonts`)
+* `kacst-poster-fonts` (`kacst-fonts`)
+* `kacst-qurn-fonts` (`kacst-fonts`)
+* `kacst-screen-fonts` (`kacst-fonts`)
+* `kacst-title-fonts` (`kacst-fonts`)
+* `kacst-titlel-fonts` (`kacst-fonts`)
 * `keepalived`
 * `kernel`
 * `keyutils`
+* `khmeros-base-fonts` (`khmeros-fonts`)
+* `kpartx` (`device-mapper-multipath`)
 * `krb5-devel` (`krb5`)
 * `krb5-libs` (`krb5`)
 * `krb5-pkinit` (`krb5`)
-* `krb5-server` (`krb5`)
 * `krb5-server-ldap` (`krb5`)
+* `krb5-server` (`krb5`)
 * `krb5-workstation` (`krb5`)
+* `ksh`
+* `kurdit-unikurd-web-fonts`
+* `lapack-devel` (`lapack`)
+* `lapack-static` (`lapack`)
+* `lapack64-devel` (`lapack`; *ppc64, aarch64, ppc64le, s390x, x86_64*)
+* `lapack64-static` (`lapack`; *ppc64, aarch64, ppc64le, s390x, x86_64*)
+* `lapack64` (`lapack`; *ppc64, aarch64, ppc64le, s390x, x86_64*)
+* `lapack`
 * `ldirectord` (`resource-agents`)
 * `lftp`
-* `libgcrypt`
+* `libacl-devel` (`acl`)
+* `libacl` (`acl`)
+* `libaio-devel` (`libaio`)
+* `libaio`
+* `libattr-devel` (`attr`)
+* `libattr` (`attr`)
+* `libblkid-devel` (`util-linux`)
+* `libblkid` (`util-linux`)
+* `libcomps-devel` (`libcomps`)
+* `libcomps-doc` (`libcomps`)
+* `libcomps`
+* `libcxl-devel` (`libcxl`; *ppc64, ppc64le*)
+* `libcxl` (*ppc64, ppc64le*)
+* `libdbi-drivers`
+* `libdbi`
+* `libdmmp-devel` (`device-mapper-multipath`)
+* `libdmmp` (`device-mapper-multipath`)
+* `libdnf-devel` (`libdnf`)
+* `libdnf`
+* `liberation-mono-fonts` (`liberation-fonts`)
+* `liberation-sans-fonts` (`liberation-fonts`)
+* `liberation-serif-fonts` (`liberation-fonts`)
+* `libfabric`
+* `libfdisk-devel` (`util-linux`)
+* `libfdisk` (`util-linux`)
 * `libgcrypt-devel` (`libgcrypt`)
-* `libguestfs`
+* `libgcrypt`
+* `libgovirt-devel` (`libgovirt`)
+* `libgovirt`
 * `libguestfs-bash-completion` (`libguestfs`)
 * `libguestfs-benchmarking` (`libguestfs`; *aarch64, x86_64*)
 * `libguestfs-devel` (`libguestfs`)
@@ -731,8 +1192,8 @@ For this reason, it might have a toplevel input package list of its own.
 * `libguestfs-hfsplus` (`libguestfs`)
 * `libguestfs-inspect-icons` (`libguestfs`)
 * `libguestfs-java-devel` (`libguestfs`)
-* `libguestfs-javadoc` (`libguestfs`)
 * `libguestfs-java` (`libguestfs`)
+* `libguestfs-javadoc` (`libguestfs`)
 * `libguestfs-jfs` (`libguestfs`)
 * `libguestfs-man-pages-ja` (`libguestfs`)
 * `libguestfs-man-pages-uk` (`libguestfs`)
@@ -743,39 +1204,73 @@ For this reason, it might have a toplevel input package list of its own.
 * `libguestfs-tools-c` (`libguestfs`)
 * `libguestfs-tools` (`libguestfs`)
 * `libguestfs-xfs` (`libguestfs`)
-* `libguestfs-zfs` (`libguestfs`; *x86_64, ppc64, i686, ppc64le*)
-* `libibcm` (`rdma-core`; *ppc64, i686, aarch64, x86_64, s390x, ppc64le*)
-* `libibumad` (`rdma-core`; *ppc64, i686, aarch64, x86_64, s390x, ppc64le*)
-* `libibverbs` (`rdma-core`; *ppc64, i686, aarch64, x86_64, s390x, ppc64le*)
-* `libibverbs-utils` (`rdma-core`; *ppc64, i686, aarch64, x86_64, s390x, ppc64le*)
+* `libguestfs-zfs` (`libguestfs`; *ppc64le, i686, x86_64, ppc64*)
+* `libguestfs`
+* `libhbaapi-devel` (`libhbaapi`)
+* `libhbaapi`
+* `libhbalinux-devel` (`libhbalinux`)
+* `libhbalinux`
+* `libibcm` (`rdma-core`; *ppc64, aarch64, ppc64le, s390x, i686, x86_64*)
+* `libibumad` (`rdma-core`; *ppc64, aarch64, ppc64le, s390x, i686, x86_64*)
+* `libibverbs-utils` (`rdma-core`; *ppc64, aarch64, ppc64le, s390x, i686, x86_64*)
+* `libibverbs` (`rdma-core`; *ppc64, aarch64, ppc64le, s390x, i686, x86_64*)
+* `libica-devel` (`libica`; *s390x*)
+* `libica` (*s390x*)
+* `libinvm-cim-devel` (`libinvm-cim`; *x86_64*)
+* `libinvm-cim` (*x86_64*)
+* `libinvm-cli-devel` (`libinvm-cli`; *x86_64*)
+* `libinvm-cli` (*x86_64*)
+* `libinvm-i18n-devel` (`libinvm-i18n`; *x86_64*)
+* `libinvm-i18n` (*x86_64*)
 * `libipa_hbac-devel` (`sssd`)
 * `libipa_hbac` (`sssd`)
+* `libixpdimm-cim` (`ixpdimm_sw`; *x86_64*)
+* `libixpdimm-core` (`ixpdimm_sw`; *x86_64*)
 * `libkadm5` (`krb5`)
 * `libkeepalive`
-* `libmbim`
+* `libmalaga` (`malaga`)
 * `libmbim-utils` (`libmbim`)
-* `libndp`
+* `libmbim`
+* `libmount-devel` (`util-linux`)
+* `libmount` (`util-linux`)
 * `libndp-devel` (`libndp`)
-* `libnetfilter_conntrack`
+* `libndp`
 * `libnetfilter_conntrack-devel` (`libnetfilter_conntrack`)
-* `libnetfilter_queue`
+* `libnetfilter_conntrack`
 * `libnetfilter_queue-devel` (`libnetfilter_queue`)
+* `libnetfilter_queue`
 * `libnfsidmap`
 * `libnftnl`
 * `libnl3`
-* `libnma-devel` (`network-manager-applet`)
-* `libnma` (`network-manager-applet`)
-* `libnm-gtk-devel` (`network-manager-applet`)
-* `libnm-gtk` (`network-manager-applet`)
-* `libpwquality`
+* `libnsl2`
+* `libpaper`
+* `libpcap`
+* `libpmem-debug` (`nvml`; *x86_64*)
+* `libpmem-devel` (`nvml`; *x86_64*)
+* `libpmem` (`nvml`; *x86_64*)
+* `libpmemblk-debug` (`nvml`; *x86_64*)
+* `libpmemblk-devel` (`nvml`; *x86_64*)
+* `libpmemblk` (`nvml`; *x86_64*)
+* `libpmemlog-debug` (`nvml`; *x86_64*)
+* `libpmemlog-devel` (`nvml`; *x86_64*)
+* `libpmemlog` (`nvml`; *x86_64*)
+* `libpmemobj++-devel` (`nvml`; *x86_64*)
+* `libpmemobj-debug` (`nvml`; *x86_64*)
+* `libpmemobj-devel` (`nvml`; *x86_64*)
+* `libpmemobj` (`nvml`; *x86_64*)
+* `libpmempool-debug` (`nvml`; *x86_64*)
+* `libpmempool-devel` (`nvml`; *x86_64*)
+* `libpmempool` (`nvml`; *x86_64*)
+* `libpsm2-devel` (`libpsm2`; *x86_64*)
+* `libpsm2` (*x86_64*)
 * `libpwquality-devel` (`libpwquality`)
-* `libqb`
+* `libpwquality`
 * `libqb-devel` (`libqb`)
-* `libqmi`
+* `libqb`
 * `libqmi-utils` (`libqmi`)
-* `librdmacm` (`rdma-core`; *ppc64, i686, aarch64, x86_64, s390x, ppc64le*)
-* `librdmacm-utils` (`rdma-core`; *ppc64, i686, aarch64, x86_64, s390x, ppc64le*)
-* `libreoffice`
+* `libqmi`
+* `librdmacm-utils` (`rdma-core`; *ppc64, aarch64, ppc64le, s390x, i686, x86_64*)
+* `librdmacm` (`rdma-core`; *ppc64, aarch64, ppc64le, s390x, i686, x86_64*)
 * `libreoffice-base` (`libreoffice`)
 * `libreoffice-calc` (`libreoffice`)
 * `libreoffice-core` (`libreoffice`)
@@ -787,7 +1282,6 @@ For this reason, it might have a toplevel input package list of its own.
 * `libreoffice-gtk2` (`libreoffice`)
 * `libreoffice-gtk3` (`libreoffice`)
 * `libreoffice-impress` (`libreoffice`)
-* `libreofficekit` (`libreoffice`)
 * `libreoffice-math` (`libreoffice`)
 * `libreoffice-nlpsolver` (`libreoffice`)
 * `libreoffice-officebean` (`libreoffice`)
@@ -799,7 +1293,18 @@ For this reason, it might have a toplevel input package list of its own.
 * `libreoffice-wiki-publisher` (`libreoffice`)
 * `libreoffice-writer` (`libreoffice`)
 * `libreoffice-xsltfilter` (`libreoffice`)
+* `libreoffice`
+* `libreofficekit` (`libreoffice`)
+* `librepo-devel` (`librepo`)
+* `librepo`
 * `libreswan`
+* `librpmem-debug` (`nvml`; *x86_64*)
+* `librpmem-devel` (`nvml`; *x86_64*)
+* `librpmem` (`nvml`; *x86_64*)
+* `librtas-devel` (`librtas`; *ppc64, ppc64le*)
+* `librtas` (*ppc64, ppc64le*)
+* `libseccomp-devel` (`libseccomp`)
+* `libseccomp-static` (`libseccomp`)
 * `libseccomp`
 * `libselinux-devel` (`libselinux`)
 * `libselinux-ruby` (`libselinux`)
@@ -809,6 +1314,10 @@ For this reason, it might have a toplevel input package list of its own.
 * `libsemanage-static` (`libsemanage`)
 * `libsepol-devel` (`libsepol`)
 * `libsepol-static` (`libsepol`)
+* `libservicelog-devel` (`libservicelog`; *ppc64, ppc64le*)
+* `libservicelog` (*ppc64, ppc64le*)
+* `libsmartcols-devel` (`util-linux`)
+* `libsmartcols` (`util-linux`)
 * `libsmbclient-devel` (`samba`)
 * `libsmbclient` (`samba`)
 * `libsss_autofs` (`sssd`)
@@ -821,14 +1330,26 @@ For this reason, it might have a toplevel input package list of its own.
 * `libsss_simpleifp-devel` (`sssd`)
 * `libsss_simpleifp` (`sssd`)
 * `libsss_sudo` (`sssd`)
+* `libstoragemgmt-devel` (`libstoragemgmt`)
+* `libstoragemgmt-hpsa-plugin` (`libstoragemgmt`)
+* `libstoragemgmt-megaraid-plugin` (`libstoragemgmt`)
+* `libstoragemgmt-netapp-plugin` (`libstoragemgmt`)
+* `libstoragemgmt-nstor-plugin` (`libstoragemgmt`)
+* `libstoragemgmt-smis-plugin` (`libstoragemgmt`)
+* `libstoragemgmt-targetd-plugin` (`libstoragemgmt`)
+* `libstoragemgmt-udev` (`libstoragemgmt`)
+* `libstoragemgmt`
 * `libtirpc`
-* `libvirt`
+* `libunwind-devel` (`libunwind`; *ppc64, aarch64, ppc64le, i686, armv7hl, x86_64*)
+* `libunwind` (*ppc64, aarch64, ppc64le, i686, armv7hl, x86_64*)
+* `libuuid-devel` (`util-linux`)
+* `libuuid` (`util-linux`)
 * `libvirt-admin` (`libvirt`)
 * `libvirt-client` (`libvirt`)
 * `libvirt-daemon-config-network` (`libvirt`)
 * `libvirt-daemon-config-nwfilter` (`libvirt`)
 * `libvirt-daemon-driver-interface` (`libvirt`)
-* `libvirt-daemon-driver-libxl` (`libvirt`; *x86_64, i686*)
+* `libvirt-daemon-driver-libxl` (`libvirt`; *i686, x86_64*)
 * `libvirt-daemon-driver-lxc` (`libvirt`)
 * `libvirt-daemon-driver-network` (`libvirt`)
 * `libvirt-daemon-driver-nodedev` (`libvirt`)
@@ -839,112 +1360,198 @@ For this reason, it might have a toplevel input package list of its own.
 * `libvirt-daemon-driver-storage-disk` (`libvirt`)
 * `libvirt-daemon-driver-storage-gluster` (`libvirt`)
 * `libvirt-daemon-driver-storage-iscsi` (`libvirt`)
-* `libvirt-daemon-driver-storage` (`libvirt`)
 * `libvirt-daemon-driver-storage-logical` (`libvirt`)
 * `libvirt-daemon-driver-storage-mpath` (`libvirt`)
 * `libvirt-daemon-driver-storage-rbd` (`libvirt`)
 * `libvirt-daemon-driver-storage-scsi` (`libvirt`)
 * `libvirt-daemon-driver-storage-sheepdog` (`libvirt`)
-* `libvirt-daemon-driver-storage-zfs` (`libvirt`; *ppc64, i686, armv7hl, x86_64, ppc64le*)
+* `libvirt-daemon-driver-storage-zfs` (`libvirt`; *ppc64, ppc64le, i686, armv7hl, x86_64*)
+* `libvirt-daemon-driver-storage` (`libvirt`)
 * `libvirt-daemon-driver-uml` (`libvirt`)
-* `libvirt-daemon-driver-vbox` (`libvirt`; *x86_64, i686*)
-* `libvirt-daemon-driver-xen` (`libvirt`; *x86_64, i686*)
+* `libvirt-daemon-driver-vbox` (`libvirt`; *i686, x86_64*)
+* `libvirt-daemon-driver-xen` (`libvirt`; *i686, x86_64*)
 * `libvirt-daemon-kvm` (`libvirt`)
-* `libvirt-daemon` (`libvirt`)
 * `libvirt-daemon-lxc` (`libvirt`)
 * `libvirt-daemon-qemu` (`libvirt`)
 * `libvirt-daemon-uml` (`libvirt`)
-* `libvirt-daemon-vbox` (`libvirt`; *x86_64, i686*)
-* `libvirt-daemon-xen` (`libvirt`; *x86_64, i686*)
+* `libvirt-daemon-vbox` (`libvirt`; *i686, x86_64*)
+* `libvirt-daemon-xen` (`libvirt`; *i686, x86_64*)
+* `libvirt-daemon` (`libvirt`)
 * `libvirt-devel` (`libvirt`)
 * `libvirt-docs` (`libvirt`)
-* `libvirt-java`
+* `libvirt-gconfig-devel` (`libvirt-glib`)
+* `libvirt-gconfig` (`libvirt-glib`)
+* `libvirt-glib-devel` (`libvirt-glib`)
+* `libvirt-glib`
+* `libvirt-gobject-devel` (`libvirt-glib`)
+* `libvirt-gobject` (`libvirt-glib`)
 * `libvirt-java-devel` (`libvirt-java`)
 * `libvirt-java-javadoc` (`libvirt-java`)
+* `libvirt-java`
 * `libvirt-libs` (`libvirt`)
 * `libvirt-lock-sanlock` (`libvirt`)
 * `libvirt-login-shell` (`libvirt`)
 * `libvirt-nss` (`libvirt`)
 * `libvirt-wireshark` (`libvirt`)
+* `libvirt`
+* `libvma-utils` (`libvma`; *ppc64, aarch64, ppc64le, i686, x86_64*)
+* `libvma` (*ppc64, aarch64, ppc64le, i686, x86_64*)
+* `libvmem-debug` (`nvml`; *x86_64*)
+* `libvmem-devel` (`nvml`; *x86_64*)
+* `libvmem` (`nvml`; *x86_64*)
+* `libvmmalloc-debug` (`nvml`; *x86_64*)
+* `libvmmalloc-devel` (`nvml`; *x86_64*)
+* `libvmmalloc` (`nvml`; *x86_64*)
+* `libvoikko-devel` (`libvoikko`)
+* `libvoikko`
+* `libvpd-devel` (`libvpd`; *ppc64, ppc64le*)
+* `libvpd` (*ppc64, ppc64le*)
 * `libwayland-client` (`wayland`)
 * `libwayland-cursor` (`wayland`)
 * `libwayland-server` (`wayland`)
 * `libwbclient-devel` (`samba`)
 * `libwbclient` (`samba`)
+* `libzfcphbaapi-docs` (`libzfcphbaapi`; *s390x*)
+* `libzfcphbaapi` (*s390x*)
 * `linuxptp`
-* `lksctp-tools`
+* `lklug-fonts`
 * `lksctp-tools-devel` (`lksctp-tools`)
-* `lldpd`
+* `lksctp-tools`
+* `lldpad-devel` (`lldpad`)
+* `lldpad`
 * `lldpd-devel` (`lldpd`)
+* `lldpd`
+* `lm_sensors-devel` (`lm_sensors`)
+* `lm_sensors-libs` (`lm_sensors`)
+* `lm_sensors-sensord` (`lm_sensors`)
+* `lm_sensors`
+* `logrotate`
+* `logwatch`
+* `lohit-assamese-fonts`
+* `lohit-bengali-fonts`
+* `lohit-devanagari-fonts`
+* `lohit-gujarati-fonts`
+* `lohit-gurmukhi-fonts`
+* `lohit-kannada-fonts`
+* `lohit-odia-fonts`
+* `lohit-tamil-fonts`
+* `lohit-telugu-fonts`
+* `lsscsi`
+* `lsvpd` (*ppc64, ppc64le*)
+* `lua-devel` (`lua`)
 * `lua-guestfs` (`libguestfs`)
+* `lua-libs` (`lua`)
+* `lua-static` (`lua`)
+* `lua`
+* `luksmeta`
+* `lvm2-cluster-standalone` (`lvm2`)
+* `lvm2-cluster` (`lvm2`)
+* `lvm2-dbusd` (`lvm2`)
+* `lvm2-devel` (`lvm2`)
+* `lvm2-libs` (`lvm2`)
+* `lvm2-lockd` (`lvm2`)
+* `lvm2`
+* `lzop`
+* `madan-fonts`
 * `mailman`
-* `mariadb`
+* `malaga-devel` (`malaga`)
+* `malaga-suomi-voikko`
+* `malaga`
+* `man-pages-cs`
+* `man-pages-es-extra` (`man-pages-es`)
+* `man-pages-es`
+* `man-pages-fr`
+* `man-pages-it`
+* `man-pages-ja`
+* `man-pages-ko`
+* `man-pages-pl`
+* `man-pages-ru`
+* `man-pages-zh-CN`
 * `mariadb-connect-engine` (`mariadb`)
 * `mariadb-embedded-devel` (`mariadb`)
 * `mariadb-embedded` (`mariadb`)
 * `mariadb-oqgraph-engine` (`mariadb`)
 * `mariadb-server-galera` (`mariadb`)
-* `mariadb-server` (`mariadb`)
 * `mariadb-server-utils` (`mariadb`)
+* `mariadb-server` (`mariadb`)
+* `mariadb`
 * `maven`
+* `mcelog` (*i686, x86_64*)
+* `mdadm`
+* `memcached`
 * `mesa-libwayland-egl` (`mesa`)
-* `mgetty`
-* `mgetty-sendfax` (`mgetty`)
-* `mgetty-viewfax` (`mgetty`)
-* `mgetty-voice` (`mgetty`)
+* `microdnf`
+* `minicom`
+* `mlocate`
 * `mobile-broadband-provider-info`
 * `mod_auth_gssapi`
 * `mod_auth_mellon`
-* `mod_authnz_pam`
 * `mod_auth_openidc`
-* `ModemManager`
-* `ModemManager-devel` (`ModemManager`)
-* `ModemManager-glib-devel` (`ModemManager`)
-* `ModemManager-glib` (`ModemManager`)
-* `ModemManager-vala` (`ModemManager`)
+* `mod_authnz_pam`
+* `mod_dav_svn` (`subversion`)
 * `mod_http2`
 * `mod_intercept_form_submit`
 * `mod_ldap` (`httpd`)
 * `mod_lookup_identity`
 * `mod_nss`
 * `mod_proxy_html` (`httpd`)
-* `mod_security`
 * `mod_security_crs`
+* `mod_security`
 * `mod_session` (`httpd`)
 * `mod_ssl` (`httpd`)
-* `mongo-c-driver`
+* `ModemManager-devel` (`ModemManager`)
+* `ModemManager-glib-devel` (`ModemManager`)
+* `ModemManager-glib` (`ModemManager`)
+* `ModemManager-vala` (`ModemManager`)
+* `ModemManager`
 * `mongo-c-driver-devel` (`mongo-c-driver`)
+* `mongo-c-driver`
 * `mongo-cxx-driver-devel` (`mongo-cxx-driver`)
-* `mongodb`
 * `mongodb-server` (`mongodb`)
-* `netcf`
+* `mongodb`
+* `motif`
+* `mozvoikko`
+* `mstflint` (*ppc64, aarch64, ppc64le, i686, x86_64*)
+* `mutt`
+* `mysql-connector-java`
+* `mythes-nb` (`hunspell-no`)
+* `mythes-nn` (`hunspell-no`)
+* `nafees-web-naskh-fonts`
+* `naver-nanum-barun-gothic-fonts` (`naver-nanum-fonts`)
+* `naver-nanum-gothic-fonts` (`naver-nanum-fonts`)
+* `naver-nanum-myeongjo-fonts` (`naver-nanum-fonts`)
+* `navilu-fonts`
+* `ndctl-devel` (`ndctl`)
+* `ndctl-libs` (`ndctl`)
+* `ndctl`
+* `net-tools`
 * `netcf-devel` (`netcf`)
 * `netcf-libs` (`netcf`)
-* `nettle`
+* `netcf`
+* `netdump-server`
 * `nettle-devel` (`nettle`)
-* `net-tools`
-* `NetworkManager`
-* `NetworkManager-adsl` (`NetworkManager`)
+* `nettle`
 * `network-manager-applet`
+* `NetworkManager-adsl` (`NetworkManager`)
 * `NetworkManager-bluetooth` (`NetworkManager`)
 * `NetworkManager-config-server` (`NetworkManager`)
 * `NetworkManager-glib-devel` (`NetworkManager`)
 * `NetworkManager-glib` (`NetworkManager`)
 * `NetworkManager-libnm-devel` (`NetworkManager`)
 * `NetworkManager-libnm` (`NetworkManager`)
-* `NetworkManager-libreswan`
 * `NetworkManager-libreswan-gnome` (`NetworkManager-libreswan`)
+* `NetworkManager-libreswan`
 * `NetworkManager-ppp` (`NetworkManager`)
 * `NetworkManager-team` (`NetworkManager`)
 * `NetworkManager-tui` (`NetworkManager`)
 * `NetworkManager-wifi` (`NetworkManager`)
 * `NetworkManager-wwan` (`NetworkManager`)
+* `NetworkManager`
+* `nfs-utils`
 * `nfs4-acl-tools`
 * `nfsometer`
 * `NFStest`
-* `nfs-utils`
 * `nftables`
-* `nginx`
 * `nginx-filesystem` (`nginx`)
 * `nginx-mod-http-geoip` (`nginx`)
 * `nginx-mod-http-image-filter` (`nginx`)
@@ -952,41 +1559,61 @@ For this reason, it might have a toplevel input package list of its own.
 * `nginx-mod-http-xslt-filter` (`nginx`)
 * `nginx-mod-mail` (`nginx`)
 * `nginx-mod-stream` (`nginx`)
+* `nginx`
 * `nm-connection-editor` (`network-manager-applet`)
+* `nmap-ncat` (`nmap`)
+* `nmap`
 * `node-gyp`
 * `nodejs`
 * `npm` (`nodejs`)
-* `nspr`
 * `nspr-devel` (`nspr`)
-* `nss`
+* `nspr`
 * `nss-devel` (`nss`)
 * `nss-pam-ldapd`
 * `nss-tools` (`nss`)
+* `nss`
+* `ntsysv` (`chkconfig`)
+* `numad` (*ppc64, aarch64, ppc64le, s390x, i686, x86_64*)
+* `nvme-cli`
+* `nvml-tools` (`nvml`; *x86_64*)
+* `ocaml-brlapi` (`brltty`)
 * `ocaml-hivex-devel` (`hivex`)
 * `ocaml-hivex` (`hivex`)
 * `ocaml-libguestfs-devel` (`libguestfs`)
 * `ocaml-libguestfs` (`libguestfs`)
-* `ocaml-libvirt`
 * `ocaml-libvirt-devel` (`ocaml-libvirt`)
-* `openldap`
+* `ocaml-libvirt`
+* `opal-firmware` (`opal-prd`; *ppc64le*)
+* `opal-prd` (*ppc64le*)
+* `opal-utils` (`opal-prd`; *ppc64le*)
+* `open-vm-tools-desktop` (`open-vm-tools`; *i686, x86_64*)
+* `open-vm-tools-devel` (`open-vm-tools`; *i686, x86_64*)
+* `open-vm-tools` (*i686, x86_64*)
+* `opencryptoki-ccatok` (`opencryptoki`; *s390x*)
+* `opencryptoki-devel` (`opencryptoki`)
+* `opencryptoki-ep11tok` (`opencryptoki`; *s390x*)
+* `opencryptoki-icatok` (`opencryptoki`; *s390x*)
+* `opencryptoki-icsftok` (`opencryptoki`)
+* `opencryptoki-libs` (`opencryptoki`)
+* `opencryptoki-swtok` (`opencryptoki`)
+* `opencryptoki-tpmtok` (`opencryptoki`)
+* `opencryptoki`
 * `openldap-clients` (`openldap`)
 * `openldap-devel` (`openldap`)
 * `openldap-servers` (`openldap`)
+* `openldap`
 * `opensc`
-* `opensm` (*ppc64, i686, aarch64, x86_64, ppc64le*)
+* `opensm` (*ppc64, aarch64, ppc64le, i686, x86_64*)
 * `openssh-askpass` (`openssh`)
 * `openssh-clients` (`openssh`)
 * `openssh-keycat` (`openssh`)
 * `openssh-server` (`openssh`)
-* `openssl`
 * `openssl-devel` (`openssl`)
+* `openssl-ibmca` (*s390x*)
 * `openssl-libs` (`openssl`)
 * `openssl-perl` (`openssl`)
 * `openssl-static` (`openssl`)
-* `open-vm-tools-desktop` (`open-vm-tools`; *x86_64, i686*)
-* `open-vm-tools-devel` (`open-vm-tools`; *x86_64, i686*)
-* `open-vm-tools` (*x86_64, i686*)
-* `openvswitch`
+* `openssl`
 * `openvswitch-devel` (`openvswitch`)
 * `openvswitch-ovn-central` (`openvswitch`)
 * `openvswitch-ovn-common` (`openvswitch`)
@@ -994,9 +1621,11 @@ For this reason, it might have a toplevel input package list of its own.
 * `openvswitch-ovn-host` (`openvswitch`)
 * `openvswitch-ovn-vtep` (`openvswitch`)
 * `openvswitch-test` (`openvswitch`)
+* `openvswitch`
+* `orca`
 * `oscap-anaconda-addon`
+* `overpass-fonts`
 * `p11-kit`
-* `pacemaker`
 * `pacemaker-cli` (`pacemaker`)
 * `pacemaker-cluster-libs` (`pacemaker`)
 * `pacemaker-cts` (`pacemaker`)
@@ -1005,15 +1634,19 @@ For this reason, it might have a toplevel input package list of its own.
 * `pacemaker-libs` (`pacemaker`)
 * `pacemaker-nagios-plugins-metadata` (`pacemaker`)
 * `pacemaker-remote` (`pacemaker`)
-* `pam`
+* `pacemaker`
+* `paktype-naskh-basic-fonts`
 * `pam-devel` (`pam`)
+* `pam_snapper` (`snapper`)
 * `pam_ssh_agent_auth` (`openssh`)
+* `pam`
+* `paratype-pt-sans-fonts`
 * `passenger`
 * `pcs`
-* `pcsc-lite`
 * `pcsc-lite-ccid`
 * `pcsc-lite-libs` (`pcsc-lite`)
-* `perl`
+* `pcsc-lite`
+* `perftest` (*ppc64, aarch64, ppc64le, i686, x86_64*)
 * `perl-Archive-Tar`
 * `perl-Attribute-Handlers` (`perl`)
 * `perl-autodie`
@@ -1024,21 +1657,21 @@ For this reason, it might have a toplevel input package list of its own.
 * `perl-Compress-Raw-Zlib`
 * `perl-Config-Perl-V`
 * `perl-constant`
-* `perl-CPAN`
-* `perl-CPAN-Meta`
 * `perl-CPAN-Meta-Requirements`
 * `perl-CPAN-Meta-YAML`
+* `perl-CPAN-Meta`
+* `perl-CPAN`
 * `perl-Data-Dumper`
 * `perl-DB_File`
 * `perl-Devel-Peek` (`perl`)
-* `perl-devel` (`perl`)
 * `perl-Devel-PPPort`
 * `perl-Devel-SelfStubber` (`perl`)
-* `perl-Digest`
+* `perl-devel` (`perl`)
 * `perl-Digest-MD5`
 * `perl-Digest-SHA`
-* `perl-Encode`
+* `perl-Digest`
 * `perl-Encode-devel` (`perl-Encode`)
+* `perl-Encode`
 * `perl-encoding` (`perl-Encode`)
 * `perl-Env`
 * `perl-Errno` (`perl`)
@@ -1056,17 +1689,17 @@ For this reason, it might have a toplevel input package list of its own.
 * `perl-File-Fetch`
 * `perl-File-Path`
 * `perl-File-Temp`
-* `perl-Filter`
 * `perl-Filter-Simple`
+* `perl-Filter`
 * `perl-generators`
 * `perl-Getopt-Long`
 * `perl-hivex` (`hivex`)
 * `perl-HTTP-Tiny`
 * `perl-interpreter` (`perl`)
 * `perl-IO-Compress`
-* `perl-IO` (`perl`)
 * `perl-IO-Socket-IP`
 * `perl-IO-Zlib` (`perl`)
+* `perl-IO` (`perl`)
 * `perl-IPC-Cmd`
 * `perl-IPC-SysV`
 * `perl-JSON-PP`
@@ -1074,19 +1707,19 @@ For this reason, it might have a toplevel input package list of its own.
 * `perl-libnetcfg` (`perl`)
 * `perl-libs` (`perl`)
 * `perl-Locale-Codes`
-* `perl-Locale-Maketext`
 * `perl-Locale-Maketext-Simple` (`perl`)
+* `perl-Locale-Maketext`
 * `perl-macros` (`perl`)
-* `perl-Math-BigInt`
 * `perl-Math-BigInt-FastCalc`
+* `perl-Math-BigInt`
 * `perl-Math-BigRat`
 * `perl-Math-Complex` (`perl`)
 * `perl-Memoize` (`perl`)
 * `perl-MIME-Base64`
-* `perl-Module-CoreList`
 * `perl-Module-CoreList-tools` (`perl-Module-CoreList`)
-* `perl-Module-Load`
+* `perl-Module-CoreList`
 * `perl-Module-Load-Conditional`
+* `perl-Module-Load`
 * `perl-Module-Loaded` (`perl`)
 * `perl-Module-Metadata`
 * `perl-Net-Ping` (`perl`)
@@ -1094,17 +1727,17 @@ For this reason, it might have a toplevel input package list of its own.
 * `perl-Params-Check`
 * `perl-parent`
 * `perl-PathTools`
+* `perl-Perl-OSType`
 * `perl-perlfaq`
 * `perl-PerlIO-via-QuotedPrint`
-* `perl-Perl-OSType`
 * `perl-Pod-Checker`
 * `perl-Pod-Escapes`
 * `perl-Pod-Html` (`perl`)
-* `perl-podlators`
 * `perl-Pod-Parser`
 * `perl-Pod-Perldoc`
 * `perl-Pod-Simple`
 * `perl-Pod-Usage`
+* `perl-podlators`
 * `perl-Scalar-List-Utils`
 * `perl-SelfLoader` (`perl`)
 * `perl-Socket`
@@ -1114,15 +1747,15 @@ For this reason, it might have a toplevel input package list of its own.
 * `perl-Term-ANSIColor`
 * `perl-Term-Cap`
 * `perl-Test-Harness`
-* `perl-Test` (`perl`)
 * `perl-Test-Simple`
+* `perl-Test` (`perl`)
 * `perl-tests` (`perl`)
 * `perl-Text-Balanced`
 * `perl-Text-ParseWords`
 * `perl-Text-Tabs+Wrap`
 * `perl-Thread-Queue`
-* `perl-threads`
 * `perl-threads-shared`
+* `perl-threads`
 * `perl-Time-HiRes`
 * `perl-Time-Local`
 * `perl-Time-Piece` (`perl`)
@@ -1130,7 +1763,7 @@ For this reason, it might have a toplevel input package list of its own.
 * `perl-Unicode-Normalize`
 * `perl-utils` (`perl`)
 * `perl-version`
-* `php`
+* `perl`
 * `php-bcmath` (`php`)
 * `php-cli` (`php`)
 * `php-common` (`php`)
@@ -1163,184 +1796,168 @@ For this reason, it might have a toplevel input package list of its own.
 * `php-tidy` (`php`)
 * `php-xml` (`php`)
 * `php-xmlrpc` (`php`)
-* `policycoreutils`
+* `php`
+* `pkpgcounter`
+* `platform-python-hawkey` (`libdnf`)
+* `platform-python-libcomps` (`libcomps`)
+* `platform-python-librepo` (`librepo`)
+* `platform-python-rpm` (`rpm`)
 * `policycoreutils-dbus` (`policycoreutils`)
 * `policycoreutils-devel` (`policycoreutils`)
 * `policycoreutils-gui` (`policycoreutils`)
 * `policycoreutils-newrole` (`policycoreutils`)
-* `policycoreutils-python3` (`policycoreutils`)
 * `policycoreutils-python-utils` (`policycoreutils`)
+* `policycoreutils-python3` (`policycoreutils`)
 * `policycoreutils-restorecond` (`policycoreutils`)
 * `policycoreutils-sandbox` (`policycoreutils`)
-* `postfix`
+* `policycoreutils`
+* `popt-devel` (`popt`)
+* `popt-static` (`popt`)
+* `popt`
 * `postfix-perl-scripts` (`postfix`)
-* `postgresql`
+* `postfix`
 * `postgresql-contrib` (`postgresql`)
 * `postgresql-devel` (`postgresql`)
+* `postgresql-jdbc`
+* `postgresql-odbc`
 * `postgresql-server` (`postgresql`)
 * `postgresql-upgrade` (`postgresql`)
-* `ppp`
-* `pptp`
-* `pptp-setup` (`pptp`)
+* `postgresql`
+* `powerpc-utils-core` (`powerpc-utils`; *ppc64, ppc64le*)
+* `powerpc-utils` (*ppc64, ppc64le*)
+* `powertop`
+* `ppc64-diag` (*ppc64, ppc64le*)
+* `pprof` (`gperftools`)
 * `procmail`
+* `ps_mem`
+* `psacct`
+* `ptouch-driver`
+* `python-libcomps-doc` (`libcomps`)
+* `python-pwquality` (`libpwquality`)
+* `python-rhsm-certificates` (`python-rhsm`)
+* `python-rhsm`
+* `python-rtslib-doc` (`python-rtslib`)
+* `python2-brlapi` (`brltty`)
 * `python2-clufter` (`clufter`)
-* `python2-custodia` (`custodia`)
+* `python2-configshell` (`python-configshell`)
+* `python2-createrepo_c` (`createrepo_c`)
+* `python2-cryptsetup` (`cryptsetup`)
 * `python2-custodia-extra` (`custodia`)
+* `python2-custodia` (`custodia`)
+* `python2-deltarpm` (`deltarpm`)
+* `python2-di` (`python-di`)
+* `python2-dnf-plugin-kickstart` (`dnf-plugins-extras`)
+* `python2-dnf-plugin-leaves` (`dnf-plugins-core`)
+* `python2-dnf-plugin-local` (`dnf-plugins-core`)
+* `python2-dnf-plugin-migrate` (`dnf-plugins-core`)
+* `python2-dnf-plugin-show-leaves` (`dnf-plugins-core`)
+* `python2-dnf-plugin-snapper` (`dnf-plugins-extras`)
+* `python2-dnf-plugin-system-upgrade` (`dnf-plugins-extras`)
+* `python2-dnf-plugin-tracer` (`dnf-plugins-extras`)
+* `python2-dnf-plugin-versionlock` (`dnf-plugins-core`)
+* `python2-dnf-plugins-core` (`dnf-plugins-core`)
+* `python2-dnf-plugins-extras-common` (`dnf-plugins-extras`)
+* `python2-dnf` (`dnf`)
+* `python2-hawkey` (`libdnf`)
 * `python2-hivex` (`hivex`)
+* `python2-i2c-tools` (`i2c-tools`; *ppc64, aarch64, ppc64le, i686, armv7hl, x86_64*)
 * `python2-ipaclient` (`freeipa`)
+* `python2-ipaddr` (`python-ipaddr`)
 * `python2-ipalib` (`freeipa`)
 * `python2-ipaserver` (`freeipa`)
 * `python2-ipatests` (`freeipa`)
+* `python2-iscsi-initiator-utils` (`iscsi-initiator-utils`)
+* `python2-kmod` (`python-kmod`)
+* `python2-libcomps` (`libcomps`)
 * `python2-libguestfs` (`libguestfs`)
 * `python2-libipa_hbac` (`sssd`)
+* `python2-librepo` (`librepo`)
 * `python2-libsss_nss_idmap` (`sssd`)
+* `python2-libstoragemgmt-clibs` (`libstoragemgmt`)
+* `python2-libstoragemgmt` (`libstoragemgmt`)
 * `python2-libvirt` (`libvirt-python`)
+* `python2-libvoikko` (`libvoikko`)
+* `python2-lvm-deprecated` (`lvm2`)
+* `python2-magic` (`file`)
 * `python2-openvswitch` (`openvswitch`)
 * `python2-policycoreutils` (`policycoreutils`)
+* `python2-powerpc-utils` (`powerpc-utils-python`)
 * `python2-pyOpenSSL` (`pyOpenSSL`)
-* `python2-pyroute2` (`python-pyroute2`)
-* `python2-samba` (`samba`)
+* `python2-rpm` (`rpm`)
+* `python2-rtslib` (`python-rtslib`)
 * `python2-samba-test` (`samba`)
-* `python2-sssdconfig` (`sssd`)
+* `python2-samba` (`samba`)
+* `python2-sanlock` (`sanlock`)
+* `python2-setproctitle` (`python-setproctitle`)
 * `python2-sss-murmur` (`sssd`)
 * `python2-sss` (`sssd`)
-* `python3`
+* `python2-sssdconfig` (`sssd`)
+* `python3-blivet` (`python-blivet`)
+* `python3-brlapi` (`brltty`)
 * `python3-clufter` (`clufter`)
-* `python3-custodia` (`custodia`)
+* `python3-configshell` (`python-configshell`)
+* `python3-createrepo_c` (`createrepo_c`)
 * `python3-custodia-extra` (`custodia`)
+* `python3-custodia` (`custodia`)
+* `python3-deltarpm` (`deltarpm`)
 * `python3-devel` (`python3`)
+* `python3-dnf-plugin-kickstart` (`dnf-plugins-extras`)
+* `python3-dnf-plugin-leaves` (`dnf-plugins-core`)
+* `python3-dnf-plugin-local` (`dnf-plugins-core`)
+* `python3-dnf-plugin-rpmconf` (`dnf-plugins-extras`)
+* `python3-dnf-plugin-show-leaves` (`dnf-plugins-core`)
+* `python3-dnf-plugin-snapper` (`dnf-plugins-extras`)
+* `python3-dnf-plugin-system-upgrade` (`dnf-plugins-extras`)
+* `python3-dnf-plugin-torproxy` (`dnf-plugins-extras`)
+* `python3-dnf-plugin-tracer` (`dnf-plugins-extras`)
+* `python3-dnf-plugin-versionlock` (`dnf-plugins-core`)
+* `python3-dnf-plugins-core` (`dnf-plugins-core`)
+* `python3-dnf-plugins-extras-common` (`dnf-plugins-extras`)
+* `python3-dnf` (`dnf`)
+* `python3-hawkey` (`libdnf`)
 * `python3-hivex` (`hivex`)
 * `python3-ipaclient` (`freeipa`)
 * `python3-ipalib` (`freeipa`)
 * `python3-ipaserver` (`freeipa`)
 * `python3-ipatests` (`freeipa`)
+* `python3-iscsi-initiator-utils` (`iscsi-initiator-utils`)
+* `python3-kmod` (`python-kmod`)
+* `python3-libcomps` (`libcomps`)
 * `python3-libguestfs` (`libguestfs`)
 * `python3-libipa_hbac` (`sssd`)
-* `python3-libselinux` (`libselinux`)
+* `python3-libmount` (`util-linux`)
+* `python3-librepo` (`librepo`)
 * `python3-libs` (`python3`)
+* `python3-libselinux` (`libselinux`)
 * `python3-libsss_nss_idmap` (`sssd`)
+* `python3-libstoragemgmt-clibs` (`libstoragemgmt`)
+* `python3-libstoragemgmt` (`libstoragemgmt`)
 * `python3-libvirt` (`libvirt-python`)
+* `python3-lvm-deprecated` (`lvm2`)
+* `python3-magic` (`file`)
 * `python3-openvswitch` (`openvswitch`)
 * `python3-pip` (`python-pip`)
 * `python3-pwquality` (`libpwquality`)
 * `python3-pyOpenSSL` (`pyOpenSSL`)
-* `python3-pyroute2` (`python-pyroute2`)
-* `python3-samba` (`samba`)
+* `python3-rpm` (`rpm`)
+* `python3-rtslib` (`python-rtslib`)
 * `python3-samba-test` (`samba`)
+* `python3-samba` (`samba`)
 * `python3-setools` (`setools`)
+* `python3-setproctitle` (`python-setproctitle`)
 * `python3-setuptools` (`python-setuptools`)
-* `python3-sssdconfig` (`sssd`)
 * `python3-sss-murmur` (`sssd`)
 * `python3-sss` (`sssd`)
+* `python3-sssdconfig` (`sssd`)
 * `python3-tkinter` (`python3`)
-* `python-pwquality` (`libpwquality`)
+* `python3`
+* `qclib-devel` (`qclib`; *s390x*)
+* `qclib-static` (`qclib`; *s390x*)
+* `qclib` (*s390x*)
 * `qemu-guest-agent` (`qemu`)
 * `qemu-kvm` (`qemu`)
 * `qgnomeplatform`
-* `qt`
-* `qt5-assistant` (`qt5-qttools`)
-* `qt5-designer` (`qt5-qttools`)
-* `qt5-doctools` (`qt5-qttools`)
-* `qt5-linguist` (`qt5-qttools`)
-* `qt5-qdbusviewer` (`qt5-qttools`)
-* `qt5-qt3d`
-* `qt5-qt3d-devel` (`qt5-qt3d`)
-* `qt5-qt3d-doc` (`qt5-doc`)
-* `qt5-qt3d-examples` (`qt5-qt3d`)
-* `qt5-qtbase`
-* `qt5-qtbase-common` (`qt5-qtbase`)
-* `qt5-qtbase-devel` (`qt5-qtbase`)
-* `qt5-qtbase-doc` (`qt5-doc`)
-* `qt5-qtbase-examples` (`qt5-qtbase`)
-* `qt5-qtbase-gui` (`qt5-qtbase`)
-* `qt5-qtbase-mysql` (`qt5-qtbase`)
-* `qt5-qtbase-odbc` (`qt5-qtbase`)
-* `qt5-qtbase-postgresql` (`qt5-qtbase`)
-* `qt5-qtbase-static` (`qt5-qtbase`)
-* `qt5-qtcanvas3d`
-* `qt5-qtcanvas3d-doc` (`qt5-doc`)
-* `qt5-qtcanvas3d-examples` (`qt5-qtcanvas3d`)
-* `qt5-qtconnectivity`
-* `qt5-qtconnectivity-devel` (`qt5-qtconnectivity`)
-* `qt5-qtconnectivity-doc` (`qt5-doc`)
-* `qt5-qtconnectivity-examples` (`qt5-qtconnectivity`)
-* `qt5-qtdeclarative`
-* `qt5-qtdeclarative-devel` (`qt5-qtdeclarative`)
-* `qt5-qtdeclarative-doc` (`qt5-doc`)
-* `qt5-qtdeclarative-examples` (`qt5-qtdeclarative`)
-* `qt5-qtdeclarative-static` (`qt5-qtdeclarative`)
-* `qt5-qtdoc`
-* `qt5-qtenginio`
-* `qt5-qtenginio-devel` (`qt5-qtenginio`)
-* `qt5-qtenginio-examples` (`qt5-qtenginio`)
-* `qt5-qtgraphicaleffects`
-* `qt5-qtgraphicaleffects-doc` (`qt5-doc`)
-* `qt5-qtimageformats`
-* `qt5-qtimageformats-doc` (`qt5-doc`)
-* `qt5-qtlocation`
-* `qt5-qtlocation-devel` (`qt5-qtlocation`)
-* `qt5-qtlocation-doc` (`qt5-doc`)
-* `qt5-qtlocation-examples` (`qt5-qtlocation`)
-* `qt5-qtmultimedia`
-* `qt5-qtmultimedia-devel` (`qt5-qtmultimedia`)
-* `qt5-qtmultimedia-doc` (`qt5-doc`)
-* `qt5-qtmultimedia-examples` (`qt5-qtmultimedia`)
-* `qt5-qtquickcontrols`
-* `qt5-qtquickcontrols2`
-* `qt5-qtquickcontrols2-devel` (`qt5-qtquickcontrols2`)
-* `qt5-qtquickcontrols2-doc` (`qt5-doc`)
-* `qt5-qtquickcontrols2-examples` (`qt5-qtquickcontrols2`)
-* `qt5-qtquickcontrols-doc` (`qt5-doc`)
-* `qt5-qtquickcontrols-examples` (`qt5-qtquickcontrols`)
-* `qt5-qtscript`
-* `qt5-qtscript-devel` (`qt5-qtscript`)
-* `qt5-qtscript-doc` (`qt5-doc`)
-* `qt5-qtscript-examples` (`qt5-qtscript`)
-* `qt5-qtsensors`
-* `qt5-qtsensors-devel` (`qt5-qtsensors`)
-* `qt5-qtsensors-doc` (`qt5-doc`)
-* `qt5-qtsensors-examples` (`qt5-qtsensors`)
-* `qt5-qtserialbus`
-* `qt5-qtserialbus-devel` (`qt5-qtserialbus`)
-* `qt5-qtserialbus-doc` (`qt5-doc`)
-* `qt5-qtserialbus-examples` (`qt5-qtserialbus`)
-* `qt5-qtserialport`
-* `qt5-qtserialport-devel` (`qt5-qtserialport`)
-* `qt5-qtserialport-doc` (`qt5-doc`)
-* `qt5-qtserialport-examples` (`qt5-qtserialport`)
-* `qt5-qtsvg`
-* `qt5-qtsvg-devel` (`qt5-qtsvg`)
-* `qt5-qtsvg-doc` (`qt5-doc`)
-* `qt5-qtsvg-examples` (`qt5-qtsvg`)
-* `qt5-qttools`
-* `qt5-qttools-common` (`qt5-qttools`)
-* `qt5-qttools-devel` (`qt5-qttools`)
-* `qt5-qttools-doc` (`qt5-doc`)
-* `qt5-qttools-examples` (`qt5-qttools`)
-* `qt5-qttools-libs-designercomponents` (`qt5-qttools`)
-* `qt5-qttools-libs-designer` (`qt5-qttools`)
-* `qt5-qttools-libs-help` (`qt5-qttools`)
-* `qt5-qttools-static` (`qt5-qttools`)
-* `qt5-qttranslations`
-* `qt5-qtwayland`
-* `qt5-qtwayland-devel` (`qt5-qtwayland`)
-* `qt5-qtwayland-examples` (`qt5-qtwayland`)
-* `qt5-qtwebchannel`
-* `qt5-qtwebchannel-devel` (`qt5-qtwebchannel`)
-* `qt5-qtwebchannel-doc` (`qt5-doc`)
-* `qt5-qtwebchannel-examples` (`qt5-qtwebchannel`)
-* `qt5-qtwebsockets`
-* `qt5-qtwebsockets-devel` (`qt5-qtwebsockets`)
-* `qt5-qtwebsockets-doc` (`qt5-doc`)
-* `qt5-qtwebsockets-examples` (`qt5-qtwebsockets`)
-* `qt5-qtx11extras`
-* `qt5-qtx11extras-devel` (`qt5-qtx11extras`)
-* `qt5-qtx11extras-doc` (`qt5-doc`)
-* `qt5-qtxmlpatterns`
-* `qt5-qtxmlpatterns-devel` (`qt5-qtxmlpatterns`)
-* `qt5-qtxmlpatterns-doc` (`qt5-doc`)
-* `qt5-qtxmlpatterns-examples` (`qt5-qtxmlpatterns`)
-* `qt5-rpm-macros` (`qt5`)
+* `qpdf`
 * `qt-assistant` (`qt`)
 * `qt-config` (`qt`)
 * `qt-demos` (`qt`)
@@ -1354,18 +1971,148 @@ For this reason, it might have a toplevel input package list of its own.
 * `qt-qdbusviewer` (`qt`)
 * `qt-qvfb` (`qt`)
 * `qt-x11` (`qt`)
+* `qt5-assistant` (`qt5-qttools`)
+* `qt5-designer` (`qt5-qttools`)
+* `qt5-doctools` (`qt5-qttools`)
+* `qt5-linguist` (`qt5-qttools`)
+* `qt5-qdbusviewer` (`qt5-qttools`)
+* `qt5-qt3d-devel` (`qt5-qt3d`)
+* `qt5-qt3d-doc` (`qt5-doc`)
+* `qt5-qt3d-examples` (`qt5-qt3d`)
+* `qt5-qt3d`
+* `qt5-qtbase-common` (`qt5-qtbase`)
+* `qt5-qtbase-devel` (`qt5-qtbase`)
+* `qt5-qtbase-doc` (`qt5-doc`)
+* `qt5-qtbase-examples` (`qt5-qtbase`)
+* `qt5-qtbase-gui` (`qt5-qtbase`)
+* `qt5-qtbase-mysql` (`qt5-qtbase`)
+* `qt5-qtbase-odbc` (`qt5-qtbase`)
+* `qt5-qtbase-postgresql` (`qt5-qtbase`)
+* `qt5-qtbase-static` (`qt5-qtbase`)
+* `qt5-qtbase`
+* `qt5-qtcanvas3d-doc` (`qt5-doc`)
+* `qt5-qtcanvas3d-examples` (`qt5-qtcanvas3d`)
+* `qt5-qtcanvas3d`
+* `qt5-qtconnectivity-devel` (`qt5-qtconnectivity`)
+* `qt5-qtconnectivity-doc` (`qt5-doc`)
+* `qt5-qtconnectivity-examples` (`qt5-qtconnectivity`)
+* `qt5-qtconnectivity`
+* `qt5-qtdeclarative-devel` (`qt5-qtdeclarative`)
+* `qt5-qtdeclarative-doc` (`qt5-doc`)
+* `qt5-qtdeclarative-examples` (`qt5-qtdeclarative`)
+* `qt5-qtdeclarative-static` (`qt5-qtdeclarative`)
+* `qt5-qtdeclarative`
+* `qt5-qtdoc`
+* `qt5-qtenginio-devel` (`qt5-qtenginio`)
+* `qt5-qtenginio-examples` (`qt5-qtenginio`)
+* `qt5-qtenginio`
+* `qt5-qtgraphicaleffects-doc` (`qt5-doc`)
+* `qt5-qtgraphicaleffects`
+* `qt5-qtimageformats-doc` (`qt5-doc`)
+* `qt5-qtimageformats`
+* `qt5-qtlocation-devel` (`qt5-qtlocation`)
+* `qt5-qtlocation-doc` (`qt5-doc`)
+* `qt5-qtlocation-examples` (`qt5-qtlocation`)
+* `qt5-qtlocation`
+* `qt5-qtmultimedia-devel` (`qt5-qtmultimedia`)
+* `qt5-qtmultimedia-doc` (`qt5-doc`)
+* `qt5-qtmultimedia-examples` (`qt5-qtmultimedia`)
+* `qt5-qtmultimedia`
+* `qt5-qtquickcontrols-doc` (`qt5-doc`)
+* `qt5-qtquickcontrols-examples` (`qt5-qtquickcontrols`)
+* `qt5-qtquickcontrols2-devel` (`qt5-qtquickcontrols2`)
+* `qt5-qtquickcontrols2-doc` (`qt5-doc`)
+* `qt5-qtquickcontrols2-examples` (`qt5-qtquickcontrols2`)
+* `qt5-qtquickcontrols2`
+* `qt5-qtquickcontrols`
+* `qt5-qtscript-devel` (`qt5-qtscript`)
+* `qt5-qtscript-doc` (`qt5-doc`)
+* `qt5-qtscript-examples` (`qt5-qtscript`)
+* `qt5-qtscript`
+* `qt5-qtsensors-devel` (`qt5-qtsensors`)
+* `qt5-qtsensors-doc` (`qt5-doc`)
+* `qt5-qtsensors-examples` (`qt5-qtsensors`)
+* `qt5-qtsensors`
+* `qt5-qtserialbus-devel` (`qt5-qtserialbus`)
+* `qt5-qtserialbus-doc` (`qt5-doc`)
+* `qt5-qtserialbus-examples` (`qt5-qtserialbus`)
+* `qt5-qtserialbus`
+* `qt5-qtserialport-devel` (`qt5-qtserialport`)
+* `qt5-qtserialport-doc` (`qt5-doc`)
+* `qt5-qtserialport-examples` (`qt5-qtserialport`)
+* `qt5-qtserialport`
+* `qt5-qtsvg-devel` (`qt5-qtsvg`)
+* `qt5-qtsvg-doc` (`qt5-doc`)
+* `qt5-qtsvg-examples` (`qt5-qtsvg`)
+* `qt5-qtsvg`
+* `qt5-qttools-common` (`qt5-qttools`)
+* `qt5-qttools-devel` (`qt5-qttools`)
+* `qt5-qttools-doc` (`qt5-doc`)
+* `qt5-qttools-examples` (`qt5-qttools`)
+* `qt5-qttools-libs-designer` (`qt5-qttools`)
+* `qt5-qttools-libs-designercomponents` (`qt5-qttools`)
+* `qt5-qttools-libs-help` (`qt5-qttools`)
+* `qt5-qttools-static` (`qt5-qttools`)
+* `qt5-qttools`
+* `qt5-qttranslations`
+* `qt5-qtwayland-devel` (`qt5-qtwayland`)
+* `qt5-qtwayland-examples` (`qt5-qtwayland`)
+* `qt5-qtwayland`
+* `qt5-qtwebchannel-devel` (`qt5-qtwebchannel`)
+* `qt5-qtwebchannel-doc` (`qt5-doc`)
+* `qt5-qtwebchannel-examples` (`qt5-qtwebchannel`)
+* `qt5-qtwebchannel`
+* `qt5-qtwebsockets-devel` (`qt5-qtwebsockets`)
+* `qt5-qtwebsockets-doc` (`qt5-doc`)
+* `qt5-qtwebsockets-examples` (`qt5-qtwebsockets`)
+* `qt5-qtwebsockets`
+* `qt5-qtx11extras-devel` (`qt5-qtx11extras`)
+* `qt5-qtx11extras-doc` (`qt5-doc`)
+* `qt5-qtx11extras`
+* `qt5-qtxmlpatterns-devel` (`qt5-qtxmlpatterns`)
+* `qt5-qtxmlpatterns-doc` (`qt5-doc`)
+* `qt5-qtxmlpatterns-examples` (`qt5-qtxmlpatterns`)
+* `qt5-qtxmlpatterns`
+* `qt5-rpm-macros` (`qt5`)
+* `qt`
+* `quagga-contrib` (`quagga`)
+* `quagga`
 * `quota`
-* `radvd`
 * `rdist`
-* `rdma-core` (*ppc64, i686, aarch64, x86_64, s390x, ppc64le*)
-* `realmd`
+* `rdma-core` (*ppc64, aarch64, ppc64le, s390x, i686, x86_64*)
 * `realmd-devel-docs` (`realmd`)
+* `realmd`
+* `redhat-lsb-core` (`redhat-lsb`)
+* `redhat-lsb-cxx` (`redhat-lsb`)
+* `redhat-lsb-desktop` (`redhat-lsb`)
+* `redhat-lsb-languages` (`redhat-lsb`)
+* `redhat-lsb-printing` (`redhat-lsb`)
+* `redhat-lsb-submod-multimedia` (`redhat-lsb`)
+* `redhat-lsb-submod-security` (`redhat-lsb`)
+* `redhat-lsb-supplemental` (`redhat-lsb`)
+* `redhat-lsb-trialuse` (`redhat-lsb`)
+* `redhat-lsb`
 * `redis`
 * `resource-agents`
+* `rng-tools`
 * `rpcbind`
-* `rsh`
+* `rpm-apidocs` (`rpm`)
+* `rpm-build-libs` (`rpm`)
+* `rpm-build` (`rpm`)
+* `rpm-cron` (`rpm`)
+* `rpm-devel` (`rpm`)
+* `rpm-libs` (`rpm`)
+* `rpm-plugin-ima` (`rpm`)
+* `rpm-plugin-prioreset` (`rpm`)
+* `rpm-plugin-selinux` (`rpm`)
+* `rpm-plugin-syslog` (`rpm`)
+* `rpm-plugin-systemd-inhibit` (`rpm`)
+* `rpm-sign` (`rpm`)
+* `rpm`
+* `rpmemd` (`nvml`; *x86_64*)
+* `rpmlint`
+* `rstp`
 * `rsync`
-* `rsyslog`
 * `rsyslog-crypto` (`rsyslog`)
 * `rsyslog-doc` (`rsyslog`)
 * `rsyslog-elasticsearch` (`rsyslog`)
@@ -1382,8 +2129,13 @@ For this reason, it might have a toplevel input package list of its own.
 * `rsyslog-relp` (`rsyslog`)
 * `rsyslog-snmp` (`rsyslog`)
 * `rsyslog-udpspoof` (`rsyslog`)
-* `ruby`
+* `rsyslog`
 * `ruby-devel` (`ruby`)
+* `ruby-hivex` (`hivex`)
+* `ruby-irb` (`ruby`)
+* `ruby-libguestfs` (`libguestfs`)
+* `ruby-libs` (`ruby`)
+* `ruby`
 * `rubygem-bigdecimal` (`ruby`)
 * `rubygem-bundler`
 * `rubygem-did_you_mean` (`ruby`)
@@ -1396,20 +2148,16 @@ For this reason, it might have a toplevel input package list of its own.
 * `rubygem-psych` (`ruby`)
 * `rubygem-rake`
 * `rubygem-rdoc`
-* `rubygems-devel` (`ruby`)
-* `rubygems` (`ruby`)
 * `rubygem-test-unit`
 * `rubygem-xmlrpc` (`ruby`)
-* `ruby-hivex` (`hivex`)
-* `ruby-irb` (`ruby`)
-* `ruby-libguestfs` (`libguestfs`)
-* `ruby-libs` (`ruby`)
-* `samba`
+* `rubygems-devel` (`ruby`)
+* `rubygems` (`ruby`)
+* `saab-fonts`
 * `samba-client-libs` (`samba`)
 * `samba-client` (`samba`)
 * `samba-common-libs` (`samba`)
-* `samba-common` (`samba`)
 * `samba-common-tools` (`samba`)
+* `samba-common` (`samba`)
 * `samba-dc-libs` (`samba`)
 * `samba-dc` (`samba`)
 * `samba-devel` (`samba`)
@@ -1418,38 +2166,81 @@ For this reason, it might have a toplevel input package list of its own.
 * `samba-pidl` (`samba`)
 * `samba-test-libs` (`samba`)
 * `samba-test` (`samba`)
-* `samba-vfs-cephfs` (`samba`; *aarch64, s390x, ppc64le, x86_64*)
+* `samba-vfs-cephfs` (`samba`; *aarch64, ppc64le, x86_64, s390x*)
 * `samba-vfs-glusterfs` (`samba`)
 * `samba-winbind-clients` (`samba`)
 * `samba-winbind-krb5-locator` (`samba`)
 * `samba-winbind-modules` (`samba`)
 * `samba-winbind` (`samba`)
+* `samba`
+* `samyak-devanagari-fonts` (`samyak-fonts`)
+* `samyak-fonts-common` (`samyak-fonts`)
+* `samyak-gujarati-fonts` (`samyak-fonts`)
+* `samyak-malayalam-fonts` (`samyak-fonts`)
+* `samyak-odia-fonts` (`samyak-fonts`)
+* `samyak-tamil-fonts` (`samyak-fonts`)
+* `sane-backends-doc` (`sane-backends`)
+* `sane-backends`
+* `sane-frontends`
+* `sanlk-reset` (`sanlock`)
+* `sanlock-devel` (`sanlock`)
+* `sanlock-lib` (`sanlock`)
+* `sanlock`
+* `sarai-fonts`
 * `sbd`
 * `scap-security-guide`
+* `scl-utils-build` (`scl-utils`)
+* `scl-utils`
 * `scrub`
-* `seabios`
 * `seabios-bin` (`seabios`)
+* `seabios`
 * `seavgabios-bin` (`seabios`)
 * `selinux-policy-devel` (`selinux-policy`)
 * `selinux-policy-minimum` (`selinux-policy`)
 * `selinux-policy-mls` (`selinux-policy`)
 * `selinux-policy-sandbox` (`selinux-policy`)
 * `selinux-policy-targeted` (`selinux-policy`)
-* `sendmail`
 * `sendmail-cf` (`sendmail`)
 * `sendmail-doc` (`sendmail`)
 * `sendmail-milter-devel` (`sendmail`)
 * `sendmail-milter` (`sendmail`)
+* `sendmail`
+* `servicelog` (*ppc64, ppc64le*)
 * `setools-console-analyses` (`setools`)
 * `setools-console` (`setools`)
 * `setools-gui` (`setools`)
+* `sg3_utils-devel` (`sg3_utils`)
+* `sg3_utils-libs` (`sg3_utils`)
+* `sg3_utils`
 * `shadow-utils`
+* `sil-abyssinica-fonts`
+* `sil-mingzat-fonts`
+* `sil-nuosu-fonts`
+* `sil-padauk-fonts`
+* `sil-scheherazade-fonts`
 * `slapi-nis`
 * `SLOF`
+* `smc-meera-fonts` (`smc-fonts`)
+* `snapper-devel` (`snapper`)
+* `snapper-libs` (`snapper`)
+* `snapper`
+* `sos`
 * `spamassassin`
+* `spice-glib-devel` (`spice-gtk`)
+* `spice-glib` (`spice-gtk`)
+* `spice-gtk-tools` (`spice-gtk`)
+* `spice-gtk3-devel` (`spice-gtk`)
+* `spice-gtk3-vala` (`spice-gtk`)
+* `spice-gtk3` (`spice-gtk`)
+* `spice-gtk`
+* `spice-protocol`
+* `spice-server-devel` (`spice`; *aarch64, i686, armv7hl, x86_64*)
 * `spice-server` (`spice`; *aarch64, i686, armv7hl, x86_64*)
-* `srp_daemon` (`rdma-core`; *ppc64, i686, aarch64, x86_64, s390x, ppc64le*)
-* `sssd`
+* `spice-vdagent`
+* `splix`
+* `sqlite`
+* `squid`
+* `srp_daemon` (`rdma-core`; *ppc64, aarch64, ppc64le, s390x, i686, x86_64*)
 * `sssd-ad` (`sssd`)
 * `sssd-client` (`sssd`)
 * `sssd-common-pac` (`sssd`)
@@ -1466,21 +2257,69 @@ For this reason, it might have a toplevel input package list of its own.
 * `sssd-proxy` (`sssd`)
 * `sssd-tools` (`sssd`)
 * `sssd-winbind-idmap` (`sssd`)
-* `sudo`
+* `sssd`
+* `stix-fonts`
+* `subscription-manager-plugin-container` (`subscription-manager`)
+* `subscription-manager-plugin-ostree` (`subscription-manager`)
+* `subscription-manager`
+* `subversion-devel` (`subversion`)
+* `subversion-gnome` (`subversion`)
+* `subversion-javahl` (`subversion`)
+* `subversion-kde` (`subversion`)
+* `subversion-libs` (`subversion`)
+* `subversion-perl` (`subversion`)
+* `subversion-python` (`subversion`)
+* `subversion-ruby` (`subversion`)
+* `subversion-tools` (`subversion`)
+* `subversion`
 * `sudo-devel` (`sudo`)
-* `supermin`
+* `sudo`
 * `supermin-devel` (`supermin`)
+* `supermin`
+* `swig-doc` (`swig`)
+* `swig`
+* `sysstat`
+* `system-config-printer-udev` (`system-config-printer`)
+* `system-config-printer`
+* `system-storage-manager`
+* `tabish-eeyek-fonts`
+* `tang`
+* `target-restore` (`python-rtslib`)
+* `targetcli`
+* `targetd`
+* `tboot` (*i686, x86_64*)
+* `tcl-brlapi` (`brltty`)
+* `tcl`
+* `tclx`
+* `tcpdump`
+* `tcsh`
 * `teamd` (`libteam`)
-* `telnet`
-* `tigervnc`
+* `tex-fonts-hebrew`
+* `thai-scalable-waree-fonts` (`thai-scalable-fonts`)
+* `thunderbird`
+* `tibetan-machine-uni-fonts`
 * `tigervnc-icons` (`tigervnc`)
 * `tigervnc-license` (`tigervnc`)
 * `tigervnc-server-applet` (`tigervnc`)
 * `tigervnc-server-minimal` (`tigervnc`)
-* `tigervnc-server-module` (`tigervnc`; *ppc64, i686, aarch64, armv7hl, x86_64, ppc64le*)
+* `tigervnc-server-module` (`tigervnc`; *ppc64, aarch64, ppc64le, i686, armv7hl, x86_64*)
 * `tigervnc-server` (`tigervnc`)
+* `tigervnc`
 * `timedatex`
-* `tuned`
+* `tk`
+* `tpm-tools-devel` (`tpm-tools`)
+* `tpm-tools-pkcs11` (`tpm-tools`)
+* `tpm-tools`
+* `tpm2-tools` (*i686, x86_64*)
+* `tpm2-tss-devel` (`tpm2-tss`; *i686, x86_64*)
+* `tpm2-tss` (*i686, x86_64*)
+* `tree`
+* `trousers-devel` (`trousers`)
+* `trousers-lib` (`trousers`)
+* `trousers-static` (`trousers`)
+* `trousers`
+* `tss2-devel` (`tss2`; *aarch64, ppc64le, i686, armv7hl, x86_64*)
+* `tss2` (*aarch64, ppc64le, i686, armv7hl, x86_64*)
 * `tuned-gtk` (`tuned`)
 * `tuned-profiles-atomic` (`tuned`)
 * `tuned-profiles-compat` (`tuned`)
@@ -1494,34 +2333,64 @@ For this reason, it might have a toplevel input package list of its own.
 * `tuned-profiles-sap` (`tuned`)
 * `tuned-utils-systemtap` (`tuned`)
 * `tuned-utils` (`tuned`)
-* `unbound`
+* `tuned`
 * `unbound-libs` (`unbound`)
-* `usbguard`
+* `unbound`
+* `units`
+* `unixODBC-gui-qt`
+* `unixODBC`
+* `usb_modeswitch-data`
+* `usb_modeswitch`
 * `usbguard-dbus` (`usbguard`)
 * `usbguard-devel` (`usbguard`)
 * `usbguard-tools` (`usbguard`)
-* `usb_modeswitch`
-* `usb_modeswitch-data`
-* `varnish`
+* `usbguard`
+* `usbutils`
+* `util-linux-user` (`util-linux`)
+* `util-linux`
+* `uuidd` (`util-linux`)
 * `varnish-devel` (`varnish`)
 * `varnish-docs` (`varnish`)
 * `varnish-libs` (`varnish`)
 * `varnish-modules`
+* `varnish`
+* `veritysetup` (`cryptsetup`)
+* `vim-enhanced` (`vim`)
+* `vim-filesystem` (`vim`)
+* `vim-minimal` (`vim`)
+* `vim-X11` (`vim`)
 * `vinagre`
 * `virt-dib` (`libguestfs`)
 * `virt-install` (`virt-manager`)
-* `virt-manager`
 * `virt-manager-common` (`virt-manager`)
+* `virt-manager`
 * `virt-p2v-maker` (`libguestfs`)
 * `virt-top`
 * `virt-v2v` (`libguestfs`)
+* `virt-viewer`
 * `virt-who`
+* `vlgothic-fonts`
+* `vlgothic-p-fonts` (`vlgothic-fonts`)
+* `voikko-tools` (`libvoikko`)
 * `vsftpd`
 * `wayland-devel` (`wayland`)
 * `wayland-protocols-devel` (`wayland-protocols`)
 * `webkitgtk4`
 * `wget`
+* `wireshark-cli` (`wireshark`)
+* `wireshark-qt` (`wireshark`)
+* `wireshark`
 * `wpa_supplicant`
-* `wvdial`
 * `xfsprogs`
 * `xorg-x11-server-Xwayland` (`xorg-x11-server`)
+* `xsane-gimp` (`xsane`)
+* `xsane`
+* `yp-tools`
+* `ypbind`
+* `ypserv`
+* `zip`
+* `zsh-html` (`zsh`)
+* `zsh`
+* `zziplib-devel` (`zziplib`)
+* `zziplib-utils` (`zziplib`)
+* `zziplib`
