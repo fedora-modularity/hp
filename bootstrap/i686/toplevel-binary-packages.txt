@@ -1202,6 +1202,7 @@ pacemaker-libs
 pacemaker-libs-devel
 pacemaker-nagios-plugins-metadata
 pacemaker-remote
+PackageKit
 paktype-naskh-basic-fonts
 pam
 pam-devel

@@ -146,6 +146,7 @@ openjpeg2
 openssh-clients
 openssh-server
 openssl
+PackageKit
 parted
 passwd
 patch

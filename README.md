@@ -105,6 +105,7 @@ Note the lists below are subject to change.
 * `openssh-clients` (`openssh`), SSH clients
 * `openssh-server` (`openssh`), SSH server
 * `openssl`, common cryptographic library
+* `PackageKit`, Package management service
 * `parted`, provides the common disk partition manipulation program
 * `passwd`, password configuration utility
 * `pciutils`, provides PCI bus related utilities
