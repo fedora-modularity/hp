@@ -39,6 +39,7 @@ dracut-tools
 e2fsprogs
 ebtables
 ethtool
+extlinux-bootloader
 fbset
 fcoe-utils
 fedora-logos

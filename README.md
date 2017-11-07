@@ -273,6 +273,7 @@ These include `kernel-tools`, `ppc64-utils`, `powerpc-utils`,
 
 * `efibootmgr` (*aarch64, i686, x86_64*)
 * `efivar` (*aarch64, i686, x86_64*)
+* `extlinux-bootloader` (*aarch64, armv7hl*)
 * `fbset` (*aarch64, armv7hl, i686, ppc64, ppc64le, x86_64*)
 * `grub2-common` (`grub2`; *aarch64, i686, ppc64, ppc64le, x86_64*)
 * `grub2-efi-aa64` (`grub2`; *aarch64*)

@@ -1,6 +1,7 @@
 b43-openfwwf,"open firmware for some B43xx chipsets"
 efibootmgr,
 efivar,
+extlinux-bootloader,
 fbset,
 grub2,
 kernel,
