@@ -2794,7 +2794,6 @@ For this reason, it might have a toplevel input package list of its own.
 * `swig-doc` (`swig`)
 * `swig`
 * `sysstat`
-* `system-config-kickstart`
 * `system-config-printer-udev` (`system-config-printer`)
 * `system-config-printer`
 * `system-storage-manager`

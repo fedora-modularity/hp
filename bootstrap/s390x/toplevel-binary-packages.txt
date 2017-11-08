@@ -2323,7 +2323,6 @@ sushi
 swig
 swig-doc
 sysstat
-system-config-kickstart
 system-config-printer
 system-config-printer-udev
 system-storage-manager

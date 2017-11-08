@@ -2446,7 +2446,6 @@ syslinux
 syslinux-extlinux
 syslinux-nonlinux
 sysstat
-system-config-kickstart
 system-config-printer
 system-config-printer-udev
 system-storage-manager
