@@ -712,6 +712,7 @@ For this reason, it might have a toplevel input package list of its own.
 * `cmpi-bindings-pywbem` (`cmpi-bindings`)
 * `compat-openssl10`
 * `conntrack-tools`
+* `convmv`
 * `corosync-qdevice` (`corosync`)
 * `corosync-qnetd` (`corosync`)
 * `corosync`
@@ -759,6 +760,10 @@ For this reason, it might have a toplevel input package list of its own.
 * `cups-filters`
 * `cups`
 * `custodia`
+* `cvs-contrib` (`cvs`)
+* `cvs-doc` (`cvs`)
+* `cvs-inetd` (`cvs`)
+* `cvs`
 * `cyrus-imapd`
 * `cyrus-sasl-gs2` (`cyrus-sasl`)
 * `cyrus-sasl-gssapi` (`cyrus-sasl`)
@@ -801,6 +806,8 @@ For this reason, it might have a toplevel input package list of its own.
 * `dhcp-libs` (`dhcp`)
 * `dhcp-relay` (`dhcp`)
 * `dhcp-server` (`dhcp`)
+* `dialog-devel` (`dialog`)
+* `dialog`
 * `dlm-devel` (`dlm`)
 * `dlm-lib` (`dlm`)
 * `dlm`
@@ -861,6 +868,7 @@ For this reason, it might have a toplevel input package list of its own.
 * `eog-tests` (`eog`)
 * `eog`
 * `erlang-libguestfs` (`libguestfs`)
+* `esc` (*armv7hl, i686, ppc64, ppc64le, x86_64*)
 * `etcd-devel` (`etcd`; *aarch64, armv7hl, i686, ppc64le, s390x, x86_64*)
 * `etcd-unit-test` (`etcd`; *aarch64, armv7hl, i686, ppc64le, s390x, x86_64*)
 * `etcd` (*aarch64, armv7hl, i686, ppc64le, s390x, x86_64*)
@@ -1003,6 +1011,9 @@ For this reason, it might have a toplevel input package list of its own.
 * `freerdp-devel` (`freerdp`)
 * `freerdp-libs` (`freerdp`)
 * `freerdp`
+* `frei0r-devel` (`frei0r-plugins`)
+* `frei0r-plugins-opencv` (`frei0r-plugins`)
+* `frei0r-plugins`
 * `ftp`
 * `fwupd-devel` (`fwupd`)
 * `fwupd-labels` (`fwupd`)
@@ -1083,6 +1094,8 @@ For this reason, it might have a toplevel input package list of its own.
 * `gnome-menus-devel` (`gnome-menus`)
 * `gnome-menus`
 * `gnome-online-miners`
+* `gnome-photos-tests` (`gnome-photos`)
+* `gnome-photos`
 * `gnome-screenshot`
 * `gnome-session-wayland-session` (`gnome-session`)
 * `gnome-shell-extension-alternate-tab` (`gnome-shell-extensions`)
@@ -1107,6 +1120,7 @@ For this reason, it might have a toplevel input package list of its own.
 * `gnome-terminal`
 * `gnome-tweak-tool`
 * `gnome-user-docs`
+* `gnome-video-effects`
 * `gnome-weather-tests` (`gnome-weather`)
 * `gnome-weather`
 * `gnu-free-mono-fonts` (`gnu-free-fonts`)
@@ -1121,6 +1135,7 @@ For this reason, it might have a toplevel input package list of its own.
 * `google-crosextra-caladea-fonts`
 * `google-crosextra-carlito-fonts`
 * `google-noto-cjk-fonts`
+* `google-noto-emoji-fonts`
 * `google-noto-sans-lisu-fonts` (`google-noto-fonts`)
 * `google-noto-sans-mandaic-fonts` (`google-noto-fonts`)
 * `google-noto-sans-meetei-mayek-fonts` (`google-noto-fonts`)
@@ -1366,6 +1381,20 @@ For this reason, it might have a toplevel input package list of its own.
 * `ibus-m17n`
 * `ibus-qt`
 * `ibus-rawcode`
+* `ibus-sayura`
+* `ibus-table-chinese-array` (`ibus-table-chinese`)
+* `ibus-table-chinese-cangjie` (`ibus-table-chinese`)
+* `ibus-table-chinese-cantonese` (`ibus-table-chinese`)
+* `ibus-table-chinese-easy` (`ibus-table-chinese`)
+* `ibus-table-chinese-erbi` (`ibus-table-chinese`)
+* `ibus-table-chinese-quick` (`ibus-table-chinese`)
+* `ibus-table-chinese-scj` (`ibus-table-chinese`)
+* `ibus-table-chinese-stroke5` (`ibus-table-chinese`)
+* `ibus-table-chinese-wu` (`ibus-table-chinese`)
+* `ibus-table-chinese-wubi-haifeng` (`ibus-table-chinese`)
+* `ibus-table-chinese-wubi-jidian` (`ibus-table-chinese`)
+* `ibus-table-chinese-yong` (`ibus-table-chinese`)
+* `ibus-table-chinese`
 * `ibus-table`
 * `ibus-typing-booster`
 * `ibus-wayland` (`ibus`)
@@ -1383,6 +1412,7 @@ For this reason, it might have a toplevel input package list of its own.
 * `initial-setup`
 * `initscripts`
 * `inkscape`
+* `intel-gpu-tools` (`xorg-x11-drv-intel`; *i686, x86_64*)
 * `iotop`
 * `iowatcher` (`blktrace`)
 * `ipa-gothic-fonts`
@@ -1401,6 +1431,8 @@ For this reason, it might have a toplevel input package list of its own.
 * `iptables-services` (`iptables`)
 * `iptables-utils` (`iptables`)
 * `iptables`
+* `iptraf-ng`
+* `iptstate`
 * `iputils`
 * `ipvsadm`
 * `ipxe-bootimgs` (`ipxe`)
@@ -2041,6 +2073,9 @@ For this reason, it might have a toplevel input package list of its own.
 * `pam_snapper` (`snapper`)
 * `pam_ssh_agent_auth` (`openssh`)
 * `pam`
+* `paps-devel` (`paps`)
+* `paps-libs` (`paps`)
+* `paps`
 * `paratype-pt-sans-fonts`
 * `passenger`
 * `pavucontrol`
@@ -2319,6 +2354,7 @@ For this reason, it might have a toplevel input package list of its own.
 * `python2-psycopg2-tests` (`python-psycopg2`)
 * `python2-psycopg2` (`python-psycopg2`)
 * `python2-pyOpenSSL` (`pyOpenSSL`)
+* `python2-requests-oauthlib` (`python-requests-oauthlib`)
 * `python2-rhnlib` (`rhnlib`)
 * `python2-rpm` (`rpm`)
 * `python2-rtslib` (`python-rtslib`)
@@ -2383,6 +2419,7 @@ For this reason, it might have a toplevel input package list of its own.
 * `python3-psycopg2` (`python-psycopg2`)
 * `python3-pwquality` (`libpwquality`)
 * `python3-pyOpenSSL` (`pyOpenSSL`)
+* `python3-requests-oauthlib` (`python-requests-oauthlib`)
 * `python3-rhnlib` (`rhnlib`)
 * `python3-rpm` (`rpm`)
 * `python3-rtslib` (`python-rtslib`)
@@ -2649,13 +2686,13 @@ For this reason, it might have a toplevel input package list of its own.
 * `rubygem-did_you_mean` (`ruby`)
 * `rubygem-io-console` (`ruby`)
 * `rubygem-json` (`ruby`)
-* `rubygem-minitest` (`ruby`)
+* `rubygem-minitest`
 * `rubygem-net-telnet` (`ruby`)
 * `rubygem-openssl` (`ruby`)
 * `rubygem-power_assert` (`ruby`)
 * `rubygem-psych` (`ruby`)
 * `rubygem-rake` (`ruby`)
-* `rubygem-rdoc` (`ruby`)
+* `rubygem-rdoc`
 * `rubygem-test-unit` (`ruby`)
 * `rubygem-xmlrpc` (`ruby`)
 * `rubygems-devel` (`ruby`)
@@ -2935,6 +2972,23 @@ For this reason, it might have a toplevel input package list of its own.
 * `xfsprogs`
 * `xinetd`
 * `xorg-sgml-doctools`
+* `xorg-x11-docs`
+* `xorg-x11-drivers` (*aarch64, armv7hl, i686, ppc64, ppc64le, x86_64*)
+* `xorg-x11-drv-ati` (*aarch64, armv7hl, i686, ppc64, ppc64le, x86_64*)
+* `xorg-x11-drv-evdev-devel` (`xorg-x11-drv-evdev`; *aarch64, armv7hl, i686, ppc64, ppc64le, x86_64*)
+* `xorg-x11-drv-evdev` (*aarch64, armv7hl, i686, ppc64, ppc64le, x86_64*)
+* `xorg-x11-drv-fbdev` (*aarch64, armv7hl, i686, ppc64, ppc64le, x86_64*)
+* `xorg-x11-drv-intel-devel` (`xorg-x11-drv-intel`; *i686, x86_64*)
+* `xorg-x11-drv-intel` (*i686, x86_64*)
+* `xorg-x11-drv-libinput-devel` (`xorg-x11-drv-libinput`; *aarch64, armv7hl, i686, ppc64, ppc64le, x86_64*)
+* `xorg-x11-drv-libinput` (*aarch64, armv7hl, i686, ppc64, ppc64le, x86_64*)
+* `xorg-x11-drv-nouveau` (*aarch64, armv7hl, i686, ppc64, ppc64le, x86_64*)
+* `xorg-x11-drv-qxl` (*aarch64, armv7hl, i686, ppc64, ppc64le, x86_64*)
+* `xorg-x11-drv-v4l` (*aarch64, armv7hl, i686, ppc64, ppc64le, x86_64*)
+* `xorg-x11-drv-vesa` (*i686, x86_64*)
+* `xorg-x11-drv-vmware` (*i686, x86_64*)
+* `xorg-x11-server-Xspice` (`xorg-x11-drv-qxl`; *aarch64, armv7hl, i686, x86_64*)
+* `xorg-x11-server-Xwayland` (`xorg-x11-server`)
 * `xrestop`
 * `xsane-gimp` (`xsane`)
 * `xsane`
