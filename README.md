@@ -36,6 +36,10 @@ Note the lists below are subject to change.
 #### Main Platform packages
 
 * `bash`, base shell
+* `bison`, GNU general purpose parser generator
+* `bison-devel` (`bison`), allow developers to build against bison
+* `bison-runtime` (`bison`), provide runtime environment for applications using
+  bison-generated parsers
 * `bluez`, Bluetooth support, considered hardware-enablement as it's necessary
   for Bluetooth HID
 * `btrfs-progs`, Btrfs support

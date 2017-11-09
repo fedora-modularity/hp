@@ -4,6 +4,9 @@ b43-openfwwf
 bash
 bc
 binutils
+bison
+bison-devel
+bison-runtime
 bluez
 btrfs-progs
 byacc

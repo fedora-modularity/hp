@@ -133,6 +133,9 @@ bind-sdb
 bind-sdb-chroot
 bind-utils
 binutils
+bison
+bison-devel
+bison-runtime
 bitmap-console-fonts
 bitmap-fangsongti-fonts
 bitmap-fixed-fonts
