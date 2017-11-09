@@ -540,6 +540,9 @@ For this reason, it might have a toplevel input package list of its own.
 * `amanda-libs` (`amanda`)
 * `amanda-server` (`amanda`)
 * `amanda`
+* `anaconda-dracut` (`anaconda`)
+* `anaconda-widgets` (`anaconda`)
+* `anaconda`
 * `ansible-doc` (`ansible`)
 * `ansible-python3` (`ansible`)
 * `ansible`
@@ -575,6 +578,7 @@ For this reason, it might have a toplevel input package list of its own.
 * `atlas-z196-static` (`atlas`; *s390x*)
 * `atlas-z196` (`atlas`; *s390x*)
 * `atlas`
+* `atmel-firmware`
 * `attr`
 * `audispd-plugins` (`audit`)
 * `audit-libs-python3` (`audit`)
@@ -586,6 +590,7 @@ For this reason, it might have a toplevel input package list of its own.
 * `autofs`
 * `avahi-tools` (`avahi`)
 * `avahi`
+* `b43-openfwwf`
 * `bacula-client` (`bacula`)
 * `bacula-common` (`bacula`)
 * `bacula-console-bat` (`bacula`)
@@ -607,6 +612,8 @@ For this reason, it might have a toplevel input package list of its own.
 * `bash-completion`
 * `bash-doc` (`bash`)
 * `bash`
+* `bcm283x-firmware` (*aarch64, armv7hl*)
+* `bfa-firmware`
 * `bind-chroot` (`bind`)
 * `bind-dyndb-ldap`
 * `bind-pkcs11-utils` (`bind`)
@@ -675,11 +682,14 @@ For this reason, it might have a toplevel input package list of its own.
 * `brasero-libs` (`brasero`)
 * `brasero-nautilus` (`brasero`)
 * `brasero`
+* `bridge-utils`
 * `brlapi-java` (`brltty`)
 * `brlapi` (`brltty`)
 * `brltty-at-spi2` (`brltty`)
 * `brltty-xw` (`brltty`)
 * `brltty`
+* `btrfs-progs`
+* `bzip2`
 * `bzr-doc` (`bzr`)
 * `bzr`
 * `c2esp`
@@ -759,6 +769,7 @@ For this reason, it might have a toplevel input package list of its own.
 * `culmus-yehuda-clm-fonts` (`culmus-fonts`)
 * `cups-filters`
 * `cups`
+* `curl`
 * `custodia`
 * `cvs-contrib` (`cvs`)
 * `cvs-doc` (`cvs`)
@@ -778,6 +789,7 @@ For this reason, it might have a toplevel input package list of its own.
 * `daxctl-devel` (`ndctl`)
 * `daxctl-libs` (`ndctl`)
 * `daxctl` (`ndctl`)
+* `dbus-x11` (`dbus`)
 * `dconf-editor`
 * `debugmode` (`initscripts`)
 * `dejavu-sans-fonts` (`dejavu-fonts`)
@@ -826,6 +838,7 @@ For this reason, it might have a toplevel input package list of its own.
 * `dnsmasq`
 * `dnssec-trigger-panel` (`dnssec-trigger`)
 * `dnssec-trigger`
+* `docker-anaconda-addon` (*aarch64, armv7hl, i686, ppc64le, s390x, x86_64*)
 * `docker-distribution` (*aarch64, armv7hl, i686, ppc64le, s390x, x86_64*)
 * `docker-latest-devel` (`docker-latest`; *aarch64, armv7hl, i686, ppc64le, s390x, x86_64*)
 * `docker-latest-fish-completion` (`docker-latest`; *aarch64, armv7hl, i686, ppc64le, s390x, x86_64*)
@@ -842,6 +855,9 @@ For this reason, it might have a toplevel input package list of its own.
 * `dpdk-examples` (`dpdk`; *aarch64, i686, ppc64le, x86_64*)
 * `dpdk-tools` (`dpdk`; *aarch64, i686, ppc64le, x86_64*)
 * `dpdk` (*aarch64, i686, ppc64le, x86_64*)
+* `dracut-config-generic` (`dracut`)
+* `dracut-fips` (`dracut`)
+* `dracut-network` (`dracut`)
 * `driverctl`
 * `dropwatch`
 * `drpmsync` (`deltarpm`)
@@ -852,6 +868,7 @@ For this reason, it might have a toplevel input package list of its own.
 * `ebtables`
 * `edac-utils-devel` (`edac-utils`; *aarch64, armv7hl, i686, ppc64, ppc64le, x86_64*)
 * `edac-utils` (*aarch64, armv7hl, i686, ppc64, ppc64le, x86_64*)
+* `efibootmgr` (*aarch64, i686, x86_64*)
 * `egl-wayland`
 * `ElectricFence`
 * `emacs-common` (`emacs`)
@@ -885,6 +902,7 @@ For this reason, it might have a toplevel input package list of its own.
 * `fabtests`
 * `farstream02-devel` (`farstream02`)
 * `farstream02`
+* `fbset` (*aarch64, armv7hl, i686, ppc64, ppc64le, x86_64*)
 * `fcoe-utils`
 * `fence-agents-all` (`fence-agents`)
 * `fence-agents-alom` (`fence-agents`)
@@ -991,6 +1009,7 @@ For this reason, it might have a toplevel input package list of its own.
 * `folks`
 * `foomatic-db-ppds` (`foomatic-db`)
 * `foomatic`
+* `fpaste`
 * `fprintd-devel` (`fprintd`; *aarch64, armv7hl, i686, ppc64, ppc64le, x86_64*)
 * `fprintd-pam` (`fprintd`; *aarch64, armv7hl, i686, ppc64, ppc64le, x86_64*)
 * `fprintd` (*aarch64, armv7hl, i686, ppc64, ppc64le, x86_64*)
@@ -1025,6 +1044,9 @@ For this reason, it might have a toplevel input package list of its own.
 * `fwupdate` (*aarch64, x86_64*)
 * `fxload`
 * `galera`
+* `gdb-gdbserver` (`gdb`)
+* `gdb`
+* `gdisk`
 * `gedit-devel` (`gedit`)
 * `gedit-plugin-bookmarks` (`gedit-plugins`)
 * `gedit-plugin-bracketcompletion` (`gedit-plugins`)
@@ -1058,6 +1080,7 @@ For this reason, it might have a toplevel input package list of its own.
 * `glade3-libgladeui-devel` (`glade3`)
 * `glade3-libgladeui` (`glade3`)
 * `glade3`
+* `glibc-all-langpacks` (`glibc`)
 * `gmp-c++` (`gmp`)
 * `gmp-devel` (`gmp`)
 * `gmp-static` (`gmp`)
@@ -1142,11 +1165,23 @@ For this reason, it might have a toplevel input package list of its own.
 * `google-noto-sans-tagalog-fonts` (`google-noto-fonts`)
 * `google-noto-sans-tai-tham-fonts` (`google-noto-fonts`)
 * `google-noto-sans-tai-viet-fonts` (`google-noto-fonts`)
+* `gpart` (*aarch64, armv7hl, i686, ppc64, ppc64le, x86_64*)
 * `gperftools-devel` (`gperftools`)
 * `gperftools-libs` (`gperftools`)
 * `gperftools`
 * `grep`
 * `grilo-plugins`
+* `grub2-efi-aa64-cdboot` (`grub2`; *aarch64*)
+* `grub2-efi-ia32-cdboot` (`grub2`; *x86_64*)
+* `grub2-efi-x64-cdboot` (`grub2`; *x86_64*)
+* `grub2-ppc64` (`grub2`; *ppc64*)
+* `grub2-ppc64le` (`grub2`; *ppc64le*)
+* `grub2-tools-efi` (`grub2`; *x86_64*)
+* `grub2-tools-extra` (`grub2`; *aarch64, i686, ppc64, ppc64le, x86_64*)
+* `grub2-tools-minimal` (`grub2`; *aarch64, i686, ppc64, ppc64le, x86_64*)
+* `grub2-tools` (`grub2`; *aarch64, i686, ppc64, ppc64le, x86_64*)
+* `grubby`
+* `gsettings-desktop-schemas`
 * `gsound-devel` (`gsound`)
 * `gsound`
 * `gssproxy`
@@ -1163,8 +1198,11 @@ For this reason, it might have a toplevel input package list of its own.
 * `gxvattr` (`xvattr`)
 * `haproxy`
 * `haskell-platform`
+* `hdparm`
 * `hexchat-devel` (`hexchat`)
 * `hexchat`
+* `hexedit`
+* `hfsutils`
 * `highcontrast-qt4` (`highcontrast-qt`)
 * `highcontrast-qt5` (`highcontrast-qt`)
 * `highcontrast-qt`
@@ -1406,6 +1444,7 @@ For this reason, it might have a toplevel input package list of its own.
 * `icedtea-web-devel` (`icedtea-web`)
 * `icedtea-web-javadoc` (`icedtea-web`)
 * `icedtea-web`
+* `icfg`
 * `infinipath-psm-devel` (`infinipath-psm`; *x86_64*)
 * `infinipath-psm` (*x86_64*)
 * `initial-setup-gui` (`initial-setup`)
@@ -1420,6 +1459,7 @@ For this reason, it might have a toplevel input package list of its own.
 * `ipa-pgothic-fonts`
 * `ipa-pmincho-fonts`
 * `iperf3`
+* `ipmitool`
 * `iproute-devel` (`iproute`)
 * `iproute-doc` (`iproute`)
 * `iproute-tc` (`iproute`)
@@ -1435,6 +1475,8 @@ For this reason, it might have a toplevel input package list of its own.
 * `iptstate`
 * `iputils`
 * `ipvsadm`
+* `ipw2100-firmware`
+* `ipw2200-firmware`
 * `ipxe-bootimgs` (`ipxe`)
 * `ipxe-roms-qemu` (`ipxe`)
 * `ipxe-roms` (`ipxe`)
@@ -1447,6 +1489,22 @@ For this reason, it might have a toplevel input package list of its own.
 * `isns-utils-libs` (`isns-utils`)
 * `isns-utils`
 * `ivshmem-tools` (`qemu`)
+* `iwl100-firmware` (`linux-firmware`)
+* `iwl1000-firmware` (`linux-firmware`)
+* `iwl105-firmware` (`linux-firmware`)
+* `iwl135-firmware` (`linux-firmware`)
+* `iwl2000-firmware` (`linux-firmware`)
+* `iwl2030-firmware` (`linux-firmware`)
+* `iwl3160-firmware` (`linux-firmware`)
+* `iwl3945-firmware` (`linux-firmware`)
+* `iwl4965-firmware` (`linux-firmware`)
+* `iwl5000-firmware` (`linux-firmware`)
+* `iwl5150-firmware` (`linux-firmware`)
+* `iwl6000-firmware` (`linux-firmware`)
+* `iwl6000g2a-firmware` (`linux-firmware`)
+* `iwl6000g2b-firmware` (`linux-firmware`)
+* `iwl6050-firmware` (`linux-firmware`)
+* `iwl7260-firmware` (`linux-firmware`)
 * `iwpmd` (`rdma-core`; *aarch64, i686, ppc64, ppc64le, s390x, x86_64*)
 * `ixpdimm-cli` (`ixpdimm_sw`; *x86_64*)
 * `ixpdimm-monitor` (`ixpdimm_sw`; *x86_64*)
@@ -1456,6 +1514,7 @@ For this reason, it might have a toplevel input package list of its own.
 * `jansson-devel` (`jansson`)
 * `jansson`
 * `jbigkit`
+* `jfsutils`
 * `jomolhari-fonts`
 * `jose`
 * `julietaula-montserrat-fonts`
@@ -1475,9 +1534,17 @@ For this reason, it might have a toplevel input package list of its own.
 * `kacst-screen-fonts` (`kacst-fonts`)
 * `kacst-title-fonts` (`kacst-fonts`)
 * `kacst-titlel-fonts` (`kacst-fonts`)
+* `kbd-misc` (`kbd`)
+* `kbd`
 * `keepalived`
+* `kernel-bootwrapper` (`kernel`; *ppc64, ppc64le*)
+* `kernel-lpae` (`kernel`; *armv7hl*)
+* `kernel-modules-extra` (`kernel`)
+* `kernel-modules` (`kernel`)
+* `kernel-PAE` (`kernel`; *i686*)
 * `kernel`
 * `kernelshark` (`trace-cmd`)
+* `kexec-tools-anaconda-addon` (`kexec-tools`)
 * `keycloak-httpd-client-install`
 * `keyutils`
 * `khmeros-base-fonts` (`khmeros-fonts`)
@@ -1506,6 +1573,7 @@ For this reason, it might have a toplevel input package list of its own.
 * `lapack`
 * `ldirectord` (`resource-agents`)
 * `ledmon`
+* `less`
 * `lftp`
 * `libacl-devel` (`acl`)
 * `libacl` (`acl`)
@@ -1515,6 +1583,7 @@ For this reason, it might have a toplevel input package list of its own.
 * `libattr` (`attr`)
 * `libblkid-devel` (`util-linux`)
 * `libblkid` (`util-linux`)
+* `libblockdev-lvm-dbus` (`libblockdev`)
 * `libcomps-devel` (`libcomps`)
 * `libcomps-doc` (`libcomps`)
 * `libcomps`
@@ -1531,6 +1600,10 @@ For this reason, it might have a toplevel input package list of its own.
 * `liberation-mono-fonts` (`liberation-fonts`)
 * `liberation-sans-fonts` (`liberation-fonts`)
 * `liberation-serif-fonts` (`liberation-fonts`)
+* `libertas-sd8686-firmware` (`linux-firmware`)
+* `libertas-sd8787-firmware` (`linux-firmware`)
+* `libertas-usb8388-firmware` (`linux-firmware`)
+* `libertas-usb8388-olpc-firmware` (`linux-firmware`)
 * `libfabric`
 * `libfdisk-devel` (`util-linux`)
 * `libfdisk` (`util-linux`)
@@ -1660,10 +1733,13 @@ For this reason, it might have a toplevel input package list of its own.
 * `libreofficekit` (`libreoffice`)
 * `librepo-devel` (`librepo`)
 * `librepo`
+* `libreport-plugin-bugzilla` (`libreport`)
+* `libreport-plugin-reportuploader` (`libreport`)
 * `libreswan`
 * `librpmem-debug` (`nvml`; *x86_64*)
 * `librpmem-devel` (`nvml`; *x86_64*)
 * `librpmem` (`nvml`; *x86_64*)
+* `librsvg2`
 * `librtas-devel` (`librtas`; *ppc64, ppc64le*)
 * `librtas` (*ppc64, ppc64le*)
 * `libseccomp-devel` (`libseccomp`)
@@ -1779,6 +1855,7 @@ For this reason, it might have a toplevel input package list of its own.
 * `libXvMC`
 * `libzfcphbaapi-docs` (`libzfcphbaapi`; *s390x*)
 * `libzfcphbaapi` (*s390x*)
+* `linux-firmware`
 * `linuxptp`
 * `lklug-fonts`
 * `lksctp-tools-devel` (`lksctp-tools`)
@@ -1807,6 +1884,7 @@ For this reason, it might have a toplevel input package list of its own.
 * `lohit-telugu-fonts`
 * `lshw-gui` (`lshw`)
 * `lshw`
+* `lsof`
 * `lsscsi`
 * `lsvpd` (*ppc64, ppc64le*)
 * `ltrace`
@@ -1855,9 +1933,11 @@ For this reason, it might have a toplevel input package list of its own.
 * `media-player-info`
 * `memcached`
 * `memstomp`
+* `memtest86+` (*i686, x86_64*)
 * `mesa-libGLw-devel` (`mesa-libGLw`)
 * `mesa-libGLw`
 * `mesa-libwayland-egl` (`mesa`)
+* `metacity`
 * `microdnf`
 * `minicom`
 * `mksh`
@@ -1983,6 +2063,7 @@ For this reason, it might have a toplevel input package list of its own.
 * `nmap`
 * `node-gyp`
 * `nodejs`
+* `notification-daemon`
 * `npm` (`nodejs`)
 * `nspr-devel` (`nspr`)
 * `nspr`
@@ -1990,6 +2071,8 @@ For this reason, it might have a toplevel input package list of its own.
 * `nss-pam-ldapd`
 * `nss-tools` (`nss`)
 * `nss`
+* `ntfs-3g`
+* `ntfsprogs` (`ntfs-3g`)
 * `ntsysv` (`chkconfig`)
 * `numad` (*aarch64, i686, ppc64, ppc64le, s390x, x86_64*)
 * `nvme-cli`
@@ -2055,6 +2138,7 @@ For this reason, it might have a toplevel input package list of its own.
 * `oprofile`
 * `orca`
 * `oscap-anaconda-addon`
+* `ostree`
 * `overpass-fonts`
 * `p11-kit`
 * `pacemaker-cli` (`pacemaker`)
@@ -2079,6 +2163,8 @@ For this reason, it might have a toplevel input package list of its own.
 * `paratype-pt-sans-fonts`
 * `passenger`
 * `pavucontrol`
+* `pciutils`
+* `pcmciautils` (*armv7hl, i686, ppc64, x86_64*)
 * `pcs`
 * `pcsc-lite-ccid`
 * `pcsc-lite-libs` (`pcsc-lite`)
@@ -2243,6 +2329,7 @@ For this reason, it might have a toplevel input package list of its own.
 * `pidgin-perl` (`pidgin`)
 * `pidgin-sipe`
 * `pidgin`
+* `pigz`
 * `pinentry-emacs` (`pinentry`)
 * `pinentry-gnome3` (`pinentry`)
 * `pinentry-gtk` (`pinentry`)
@@ -2259,6 +2346,7 @@ For this reason, it might have a toplevel input package list of its own.
 * `platform-python-libcomps` (`libcomps`)
 * `platform-python-librepo` (`librepo`)
 * `platform-python-rpm` (`rpm`)
+* `plymouth`
 * `pnm2ppa`
 * `policycoreutils-dbus` (`policycoreutils`)
 * `policycoreutils-devel` (`policycoreutils`)
@@ -2287,6 +2375,7 @@ For this reason, it might have a toplevel input package list of its own.
 * `powerpc-utils` (*ppc64, ppc64le*)
 * `powertop`
 * `ppc64-diag` (*ppc64, ppc64le*)
+* `ppc64-utils` (*ppc64, ppc64le*)
 * `pprof` (`gperftools`)
 * `procmail`
 * `ps_mem`
@@ -2628,6 +2717,7 @@ For this reason, it might have a toplevel input package list of its own.
 * `redhat-lsb-trialuse` (`redhat-lsb`)
 * `redhat-lsb`
 * `redis`
+* `reiserfs-utils`
 * `resource-agents`
 * `rhn-check` (`rhn-client-tools`)
 * `rhn-client-tools`
@@ -2645,6 +2735,7 @@ For this reason, it might have a toplevel input package list of its own.
 * `rpm-cron` (`rpm`)
 * `rpm-devel` (`rpm`)
 * `rpm-libs` (`rpm`)
+* `rpm-ostree`
 * `rpm-plugin-ima` (`rpm`)
 * `rpm-plugin-prioreset` (`rpm`)
 * `rpm-plugin-selinux` (`rpm`)
@@ -2686,17 +2777,19 @@ For this reason, it might have a toplevel input package list of its own.
 * `rubygem-did_you_mean` (`ruby`)
 * `rubygem-io-console` (`ruby`)
 * `rubygem-json` (`ruby`)
-* `rubygem-minitest`
+* `rubygem-minitest` (`ruby`)
 * `rubygem-net-telnet` (`ruby`)
 * `rubygem-openssl` (`ruby`)
 * `rubygem-power_assert` (`ruby`)
 * `rubygem-psych` (`ruby`)
 * `rubygem-rake` (`ruby`)
-* `rubygem-rdoc`
+* `rubygem-rdoc` (`ruby`)
 * `rubygem-test-unit` (`ruby`)
 * `rubygem-xmlrpc` (`ruby`)
 * `rubygems-devel` (`ruby`)
 * `rubygems` (`ruby`)
+* `s390utils-base` (`s390utils`; *s390x*)
+* `s390utils-cmsfs-fuse` (`s390utils`; *s390x*)
 * `saab-fonts`
 * `samba-client-libs` (`samba`)
 * `samba-client` (`samba`)
@@ -2766,6 +2859,9 @@ For this reason, it might have a toplevel input package list of its own.
 * `sg3_utils-libs` (`sg3_utils`)
 * `sg3_utils`
 * `shadow-utils`
+* `shim-aa64` (`shim-signed`; *aarch64*)
+* `shim-ia32` (`shim-signed`; *x86_64*)
+* `shim-x64` (`shim-signed`; *x86_64*)
 * `sil-abyssinica-fonts`
 * `sil-mingzat-fonts`
 * `sil-nuosu-fonts`
@@ -2814,6 +2910,7 @@ For this reason, it might have a toplevel input package list of its own.
 * `sssd-winbind-idmap` (`sssd`)
 * `sssd`
 * `stix-fonts`
+* `strace`
 * `subscription-manager-plugin-container` (`subscription-manager`)
 * `subscription-manager-plugin-ostree` (`subscription-manager`)
 * `subscription-manager`
@@ -2834,12 +2931,14 @@ For this reason, it might have a toplevel input package list of its own.
 * `sushi`
 * `swig-doc` (`swig`)
 * `swig`
+* `syslinux` (*i686, x86_64*)
 * `sysstat`
 * `system-config-printer-udev` (`system-config-printer`)
 * `system-config-printer`
 * `system-storage-manager`
 * `tabish-eeyek-fonts`
 * `tang`
+* `tar`
 * `target-restore` (`python-rtslib`)
 * `targetcli`
 * `targetd`
@@ -2866,6 +2965,7 @@ For this reason, it might have a toplevel input package list of its own.
 * `timedatex`
 * `tk`
 * `tmpwatch`
+* `tmux`
 * `tog-pegasus-devel` (`tog-pegasus`)
 * `tog-pegasus-libs` (`tog-pegasus`)
 * `tog-pegasus-test` (`tog-pegasus`)
@@ -2904,6 +3004,9 @@ For this reason, it might have a toplevel input package list of its own.
 * `tuned-utils-systemtap` (`tuned`)
 * `tuned-utils` (`tuned`)
 * `tuned`
+* `uboot-tools`
+* `udisks2-iscsi` (`udisks2`)
+* `udisks2`
 * `unbound-libs` (`unbound`)
 * `unbound`
 * `units`
@@ -2924,6 +3027,7 @@ For this reason, it might have a toplevel input package list of its own.
 * `varnish-libs` (`varnish`)
 * `varnish-modules`
 * `varnish`
+* `vconfig`
 * `vemana2000-fonts`
 * `veritysetup` (`cryptsetup`)
 * `vhostmd`
@@ -2946,6 +3050,7 @@ For this reason, it might have a toplevel input package list of its own.
 * `vm-dump-metrics-devel` (`vhostmd`)
 * `vm-dump-metrics` (`vhostmd`)
 * `voikko-tools` (`libvoikko`)
+* `volume_key`
 * `vsftpd`
 * `WALinuxAgent`
 * `watchdog`
@@ -2987,17 +3092,23 @@ For this reason, it might have a toplevel input package list of its own.
 * `xorg-x11-drv-v4l` (*aarch64, armv7hl, i686, ppc64, ppc64le, x86_64*)
 * `xorg-x11-drv-vesa` (*i686, x86_64*)
 * `xorg-x11-drv-vmware` (*i686, x86_64*)
+* `xorg-x11-fonts-misc` (`xorg-x11-fonts`)
+* `xorg-x11-server-utils`
+* `xorg-x11-server-Xorg` (`xorg-x11-server`)
 * `xorg-x11-server-Xspice` (`xorg-x11-drv-qxl`; *aarch64, armv7hl, i686, x86_64*)
 * `xorg-x11-server-Xwayland` (`xorg-x11-server`)
+* `xorg-x11-xauth`
 * `xrestop`
 * `xsane-gimp` (`xsane`)
 * `xsane`
 * `xterm-resize` (`xterm`)
 * `xterm`
 * `xvattr`
+* `xz`
 * `yp-tools`
 * `ypbind`
 * `ypserv`
+* `zd1211-firmware`
 * `zip`
 * `zsh-html` (`zsh`)
 * `zsh`
