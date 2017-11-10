@@ -1199,6 +1199,7 @@ For this reason, it might have a toplevel input package list of its own.
 * `haproxy`
 * `haskell-platform`
 * `hdparm`
+* `heat-cfntools`
 * `hexchat-devel` (`hexchat`)
 * `hexchat`
 * `hexedit`
@@ -2777,7 +2778,7 @@ For this reason, it might have a toplevel input package list of its own.
 * `rubygem-did_you_mean` (`ruby`)
 * `rubygem-io-console` (`ruby`)
 * `rubygem-json` (`ruby`)
-* `rubygem-minitest` (`ruby`)
+* `rubygem-minitest`
 * `rubygem-net-telnet` (`ruby`)
 * `rubygem-openssl` (`ruby`)
 * `rubygem-power_assert` (`ruby`)
