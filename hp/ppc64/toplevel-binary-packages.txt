@@ -158,6 +158,8 @@ procps-ng
 psmisc
 publicsuffix-list
 publicsuffix-list-dafsa
+python3
+python3-devel
 quota
 readline
 redhat-rpm-config

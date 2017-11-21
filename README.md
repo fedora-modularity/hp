@@ -118,6 +118,8 @@ Note the lists below are subject to change.
   appropriate Platform extension module
 * `procps-ng`, common utilities
 * `psmisc`, common utilities
+* `python3`, Python 3
+* `python3-devel`, Python 3
 * `rootfiles`, basic files for the root's home
 * `rpm`, RPM support
 * `sed`, common editor

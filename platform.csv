@@ -127,6 +127,8 @@ policycoreutils,"provides utilities for SELinux-enabled system management; tools
 procps-ng,"common utilities"
 psmisc,"common utilities"
 publicsuffix-list,"provides cross-vendor public domain suffix database; provides the public suffix list database in the DAFSA representation"
+python3,"Python 3"
+python3-devel,"Python 3"
 quota,"filesystem quota support, required for NFS"
 readline,"a line-editing library, similar to libedit"
 redhat-rpm-config,"base RPM macros"
